@@ -1,0 +1,80 @@
+{
+    "lessons": [
+      {
+        "technique": "Shadowing",
+        "instructions": "Repeat each sentence immediately after hearing it, matching pronunciation and rhythm.",
+        "content": [
+          { "danish": "Hej, hvordan har du det?", "english": "Hi, how are you?" },
+          { "danish": "Jeg har det godt, tak. Hvad med dig?", "english": "I’m good, thank you. And you?" },
+          { "danish": "Jeg hedder Peter. Hvad hedder du?", "english": "My name is Peter. What’s your name?" }
+        ]
+      },
+      {
+        "technique": "Immersion",
+        "instructions": "Listen to the conversation between two native speakers and try to understand the general meaning.",
+        "content": [
+          {
+            "conversation": [
+              { "speaker": "A", "danish": "Undskyld, hvor ligger supermarkedet?", "english": "Excuse me, where is the supermarket?" },
+              { "speaker": "B", "danish": "Det ligger til venstre for posthuset.", "english": "It’s to the left of the post office." },
+              { "speaker": "A", "danish": "Tak skal du have!", "english": "Thank you very much!" }
+            ]
+          }
+        ]
+      },
+      {
+        "technique": "Conversational Practice",
+        "instructions": "You will play one speaker, and the narrator will play the other. Respond in Danish where prompted.",
+        "content": [
+          { "narrator": "Hvad vil du gerne drikke?", "learner_prompt": "Respond with what you’d like to drink." },
+          { "narrator": "Vil du have noget at spise?", "learner_prompt": "Respond with what you’d like to eat." }
+        ]
+      },
+      {
+        "technique": "Chunking",
+        "instructions": "Learn these useful chunks of language as complete phrases.",
+        "content": [
+          { "danish": "Jeg vil gerne bestille en kop kaffe.", "english": "I would like to order a cup of coffee." },
+          { "danish": "Hvor er nærmeste togstation?", "english": "Where is the nearest train station?" },
+          { "danish": "Kan jeg få regningen, tak?", "english": "Can I get the bill, please?" }
+        ]
+      },
+      {
+        "technique": "Active Listening",
+        "instructions": "Listen to the short story, then answer the questions in Danish.",
+        "content": {
+          "story": "Mette går på arbejde hver morgen klokken otte. Hun tager bussen og køber en kop kaffe på vej. I dag købte hun også en sandwich.",
+          "questions": [
+            { "danish": "Hvad tid går Mette på arbejde?", "english": "What time does Mette go to work?" },
+            { "danish": "Hvad købte Mette i dag?", "english": "What did Mette buy today?" }
+          ]
+        }
+      },
+      {
+        "technique": "Error Correction",
+        "instructions": "Listen to the sentence and identify the error. Then, correct it in Danish.",
+        "content": [
+          { "error": "Jeg går til butikken i går.", "correct": "Jeg gik til butikken i går.", "english": "I went to the store yesterday." },
+          { "error": "Han har spiser morgenmad.", "correct": "Han har spist morgenmad.", "english": "He has eaten breakfast." }
+        ]
+      },
+      {
+        "technique": "Role-Playing",
+        "instructions": "Imagine you’re in a situation. Respond to the narrator in Danish.",
+        "content": [
+          { "scenario": "You are at a café.", "narrator": "Hvad vil du gerne bestille?", "learner_prompt": "Order a drink in Danish." },
+          { "scenario": "You are asking for directions.", "narrator": "Kan jeg hjælpe dig med noget?", "learner_prompt": "Ask for the nearest bus stop." }
+        ]
+      },
+      {
+        "technique": "Spaced Repetition",
+        "instructions": "Review the following words and phrases. The narrator will say the word in English, and you respond in Danish.",
+        "content": [
+          { "english": "Apple", "danish": "Æble" },
+          { "english": "Water", "danish": "Vand" },
+          { "english": "How much does it cost?", "danish": "Hvor meget koster det?" }
+        ]
+      }
+    ]
+  }
+  

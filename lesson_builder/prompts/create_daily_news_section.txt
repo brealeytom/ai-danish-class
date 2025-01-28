@@ -1,0 +1,21 @@
+
+
+# role 
+
+
+#task
+create a short script that contains a conversation between two podcast hosts providing
+
+#example input
+*fill in here*
+
+#example output
+*fill in here*
+
+#target words
+
+#validation requirements
+
+
+
+# example output

@@ -1,0 +1,263 @@
+lesson_id,lesson_name,order_id,language,voice_id,text,delay
+1,First Meetings,1,en,en_voice,Welcome to Danish Lesson One. In this lesson you'll learn essential Danish greetings and introductions.,2000
+1,First Meetings,2,en,en_voice,Let's begin with the most common way to say hello in Danish.,1000
+1,First Meetings,3,da,da_voice,Hej,2000
+1,First Meetings,4,en,en_voice,Try to say this now,3000
+1,First Meetings,5,da,da_voice,Hej,2000
+1,First Meetings,6,en,en_voice,Again:,1000
+1,First Meetings,7,da,da_voice,Hej,3000
+1,First Meetings,8,en,en_voice,Next let's learn the essential phrase "my name is". Listen first to the complete phrase:,1500
+1,First Meetings,9,da,da_voice,Jeg hedder,2000
+1,First Meetings,10,en,en_voice,Let's break this down. The word for "I" is:,1000
+1,First Meetings,11,da,da_voice,Jeg,2500
+1,First Meetings,12,en,en_voice,Say this:,1000
+1,First Meetings,13,da,da_voice,Jeg,2500
+1,First Meetings,14,en,en_voice,The word that means "am called" is:,1000
+1,First Meetings,15,da,da_voice,hedder,2500
+1,First Meetings,16,en,en_voice,Try this word:,1000
+1,First Meetings,17,da,da_voice,hedder,2500
+1,First Meetings,18,en,en_voice,Now put them together:,1000
+1,First Meetings,19,da,da_voice,Jeg hedder,3000
+1,First Meetings,20,en,en_voice,Let's use it in a sentence. Say "My name is John":,1500
+1,First Meetings,21,da,da_voice,Jeg hedder John,3000
+1,First Meetings,22,en,en_voice,Now let's go back to our greeting. Remember how to say hello:,1500
+1,First Meetings,23,da,da_voice,Hej,3000
+1,First Meetings,24,en,en_voice,Let's combine what we've learned. Listen to this exchange:,1500
+1,First Meetings,25,da,da_voice,Hej,2000
+1,First Meetings,26,da,da_voice,Jeg hedder Maria,2500
+1,First Meetings,27,en,en_voice,Try this exchange. First say hello then say your name.,3000
+1,First Meetings,28,en,en_voice,Now let's learn how to ask someone's name. Listen carefully:,1500
+1,First Meetings,29,da,da_voice,Hvad hedder du,2500
+1,First Meetings,30,en,en_voice,Let's break this down word by word. First:,1000
+1,First Meetings,31,da,da_voice,Hvad,2000
+1,First Meetings,32,en,en_voice,which means "what". Try it:,1000
+1,First Meetings,33,da,da_voice,Hvad,2000
+1,First Meetings,34,en,en_voice,Then we already know:,1000
+1,First Meetings,35,da,da_voice,hedder,2000
+1,First Meetings,36,en,en_voice,And finally the word for "you":,1000
+1,First Meetings,37,da,da_voice,du,2000
+1,First Meetings,38,en,en_voice,Try saying "you":,1000
+1,First Meetings,39,da,da_voice,du,2000
+1,First Meetings,40,en,en_voice,Now let's build the question piece by piece. First:,1000
+1,First Meetings,41,da,da_voice,Hvad,2000
+1,First Meetings,42,en,en_voice,Add the next word:,1000
+1,First Meetings,43,da,da_voice,Hvad hedder,2000
+1,First Meetings,44,en,en_voice,And complete the question:,1000
+1,First Meetings,45,da,da_voice,Hvad hedder du,2500
+1,First Meetings,46,en,en_voice,Let's practice a complete exchange. First I'll ask your name:,1500
+1,First Meetings,47,da,da_voice,Hvad hedder du,2000
+1,First Meetings,48,en,en_voice,Respond with "My name is John":,2000
+1,First Meetings,49,da,da_voice,Jeg hedder John,2500
+1,First Meetings,50,en,en_voice,Now let's learn to ask "How are you?":,1500
+1,First Meetings,51,da,da_voice,Hvordan har du det,2500
+1,First Meetings,52,en,en_voice,This is a longer phrase. Let's break it down. First:,1500
+1,First Meetings,53,da,da_voice,Hvordan,2000
+1,First Meetings,54,en,en_voice,means "how". Try it:,1000
+1,First Meetings,55,da,da_voice,Hvordan,2000
+1,First Meetings,56,en,en_voice,Then:,1000
+1,First Meetings,57,da,da_voice,har,2000
+1,First Meetings,58,en,en_voice,means "have". Repeat:,1000
+1,First Meetings,59,da,da_voice,har,2000
+1,First Meetings,60,en,en_voice,We know:,1000
+1,First Meetings,61,da,da_voice,du,2000
+1,First Meetings,62,en,en_voice,And finally:,1000
+1,First Meetings,63,da,da_voice,det,2000
+1,First Meetings,64,en,en_voice,Now put it all together:,1500
+1,First Meetings,65,da,da_voice,Hvordan har du det,3000
+1,First Meetings,66,en,en_voice,To answer "I'm good" you say:,1500
+1,First Meetings,67,da,da_voice,Jeg har det godt,2500
+1,First Meetings,68,en,en_voice,Let's break this down too. You know:,1000
+1,First Meetings,69,da,da_voice,Jeg har,2000
+1,First Meetings,70,en,en_voice,Then:,1000
+1,First Meetings,71,da,da_voice,det godt,2000
+1,First Meetings,72,en,en_voice,Now the complete phrase:,1000
+1,First Meetings,73,da,da_voice,Jeg har det godt,3000
+1,First Meetings,74,en,en_voice,Let's practice this exchange:,1500
+1,First Meetings,75,da,da_voice,Hvordan har du det,2500
+1,First Meetings,76,da,da_voice,Jeg har det godt,2500
+1,First Meetings,77,en,en_voice,Let's add the essential word "thank you":,1500
+1,First Meetings,78,da,da_voice,Tak,2500
+1,First Meetings,79,en,en_voice,Say it several times:,1000
+1,First Meetings,80,da,da_voice,Tak,2000
+1,First Meetings,81,da,da_voice,Tak,2000
+1,First Meetings,82,da,da_voice,Tak,2000
+1,First Meetings,83,en,en_voice,Now let's learn to say goodbye:,1500
+1,First Meetings,84,da,da_voice,Farvel,2500
+1,First Meetings,85,en,en_voice,Practice this:,1000
+1,First Meetings,86,da,da_voice,Farvel,2500
+1,First Meetings,87,en,en_voice,Let's put everything together in different combinations. First listen to this dialogue:,2000
+1,First Meetings,88,da,da_voice,Hej,1500
+1,First Meetings,89,da,da_voice,Hej,1500
+1,First Meetings,90,da,da_voice,Hvordan har du det,2000
+1,First Meetings,91,da,da_voice,Jeg har det godt tak. Hvad hedder du,2500
+1,First Meetings,92,da,da_voice,Jeg hedder Peter,2000
+1,First Meetings,93,da,da_voice,Farvel,1500
+1,First Meetings,94,da,da_voice,Farvel,2000
+1,First Meetings,95,en,en_voice,Now let's try a different combination:,1500
+1,First Meetings,96,da,da_voice,Hej,1500
+1,First Meetings,97,da,da_voice,Hvad hedder du,2000
+1,First Meetings,98,da,da_voice,Jeg hedder Maria. Hvordan har du det,2500
+1,First Meetings,99,da,da_voice,Jeg har det godt tak,2000
+1,First Meetings,100,da,da_voice,Farvel,1500
+1,First Meetings,101,da,da_voice,Farvel,2000
+1,First Meetings,102,en,en_voice,Now let's practice several different dialogue variations. First listen to this exchange:,2000
+1,First Meetings,103,da,da_voice,Hej,2000
+1,First Meetings,104,da,da_voice,Hej,2000
+1,First Meetings,105,da,da_voice,Hvordan har du det,2500
+1,First Meetings,106,da,da_voice,Jeg har det godt tak. Hvad hedder du,3000
+1,First Meetings,107,da,da_voice,Jeg hedder Peter,2500
+1,First Meetings,108,da,da_voice,Farvel,2000
+1,First Meetings,109,da,da_voice,Farvel,2000
+1,First Meetings,110,en,en_voice,Let's do a quick review. How do you say:,1500
+1,First Meetings,111,en,en_voice,Hello:,1000
+1,First Meetings,112,da,da_voice,Hej,2500
+1,First Meetings,113,en,en_voice,What's your name:,1000
+1,First Meetings,114,da,da_voice,Hvad hedder du,2500
+1,First Meetings,115,en,en_voice,My name is:,1000
+1,First Meetings,116,da,da_voice,Jeg hedder,2500
+1,First Meetings,117,en,en_voice,How are you:,1000
+1,First Meetings,118,da,da_voice,Hvordan har du det,2500
+1,First Meetings,119,en,en_voice,I'm good:,1000
+1,First Meetings,120,da,da_voice,Jeg har det godt,2500
+1,First Meetings,121,en,en_voice,Thank you:,1000
+1,First Meetings,122,da,da_voice,Tak,2500
+1,First Meetings,123,en,en_voice,Goodbye:,1000
+1,First Meetings,124,da,da_voice,Farvel,2500
+1,First Meetings,125,en,en_voice,Let's practice some more natural conversation variations. Here's another dialogue:,2000
+1,First Meetings,126,da,da_voice,Hej,1500
+1,First Meetings,127,da,da_voice,Hej. Hvordan har du det,2000
+1,First Meetings,128,da,da_voice,Jeg har det godt tak. Hvad med dig,2500
+1,First Meetings,129,da,da_voice,Også godt tak,2000
+1,First Meetings,130,da,da_voice,Hvad hedder du,2000
+1,First Meetings,131,da,da_voice,Jeg hedder Anna. Og dig,2500
+1,First Meetings,132,da,da_voice,Jeg hedder Thomas,2000
+1,First Meetings,133,da,da_voice,Farvel Thomas,2000
+1,First Meetings,134,da,da_voice,Farvel Anna,2000
+1,First Meetings,135,en,en_voice,Now try this slightly different version:,2000
+1,First Meetings,136,da,da_voice,Hej,1500
+1,First Meetings,137,da,da_voice,Hej. Jeg hedder Sofia,2000
+1,First Meetings,138,da,da_voice,Hej Sofia. Hvordan har du det,2500
+1,First Meetings,139,da,da_voice,Jeg har det godt. Hvad hedder du,2000
+1,First Meetings,140,da,da_voice,Jeg hedder Lars,2000
+1,First Meetings,141,da,da_voice,Tak for snakken Lars. Farvel,2500
+1,First Meetings,142,da,da_voice,Farvel Sofia,2000
+1,First Meetings,143,en,en_voice,Let's practice one more variation:,2000
+1,First Meetings,144,da,da_voice,Hej,1500
+1,First Meetings,145,da,da_voice,Hej. Hvad hedder du,2000
+1,First Meetings,146,da,da_voice,Jeg hedder Martin. Hvordan har du det,2500
+1,First Meetings,147,da,da_voice,Jeg har det godt tak. Jeg hedder Emma,2500
+1,First Meetings,148,da,da_voice,Hej Emma,1500
+1,First Meetings,149,da,da_voice,Farvel Martin,2000
+1,First Meetings,150,da,da_voice,Farvel,1500
+1,First Meetings,151,en,en_voice,Now let's practice some real-world situations. First imagine you're meeting someone at a café in Copenhagen:,2000
+1,First Meetings,152,en,en_voice,You'll play both roles. First person A then person B. Listen first:,2000
+1,First Meetings,153,da,da_voice,Hej. Er dette sæde ledigt,2500
+1,First Meetings,154,da,da_voice,Ja selvfølgelig. Jeg hedder Marie,2500
+1,First Meetings,155,da,da_voice,Tak. Jeg hedder Peter. Hvordan har du det,2500
+1,First Meetings,156,da,da_voice,Jeg har det godt tak. Og dig,2500
+1,First Meetings,157,da,da_voice,Også godt tak,2000
+1,First Meetings,158,en,en_voice,Now you try. First you're asking to sit down then respond as Marie. Start with Hej,3000
+1,First Meetings,159,en,en_voice,Next imagine you're meeting a new Danish colleague at work:,2000
+1,First Meetings,160,da,da_voice,Hej. Er du ny her,2500
+1,First Meetings,161,da,da_voice,Ja jeg er ny. Jeg hedder Anders,2500
+1,First Meetings,162,da,da_voice,Velkommen Anders. Jeg hedder Sofia. Hvordan har du det,2500
+1,First Meetings,163,da,da_voice,Jeg har det godt tak. Det er rart at møde dig,3000
+1,First Meetings,164,da,da_voice,I lige måde,2000
+1,First Meetings,165,en,en_voice,Try this dialogue. First as the new colleague then as Sofia. Begin with Hej,3000
+1,First Meetings,166,en,en_voice,Finally let's practice meeting someone at a language learning meetup:,2000
+1,First Meetings,167,da,da_voice,Hej. Lærer du også dansk,2500
+1,First Meetings,168,da,da_voice,Ja det gør jeg. Jeg hedder Emma,2500
+1,First Meetings,169,da,da_voice,Jeg hedder Thomas. Hvordan har du det med dansk,2500
+1,First Meetings,170,da,da_voice,Det er svært men jeg har det godt med det. Tak for snakken,3000
+1,First Meetings,171,da,da_voice,Det var så lidt. Farvel,2000
+1,First Meetings,172,da,da_voice,Farvel,2000
+1,First Meetings,173,en,en_voice,Practice this exchange playing both roles. Try to make it natural.,3000
+1,First Meetings,174,en,en_voice,Let's practice each part of these conversations separately. First let's do the café scene slowly and carefully. Listen to the first role:,3000
+1,First Meetings,175,da,da_voice,Hej,1500
+1,First Meetings,176,da,da_voice,Er dette sæde ledigt,2500
+1,First Meetings,177,en,en_voice,Practice just these two lines,3000
+1,First Meetings,178,en,en_voice,Now the response:,1500
+1,First Meetings,179,da,da_voice,Ja selvfølgelig,2000
+1,First Meetings,180,da,da_voice,Jeg hedder Marie,2000
+1,First Meetings,181,en,en_voice,Practice this response,3000
+1,First Meetings,182,en,en_voice,Now the next lines:,1500
+1,First Meetings,183,da,da_voice,Tak,1500
+1,First Meetings,184,da,da_voice,Jeg hedder Peter,2000
+1,First Meetings,185,da,da_voice,Hvordan har du det,2000
+1,First Meetings,186,en,en_voice,Your turn to practice these lines,3000
+1,First Meetings,187,en,en_voice,And the final response:,1500
+1,First Meetings,188,da,da_voice,Jeg har det godt tak,2000
+1,First Meetings,189,da,da_voice,Og dig,1500
+1,First Meetings,190,en,en_voice,Practice this ending,3000
+1,First Meetings,191,en,en_voice,Now let's try a new café variation:,2000
+1,First Meetings,192,da,da_voice,Hej. Undskyld,1500
+1,First Meetings,193,da,da_voice,Er denne plads ledig,2000
+1,First Meetings,194,da,da_voice,Ja selvfølgelig. Jeg hedder Thomas,2500
+1,First Meetings,195,da,da_voice,Tak. Jeg hedder Lisa,2000
+1,First Meetings,196,da,da_voice,Hvordan har du det Lisa,2000
+1,First Meetings,197,da,da_voice,Jeg har det fint. Og dig,2500
+1,First Meetings,198,da,da_voice,Også fint tak,2000
+1,First Meetings,199,en,en_voice,Let's practice the workplace scene more slowly. First person A:,2000
+1,First Meetings,200,da,da_voice,Hej,1500
+1,First Meetings,201,da,da_voice,Er du ny her,2000
+1,First Meetings,202,en,en_voice,Practice these opening lines,3000
+1,First Meetings,203,en,en_voice,Now person B's first response:,1500
+1,First Meetings,204,da,da_voice,Ja jeg er ny,2000
+1,First Meetings,205,da,da_voice,Jeg hedder Anders,2000
+1,First Meetings,206,en,en_voice,Your turn to practice this response,3000
+1,First Meetings,207,en,en_voice,Next part:,1500
+1,First Meetings,208,da,da_voice,Velkommen Anders,2000
+1,First Meetings,209,da,da_voice,Jeg hedder Sofia,2000
+1,First Meetings,210,da,da_voice,Hvordan har du det,2000
+1,First Meetings,211,en,en_voice,Practice this welcome sequence,3000
+1,First Meetings,212,en,en_voice,Here's another workplace variation:,2000
+1,First Meetings,213,da,da_voice,Godmorgen. Er du den nye kollega,2500
+1,First Meetings,214,da,da_voice,Ja det er jeg. Jeg hedder Martin,2500
+1,First Meetings,215,da,da_voice,Velkommen Martin. Jeg hedder Anna,2500
+1,First Meetings,216,da,da_voice,Tak skal du have,2000
+1,First Meetings,217,en,en_voice,Let's practice the language meetup scene carefully. First the opening:,2000
+1,First Meetings,218,da,da_voice,Hej,1500
+1,First Meetings,219,da,da_voice,Lærer du også dansk,2000
+1,First Meetings,220,en,en_voice,Practice this question,3000
+1,First Meetings,221,en,en_voice,Now the response:,1500
+1,First Meetings,222,da,da_voice,Ja det gør jeg,2000
+1,First Meetings,223,da,da_voice,Jeg hedder Emma,2000
+1,First Meetings,224,en,en_voice,Your turn,3000
+1,First Meetings,225,da,da_voice,Det er svært men interessant,2500
+1,First Meetings,226,da,da_voice,Hvordan har du det med dansk,2500
+1,First Meetings,227,en,en_voice,Practice asking about someone's experience with Danish,3000
+1,First Meetings,228,en,en_voice,Let's try one more variation of this scene:,2000
+1,First Meetings,229,da,da_voice,Hej. Er du her for at lære dansk,2500
+1,First Meetings,230,da,da_voice,Ja jeg er begynder. Jeg hedder David,2500
+1,First Meetings,231,da,da_voice,Velkommen David. Jeg hedder Sarah,2500
+1,First Meetings,232,da,da_voice,Er dansk svært Sarah,2500
+1,First Meetings,233,da,da_voice,Ja men det er også sjovt,2500
+1,First Meetings,234,en,en_voice,Now let's do our final review. First all the greetings:,2000
+1,First Meetings,235,da,da_voice,Hej,200
+1,First Meetings,236,da,da_voice,Godmorgen,2000
+1,First Meetings,237,da,da_voice,Farvel,2000
+1,First Meetings,238,en,en_voice,All the ways to introduce yourself:,2000
+1,First Meetings,239,da,da_voice,Jeg hedder,2000
+1,First Meetings,240,da,da_voice,Hvad hedder du,2000
+1,First Meetings,241,en,en_voice,Ways to ask how someone is:,2000
+1,First Meetings,242,da,da_voice,Hvordan har du det,2000
+1,First Meetings,243,da,da_voice,Har du det godt,2000
+1,First Meetings,244,en,en_voice,Ways to respond:,2000
+1,First Meetings,245,da,da_voice,Jeg har det godt,2000
+1,First Meetings,246,da,da_voice,Også godt tak,2000
+1,First Meetings,247,da,da_voice,Det går fint,2000
+1,First Meetings,248,en,en_voice,And finally all our polite phrases:,2000
+1,First Meetings,249,da,da_voice,Tak,2000
+1,First Meetings,250,da,da_voice,Tak skal du have,2000
+1,First Meetings,251,da,da_voice,Det var så lidt,2000
+1,First Meetings,252,en,en_voice,This concludes lesson one. You can now introduce yourself greet others and have a basic conversation in Danish. Well done!,4000
+1,First Meetings,152,da,da_voice,Hej,2500
+1,First Meetings,153,da,da_voice,Hvad hedder du,2500
+1,First Meetings,154,da,da_voice,Jeg hedder,2500
+1,First Meetings,155,da,da_voice,Hvordan har du det,2500
+1,First Meetings,156,da,da_voice,Jeg har det godt,2500
+1,First Meetings,157,da,da_voice,Også godt tak,2500
+1,First Meetings,158,da,da_voice,Tak for snakken,2500
+1,First Meetings,159,da,da_voice,Farvel,2500
+1,First Meetings,160,en,en_voice,This concludes lesson one. You've learned how to greet someone introduce yourself ask and answer basic questions and say goodbye. You can now have a basic Danish conversation!,4000
+1,First Meetings,161,en,en_voice,Practice these phrases and dialogues until they feel natural. We'll build on them in the next lesson.,3000

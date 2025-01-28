@@ -1,0 +1,55 @@
+order_id,language,voice_id,text,delay
+1,en,en_f_voice,"Welcome to Danish Lesson 3.1: Work and Studies. Today we'll learn how to talk about our jobs and education.",3000
+2,da,da_f_voice,"Hej! Hvad laver du?",2000
+3,da,da_m_voice,"Jeg er forsker. Jeg arbejder i et universitet.",2500
+4,da,da_f_voice,"Det lyder interessant! Er du glad for det?",2000
+5,da,da_m_voice,"Ja, meget! Hvad med dig?",2000
+6,da,da_f_voice,"Jeg er studerende. Jeg læser medicin.",2000
+7,da,da_m_voice,"Hvor studerer du henne?",2000
+8,da,da_f_voice,"På Københavns Universitet. Jeg har også et job.",2500
+9,en,en_f_voice,"Let's learn these phrases step by step.",2000
+10,en,en_f_voice,"First, let's learn how to ask what someone does:",1500
+11,da,da_f_voice,"Hvad laver du?",2000
+12,en,en_f_voice,"Listen and repeat:",1000
+13,da,da_f_voice,"Hvad laver du?",2500
+14,en,en_f_voice,"Here are two common responses. First, if you're a researcher:",1500
+15,da,da_m_voice,"Jeg er forsker",2000
+16,da,da_m_voice,"Jeg er forsker",2500
+17,en,en_f_voice,"Or if you're a student:",1500
+18,da,da_f_voice,"Jeg er studerende",2000
+19,da,da_f_voice,"Jeg er studerende",2500
+20,en,en_f_voice,"To ask where someone works:",1500
+21,da,da_m_voice,"Hvor arbejder du henne?",2000
+22,da,da_m_voice,"Hvor arbejder du henne?",2500
+23,en,en_f_voice,"To respond, you can say ""I work at an office"",1500
+24,da,da_f_voice,"Jeg arbejder på et kontor.",2000
+25,da,da_f_voice,"Jeg arbejder på et kontor.",2500
+26,en,en_f_voice,"For students, you can ask:",1500
+27,da,da_m_voice,"Hvor studerer du henne?",2000
+28,da,da_m_voice,"Hvor studerer du henne?",2500
+29,en,en_f_voice,"And to say what you study:",1500
+30,da,da_f_voice,"jeg læser ingeniør",2000
+31,da,da_f_voice,"jeg læser ingeniør.",2500
+32,en,en_f_voice,"To show interest, you can say:",1500
+33,da,da_m_voice,"Det lyder interessant!",2000
+34,da,da_m_voice,"Det lyder interessant!",2500
+35,en,en_f_voice,"To ask if someone is happy with their work:",1500
+36,da,da_f_voice,"Er du glad for det?",2000
+37,da,da_f_voice,"Er du glad for det?",2500
+38,en,en_f_voice,"To respond positively:",1500
+39,da,da_m_voice,"Ja, meget",2000
+40,da,da_m_voice,"Ja, meget",2500
+41,en,en_f_voice,"Or if you're not so happy:",1500
+42,da,da_f_voice,"Jeg er lidt træt af det",2000
+43,da,da_f_voice,"Jeg er lidt træt af det",2500
+44,en,en_f_voice,"And finally, to mention you also have a job:",1500
+45,da,da_m_voice,"Jeg har også et job",2000
+46,da,da_m_voice,"Jeg har også et job",2500
+47,en,en_f_voice,"Let's listen to the complete conversation again:",2000
+48,da,da_f_voice,"Hej! Hvad laver du?",2000
+49,da,da_m_voice,"Jeg er forsker. Jeg arbejder i et universitet.",2500
+50,da,da_f_voice,"Det lyder interessant! Er du glad for det?",2000
+51,da,da_m_voice,"Ja, meget! Hvad med dig?",2000
+52,da,da_f_voice,"Jeg er studerende. Jeg læser medicin.",2000
+53,da,da_m_voice,"Hvor studerer du henne?",2000
+54,da,da_f_voice,"På Københavns Universitet. Jeg har også et job.",2500

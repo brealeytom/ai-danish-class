@@ -1,0 +1,3549 @@
+{
+    "course_name": "Danish for Beginners",
+    "course_description": "Initial lessons of a structured Danish course following the Pimsleur methodology",
+    "lesson_duration_minutes": 20,
+    "standard_lesson_structure": {
+      "total_words": {
+        "english_instruction": 450,
+        "danish_content": 125,
+        "total_with_repetitions": 900
+      },
+      "standard_timing": {
+        "introduction": 2,
+        "new_content": 6,
+        "practice_segments": 10,
+        "review_and_summary": 2
+      }
+    },
+    "lessons": [
+      {
+        "lesson_number": 1,
+        "title": "First Meetings",
+        "difficulty": "Basic",
+        "total_number_of_segments": "use around 200 rows for the whole csv",
+        "danish_english_ratio": {
+          "danish": 20,
+          "english": 80
+        },
+        "target_phrases": [
+          {
+            "danish": "Hej",
+            "english": "Hello"
+          },
+          {
+            "danish": "Jeg hedder...",
+            "english": "My name is..."
+          },
+          {
+            "danish": "Hvad hedder du?",
+            "english": "What's your name?"
+          },
+          {
+            "danish": "Hvordan har du det?",
+            "english": "How are you?"
+          },
+          {
+            "danish": "Jeg har det godt",
+            "english": "I'm good"
+          },
+          {
+            "danish": "Tak",
+            "english": "Thank you"
+          },
+          {
+            "danish": "Farvel",
+            "english": "Goodbye"
+          }
+        ],
+        "recap_phrases": [],
+        "lesson_timing_breakdown": {
+            "introduction": {
+                "duration_segments": "use between 10 and 25 rows",
+                "description": "Introduction to basic Danish greetings"
+            },
+            "introduction_conversation": {
+                "duration_segments": "use between 10 and 45 rows",
+                "description": "short conversation entirely in danish containing all of the target phrases, use extra words if required to make the conversation make sense"
+            },
+            "teach_first_target_phrases": {
+                "duration_segments": "use between 30 and 45 rows",
+                "description": "introduce the first few target phrases explain how to pronouce them, and what they mean, repeat each 2-3 times"
+            },
+            "first_practise": {
+                "duration_segments": "use between 60 and 90 rows",
+                "description": "practise each of the target phrases with a combination of call and response, guided conversation and free practise, repeat each phrase 3-4 times with spacing"
+            },
+            "teach_remaining_phrases": {
+                "duration_segments": "use between 30 and 45 rows",
+                "description": "introduce the first few target phrases explain how to pronouce them, and what they mean, repeat each 2-3 times"
+            },
+            "second_practise": {
+                "duration_segments": "use between 60 and 90 rows",
+                "description": "practise remaining target phrases with a combination of call and response, guided conversation and free practise, repeat each phrase 3-4 times with spacing"
+            },
+            "review_and_summary": {
+                "duration_segment": " use around 45 rows",
+                "description": " quick review of the target phrases short conversation entirely in danish using the target phrases, use extra words if required to make the conversation make sense"
+            }
+        }
+      },
+      {
+        "lesson_number": 2,
+        "title": "Numbers 1-10",
+        "difficulty": "Basic",
+        "danish_english_ratio": {
+          "danish": 25,
+          "english": 75
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Introduction to numbers and counting"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "counting_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "number_recognition",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "En",
+            "english": "One",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "To",
+            "english": "Two",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Tre",
+            "english": "Three",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Fire",
+            "english": "Four",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Fem",
+            "english": "Five",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Seks",
+            "english": "Six",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Syv",
+            "english": "Seven",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Otte",
+            "english": "Eight",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Ni",
+            "english": "Nine",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Ti",
+            "english": "Ten",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hej",
+            "english": "Hello"
+          },
+          {
+            "danish": "Tak",
+            "english": "Thank you"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Counting practice",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Kan du tælle til ti?",
+                "english": "Can you count to ten?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja. En, to, tre, fire, fem, seks, syv, otte, ni, ti.",
+                "english": "Yes. One, two, three, four, five, six, seven, eight, nine, ten."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 3,
+        "title": "Yes and No",
+        "difficulty": "Basic",
+        "danish_english_ratio": {
+          "danish": 25,
+          "english": 75
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic responses and confirmations"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "response_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "question_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Ja",
+            "english": "Yes",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Nej",
+            "english": "No",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Måske",
+            "english": "Maybe",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg ved det ikke",
+            "english": "I don't know",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Er det rigtigt?",
+            "english": "Is that right?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er rigtigt",
+            "english": "That's right",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er forkert",
+            "english": "That's wrong",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "En, to, tre",
+            "english": "One, two, three"
+          },
+          {
+            "danish": "Hej",
+            "english": "Hello"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Basic confirmation practice",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Er du dansk?",
+                "english": "Are you Danish?"
+              },
+              {
+                "role": "B",
+                "danish": "Nej, jeg er ikke dansk",
+                "english": "No, I'm not Danish"
+              },
+              {
+                "role": "A",
+                "danish": "Er det rigtigt?",
+                "english": "Is that right?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja, det er rigtigt",
+                "english": "Yes, that's right"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 4,
+        "title": "Basic Food & Drink",
+        "difficulty": "Basic",
+        "danish_english_ratio": {
+          "danish": 30,
+          "english": 70
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic food and drink vocabulary"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "ordering_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "cafe_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg vil gerne have...",
+            "english": "I would like...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "En kop kaffe",
+            "english": "A cup of coffee",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "En kop te",
+            "english": "A cup of tea",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Et glas vand",
+            "english": "A glass of water",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvad skal du have?",
+            "english": "What would you like?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg skal have...",
+            "english": "I'll have...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Ja",
+            "english": "Yes"
+          },
+          {
+            "danish": "Nej",
+            "english": "No"
+          },
+          {
+            "danish": "Tak",
+            "english": "Thank you"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Café ordering",
+            "lines": [
+              {
+                "role": "Server",
+                "danish": "Hvad skal du have?",
+                "english": "What would you like?"
+              },
+              {
+                "role": "Customer",
+                "danish": "Jeg vil gerne have en kop kaffe",
+                "english": "I would like a cup of coffee"
+              },
+              {
+                "role": "Server",
+                "danish": "Er det det hele?",
+                "english": "Is that all?"
+              },
+              {
+                "role": "Customer",
+                "danish": "Ja, tak",
+                "english": "Yes, thank you"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 5,
+        "title": "Simple Time",
+        "difficulty": "Basic+",
+        "danish_english_ratio": {
+          "danish": 30,
+          "english": 70
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Introduction to telling time"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "time_telling_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "time_questions",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Hvad er klokken?",
+            "english": "What time is it?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Den er et",
+            "english": "It's one o'clock",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Den er to",
+            "english": "It's two o'clock",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Om morgenen",
+            "english": "In the morning",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Om eftermiddagen",
+            "english": "In the afternoon",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Om aftenen",
+            "english": "In the evening",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Om natten",
+            "english": "At night",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg vil gerne have...",
+            "english": "I would like..."
+          },
+          {
+            "danish": "Tak",
+            "english": "Thank you"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Asking for the time",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Undskyld, hvad er klokken?",
+                "english": "Excuse me, what time is it?"
+              },
+              {
+                "role": "B",
+                "danish": "Den er to om eftermiddagen",
+                "english": "It's two in the afternoon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 6,
+        "title": "Basic Weather",
+        "difficulty": "Basic+",
+        "danish_english_ratio": {
+          "danish": 35,
+          "english": 65
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Weather vocabulary and expressions"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "weather_descriptions",
+                "duration_minutes": 4
+              },
+              {
+                "type": "weather_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Hvordan er vejret?",
+            "english": "How's the weather?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er koldt",
+            "english": "It's cold",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er varmt",
+            "english": "It's warm",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det regner",
+            "english": "It's raining",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Solen skinner",
+            "english": "The sun is shining",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det blæser",
+            "english": "It's windy",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det sner",
+            "english": "It's snowing",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvad er klokken?",
+            "english": "What time is it?"
+          },
+          {
+            "danish": "Om morgenen",
+            "english": "In the morning"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Discussing the weather",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvordan er vejret i dag?",
+                "english": "How's the weather today?"
+              },
+              {
+                "role": "B",
+                "danish": "Det er koldt og det regner",
+                "english": "It's cold and it's raining"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 7,
+        "title": "Simple Shopping",
+        "difficulty": "Basic+",
+        "danish_english_ratio": {
+          "danish": 35,
+          "english": 65
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic shopping vocabulary and phrases"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "shopping_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "price_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Hvor meget koster det?",
+            "english": "How much does it cost?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det koster... kroner",
+            "english": "It costs... kroner",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Har I...?",
+            "english": "Do you have...?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg vil gerne købe...",
+            "english": "I would like to buy...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Kan jeg betale med kort?",
+            "english": "Can I pay by card?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Ja, selvfølgelig",
+            "english": "Yes, of course",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Tak",
+            "english": "Thank you"
+          },
+          {
+            "danish": "Det er koldt",
+            "english": "It's cold"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Basic shopping interaction",
+            "lines": [
+              {
+                "role": "Customer",
+                "danish": "Hvor meget koster det?",
+                "english": "How much does it cost?"
+              },
+              {
+                "role": "Clerk",
+                "danish": "Det koster halvtreds kroner",
+                "english": "It costs fifty kroner"
+              },
+              {
+                "role": "Customer",
+                "danish": "Kan jeg betale med kort?",
+                "english": "Can I pay by card?"
+              },
+              {
+                "role": "Clerk",
+                "danish": "Ja, selvfølgelig",
+                "english": "Yes, of course"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 8,
+        "title": "Simple Locations",
+        "difficulty": "Basic+",
+        "danish_english_ratio": {
+          "danish": 35,
+          "english": 65
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic location vocabulary and directions"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "direction_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "location_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Hvor er...?",
+            "english": "Where is...?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er her",
+            "english": "It's here",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er der",
+            "english": "It's there",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Til højre",
+            "english": "To the right",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Til venstre",
+            "english": "To the left",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Lige ud",
+            "english": "Straight ahead",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "På hjørnet",
+            "english": "On the corner",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvor meget koster det?",
+            "english": "How much does it cost?"
+          },
+          {
+            "danish": "Ja, selvfølgelig",
+            "english": "Yes, of course"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Asking for directions",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Undskyld, hvor er supermarkedet?",
+                "english": "Excuse me, where is the supermarket?"
+              },
+              {
+                "role": "B",
+                "danish": "Det er lige ud og til højre på hjørnet",
+                "english": "It's straight ahead and to the right on the corner"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 9,
+        "title": "Family Members",
+        "difficulty": "Basic+",
+        "danish_english_ratio": {
+          "danish": 40,
+          "english": 60
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Introduction to family vocabulary"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "family_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "family_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Min mor",
+            "english": "My mother",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Min far",
+            "english": "My father",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Min søster",
+            "english": "My sister",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Min bror",
+            "english": "My brother",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Mine forældre",
+            "english": "My parents",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Har du søskende?",
+            "english": "Do you have siblings?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvor er...?",
+            "english": "Where is...?"
+          },
+          {
+            "danish": "Ja, selvfølgelig",
+            "english": "Yes, of course"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Talking about family",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Har du søskende?",
+                "english": "Do you have siblings?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja, jeg har en søster og en bror",
+                "english": "Yes, I have a sister and a brother"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 10,
+        "title": "Numbers 11-20",
+        "difficulty": "Basic+",
+        "danish_english_ratio": {
+          "danish": 40,
+          "english": 60
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Expanding number vocabulary"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "number_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "counting_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Elleve",
+            "english": "Eleven",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Tolv",
+            "english": "Twelve",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Tretten",
+            "english": "Thirteen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Fjorten",
+            "english": "Fourteen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Femten",
+            "english": "Fifteen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Seksten",
+            "english": "Sixteen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Sytten",
+            "english": "Seventeen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Atten",
+            "english": "Eighteen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Nitten",
+            "english": "Nineteen",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Tyve",
+            "english": "Twenty",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Har du søskende?",
+            "english": "Do you have siblings?"
+          },
+          {
+            "danish": "Min bror",
+            "english": "My brother"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Counting practice",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Kan du tælle fra ti til tyve?",
+                "english": "Can you count from ten to twenty?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja. Ti, elleve, tolv, tretten...",
+                "english": "Yes. Ten, eleven, twelve, thirteen..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 11,
+        "title": "Basic Food Items",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 45,
+          "english": 55
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Common food vocabulary"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "food_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "ordering_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Brød",
+            "english": "Bread",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Mælk",
+            "english": "Milk",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Æg",
+            "english": "Egg",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Ost",
+            "english": "Cheese",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Smør",
+            "english": "Butter",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er sulten",
+            "english": "I am hungry",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvor meget koster det?",
+            "english": "How much does it cost?"
+          },
+          {
+            "danish": "Jeg vil gerne have...",
+            "english": "I would like..."
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Grocery shopping",
+            "lines": [
+              {
+                "role": "Customer",
+                "danish": "Jeg vil gerne have brød og mælk",
+                "english": "I would like bread and milk"
+              },
+              {
+                "role": "Clerk",
+                "danish": "Er det det hele?",
+                "english": "Is that all?"
+              },
+              {
+                "role": "Customer",
+                "danish": "Ja, tak",
+                "english": "Yes, thank you"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 12,
+        "title": "Days and Time",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 45,
+          "english": 55
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Combining days and time expressions"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "time_expressions",
+                "duration_minutes": 4
+              },
+              {
+                "type": "schedule_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "I morgen",
+            "english": "Tomorrow",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "I går",
+            "english": "Yesterday",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Næste uge",
+            "english": "Next week",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Sidste uge",
+            "english": "Last week",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvornår?",
+            "english": "When?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "På mandag",
+            "english": "On Monday",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvad er klokken?",
+            "english": "What time is it?"
+          },
+          {
+            "danish": "Om morgenen",
+            "english": "In the morning"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Making plans",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvornår skal vi mødes?",
+                "english": "When should we meet?"
+              },
+              {
+                "role": "B",
+                "danish": "På mandag om morgenen",
+                "english": "Monday morning"
+              },
+              {
+                "role": "A",
+                "danish": "Hvad er klokken?",
+                "english": "What time?"
+              },
+              {
+                "role": "B",
+                "danish": "Klokken ni",
+                "english": "At nine o'clock"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 13,
+        "title": "Simple Daily Activities",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 45,
+          "english": 55
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic verbs and daily activities"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "verb_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "activity_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg står op",
+            "english": "I wake up",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg spiser morgenmad",
+            "english": "I eat breakfast",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg går på arbejde",
+            "english": "I go to work",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg kommer hjem",
+            "english": "I come home",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg laver mad",
+            "english": "I cook food",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg går i seng",
+            "english": "I go to bed",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvornår?",
+            "english": "When?"
+          },
+          {
+            "danish": "Om morgenen",
+            "english": "In the morning"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Daily routine",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvornår står du op?",
+                "english": "When do you wake up?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg står op klokken syv",
+                "english": "I wake up at seven"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 14,
+        "title": "Basic Feelings",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 45,
+          "english": 55
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Common emotions and feelings"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "emotion_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "feeling_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg er glad",
+            "english": "I am happy",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er træt",
+            "english": "I am tired",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er sulten",
+            "english": "I am hungry",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er tørstig",
+            "english": "I am thirsty",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvordan har du det?",
+            "english": "How are you feeling?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg har det godt",
+            "english": "I'm feeling good",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg står op",
+            "english": "I wake up"
+          },
+          {
+            "danish": "Jeg går i seng",
+            "english": "I go to bed"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Checking on feelings",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvordan har du det?",
+                "english": "How are you feeling?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg er træt, men glad",
+                "english": "I'm tired but happy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 15,
+        "title": "Simple Transportation",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 50,
+          "english": 50
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic transportation vocabulary"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "transport_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "travel_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg tager bussen",
+            "english": "I take the bus",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg cykler",
+            "english": "I bike",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg går",
+            "english": "I walk",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvor går bussen til?",
+            "english": "Where does the bus go to?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvornår kommer toget?",
+            "english": "When does the train arrive?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg skal købe en billet",
+            "english": "I need to buy a ticket",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvor er...?",
+            "english": "Where is...?"
+          },
+          {
+            "danish": "Hvornår?",
+            "english": "When?"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "At the bus stop",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Undskyld, hvor går denne bus til?",
+                "english": "Excuse me, where does this bus go to?"
+              },
+              {
+                "role": "B",
+                "danish": "Den går til centrum",
+                "english": "It goes to the center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 16,
+        "title": "Colors and Descriptions",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 50,
+          "english": 50
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic colors and descriptive words"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "color_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "description_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Rød",
+            "english": "Red",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Blå",
+            "english": "Blue",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Grøn",
+            "english": "Green",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Gul",
+            "english": "Yellow",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Sort",
+            "english": "Black",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvid",
+            "english": "White",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvilken farve er det?",
+            "english": "What color is it?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg skal købe",
+            "english": "I need to buy"
+          },
+          {
+            "danish": "Hvor er...?",
+            "english": "Where is...?"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Shopping for clothes",
+            "lines": [
+              {
+                "role": "Customer",
+                "danish": "Har I denne trøje i blå?",
+                "english": "Do you have this sweater in blue?"
+              },
+              {
+                "role": "Clerk",
+                "danish": "Nej, kun i rød og sort",
+                "english": "No, only in red and black"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 17,
+        "title": "Simple Past Tense",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 50,
+          "english": 50
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Introduction to past tense with common verbs"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "grammar_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "past_tense_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "conversation_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg spiste",
+            "english": "I ate",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg drak",
+            "english": "I drank",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg gik",
+            "english": "I walked",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg sov",
+            "english": "I slept",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "I går",
+            "english": "Yesterday",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Sidste uge",
+            "english": "Last week",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg spiser",
+            "english": "I eat"
+          },
+          {
+            "danish": "Jeg drikker",
+            "english": "I drink"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Talking about yesterday",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvad lavede du i går?",
+                "english": "What did you do yesterday?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg spiste frokost med min ven",
+                "english": "I ate lunch with my friend"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 18,
+        "title": "Common Questions",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 50,
+          "english": 50
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Essential question words and structures"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "question_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "interview_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Hvorfor?",
+            "english": "Why?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvordan?",
+            "english": "How?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvem?",
+            "english": "Who?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvilken?",
+            "english": "Which?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Kan du hjælpe mig?",
+            "english": "Can you help me?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Forstår du?",
+            "english": "Do you understand?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvad lavede du?",
+            "english": "What did you do?"
+          },
+          {
+            "danish": "I går",
+            "english": "Yesterday"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Asking for help",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Undskyld, kan du hjælpe mig?",
+                "english": "Excuse me, can you help me?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja, selvfølgelig. Hvad er problemet?",
+                "english": "Yes, of course. What's the problem?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 19,
+        "title": "Hobbies and Interests",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 55,
+          "english": 45
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Vocabulary for common hobbies and interests"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "hobby_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "interest_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg kan lide at...",
+            "english": "I like to...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg spiller fodbold",
+            "english": "I play football",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg læser bøger",
+            "english": "I read books",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg ser film",
+            "english": "I watch movies",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "I min fritid",
+            "english": "In my free time",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvad laver du i din fritid?",
+            "english": "What do you do in your free time?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Kan du hjælpe mig?",
+            "english": "Can you help me?"
+          },
+          {
+            "danish": "Hvordan?",
+            "english": "How?"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Discussing hobbies",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvad laver du i din fritid?",
+                "english": "What do you do in your free time?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg spiller fodbold og læser bøger",
+                "english": "I play football and read books"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 20,
+        "title": "Simple Future Plans",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 55,
+          "english": 45
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Talking about future plans"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "future_tense_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "planning_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg skal...",
+            "english": "I will/am going to...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "I morgen",
+            "english": "Tomorrow",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Næste uge",
+            "english": "Next week",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Skal vi...?",
+            "english": "Shall we...?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg har planer om at...",
+            "english": "I plan to...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvad skal du lave?",
+            "english": "What are you going to do?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "I min fritid",
+            "english": "In my free time"
+          },
+          {
+            "danish": "Jeg kan lide at...",
+            "english": "I like to..."
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Making plans",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvad skal du lave i morgen?",
+                "english": "What are you going to do tomorrow?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg skal mødes med mine venner",
+                "english": "I'm going to meet with my friends"
+              },
+              {
+                "role": "A",
+                "danish": "Skal vi mødes næste uge?",
+                "english": "Shall we meet next week?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 21,
+        "title": "Basic Health and Body",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 55,
+          "english": 45
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Health vocabulary and body parts"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "health_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "doctor_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg har ondt i...",
+            "english": "I have pain in...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "hovedet",
+            "english": "the head",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "maven",
+            "english": "the stomach",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er syg",
+            "english": "I am sick",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg har feber",
+            "english": "I have a fever",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg har brug for en læge",
+            "english": "I need a doctor",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvordan har du det?",
+            "english": "How are you feeling?"
+          },
+          {
+            "danish": "Jeg har...",
+            "english": "I have..."
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "At the doctor's office",
+            "lines": [
+              {
+                "role": "Doctor",
+                "danish": "Hvad er der galt?",
+                "english": "What's wrong?"
+              },
+              {
+                "role": "Patient",
+                "danish": "Jeg har ondt i maven",
+                "english": "I have a stomach ache"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 22,
+        "title": "Shopping for Clothes",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 55,
+          "english": 45
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Clothing vocabulary and shopping phrases"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "clothing_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "shopping_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Hvilken størrelse?",
+            "english": "What size?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg bruger størrelse...",
+            "english": "I wear size...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Kan jeg prøve den?",
+            "english": "Can I try it on?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Prøverummene er der",
+            "english": "The fitting rooms are there",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Den er for stor/lille",
+            "english": "It's too big/small",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Den passer perfekt",
+            "english": "It fits perfectly",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvilken farve?",
+            "english": "What color?"
+          },
+          {
+            "danish": "Hvor meget koster det?",
+            "english": "How much does it cost?"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Shopping for a shirt",
+            "lines": [
+              {
+                "role": "Customer",
+                "danish": "Har I denne trøje i medium?",
+                "english": "Do you have this shirt in medium?"
+              },
+              {
+                "role": "Clerk",
+                "danish": "Ja, vil du prøve den?",
+                "english": "Yes, would you like to try it on?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 23,
+        "title": "Restaurant Orders",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Restaurant vocabulary and ordering"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "menu_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "restaurant_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Kan jeg se menuen?",
+            "english": "Can I see the menu?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg vil bestille...",
+            "english": "I would like to order...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Er der noget vegetarisk?",
+            "english": "Is there anything vegetarian?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Kan jeg få regningen?",
+            "english": "Can I have the bill?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det smager godt",
+            "english": "It tastes good",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Velbekomme",
+            "english": "Enjoy your meal",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg vil gerne have...",
+            "english": "I would like..."
+          },
+          {
+            "danish": "Tak skal du have",
+            "english": "Thank you"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Ordering at a restaurant",
+            "lines": [
+              {
+                "role": "Waiter",
+                "danish": "Hvad vil du bestille?",
+                "english": "What would you like to order?"
+              },
+              {
+                "role": "Customer",
+                "danish": "Jeg vil gerne have fiskesuppe, tak",
+                "english": "I would like the fish soup, please"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 24,
+        "title": "Weekend Activities",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Weekend activities and planning"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "activity_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "weekend_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "I weekenden",
+            "english": "On the weekend",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Skal vi lave noget?",
+            "english": "Should we do something?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Har du planer?",
+            "english": "Do you have plans?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Vi kunne...",
+            "english": "We could...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er optaget",
+            "english": "I'm busy",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det lyder hyggeligt",
+            "english": "That sounds cozy/nice",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvad skal du lave?",
+            "english": "What are you going to do?"
+          },
+          {
+            "danish": "Skal vi mødes?",
+            "english": "Should we meet?"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Making weekend plans",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Skal vi lave noget i weekenden?",
+                "english": "Should we do something on the weekend?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja, vi kunne gå i biografen",
+                "english": "Yes, we could go to the cinema"
+              },
+              {
+                "role": "A",
+                "danish": "Det lyder hyggeligt",
+                "english": "That sounds nice"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 25,
+        "title": "Phone Conversations",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Phone conversation vocabulary and phrases"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "phone_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "phone_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Det er...",
+            "english": "This is...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Kan jeg tale med...?",
+            "english": "Can I speak with...?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Et øjeblik",
+            "english": "One moment",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg ringer senere",
+            "english": "I'll call later",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Kan du høre mig?",
+            "english": "Can you hear me?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Vi har en dårlig forbindelse",
+            "english": "We have a bad connection",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg ringer til dig",
+            "english": "I'll call you"
+          },
+          {
+            "danish": "Vi ses",
+            "english": "See you"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Phone conversation",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hej, det er Anders",
+                "english": "Hi, this is Anders"
+              },
+              {
+                "role": "B",
+                "danish": "Hej Anders, hvordan går det?",
+                "english": "Hi Anders, how are you?"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 26,
+        "title": "Weather and Seasons",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Seasonal vocabulary and weather expressions"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "season_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "weather_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Forår",
+            "english": "Spring",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Sommer",
+            "english": "Summer",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Efterår",
+            "english": "Autumn",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Vinter",
+            "english": "Winter",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvilken årstid er det?",
+            "english": "What season is it?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er typisk vejr for...",
+            "english": "It's typical weather for...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvordan er vejret?",
+            "english": "How's the weather?"
+          },
+          {
+            "danish": "Det regner",
+            "english": "It's raining"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Discussing weather and seasons",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvilken årstid kan du bedst lide?",
+                "english": "Which season do you like best?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg elsker sommeren",
+                "english": "I love summer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 27,
+        "title": "Simple Work Conversations",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Basic work-related vocabulary and phrases"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "work_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "office_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg arbejder som...",
+            "english": "I work as...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Mødet starter kl...",
+            "english": "The meeting starts at...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg har en aftale",
+            "english": "I have an appointment",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Er du ledig?",
+            "english": "Are you free?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er optaget",
+            "english": "I'm busy",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Vi ses til mødet",
+            "english": "See you at the meeting",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Hvad tid er det?",
+            "english": "What time is it?"
+          },
+          {
+            "danish": "På mandag",
+            "english": "On Monday"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Work meeting",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Har du tid til et møde i dag?",
+                "english": "Do you have time for a meeting today?"
+              },
+              {
+                "role": "B",
+                "danish": "Ja, jeg er ledig efter frokost",
+                "english": "Yes, I'm free after lunch"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 28,
+        "title": "Simple Opinions",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Expressing basic opinions and preferences"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "vocabulary_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "opinion_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "preference_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Jeg synes at...",
+            "english": "I think that...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg kan godt lide...",
+            "english": "I like...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg kan ikke lide...",
+            "english": "I don't like...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er interessant",
+            "english": "That's interesting",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvad synes du?",
+            "english": "What do you think?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg er enig/uenig",
+            "english": "I agree/disagree",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Det lyder godt",
+            "english": "That sounds good"
+          },
+          {
+            "danish": "Jeg vil gerne...",
+            "english": "I would like..."
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Discussing preferences",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Hvad synes du om filmen?",
+                "english": "What do you think about the movie?"
+              },
+              {
+                "role": "B",
+                "danish": "Jeg synes, den var interessant",
+                "english": "I think it was interesting"
+              },
+              {
+                "role": "A",
+                "danish": "Jeg er enig",
+                "english": "I agree"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 29,
+        "title": "Integrated Conversations I",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Integration of multiple conversation scenarios"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "scenario_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "mixed_vocabulary",
+                "duration_minutes": 4
+              },
+              {
+                "type": "extended_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "integrated_practice",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Skal vi mødes og...",
+            "english": "Should we meet and...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvad med at...",
+            "english": "How about...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det kommer an på...",
+            "english": "It depends on...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Lad os...",
+            "english": "Let's...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det passer mig fint",
+            "english": "That suits me fine",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Vi kunne også...",
+            "english": "We could also...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Jeg synes at...",
+            "english": "I think that..."
+          },
+          {
+            "danish": "Skal vi...?",
+            "english": "Should we...?"
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Making weekend plans with friends",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Skal vi mødes og spise frokost på lørdag?",
+                "english": "Should we meet and have lunch on Saturday?"
+              },
+              {
+                "role": "B",
+                "danish": "Det kommer an på vejret. Hvad med søndag i stedet for?",
+                "english": "It depends on the weather. How about Sunday instead?"
+              },
+              {
+                "role": "A",
+                "danish": "Det passer mig fint. Vi kunne også gå en tur bagefter",
+                "english": "That suits me fine. We could also go for a walk afterwards"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lesson_number": 30,
+        "title": "Integrated Conversations II",
+        "difficulty": "Learning",
+        "danish_english_ratio": {
+          "danish": 60,
+          "english": 40
+        },
+        "timing_breakdown": {
+          "introduction": {
+            "duration_minutes": 2,
+            "description": "Complex conversation scenarios and review"
+          },
+          "new_content": {
+            "duration_minutes": 6,
+            "segments": [
+              {
+                "type": "scenario_introduction",
+                "duration_minutes": 3
+              },
+              {
+                "type": "initial_practice",
+                "duration_minutes": 3
+              }
+            ]
+          },
+          "practice_segments": {
+            "duration_minutes": 10,
+            "segments": [
+              {
+                "type": "complex_dialogue",
+                "duration_minutes": 4
+              },
+              {
+                "type": "situation_practice",
+                "duration_minutes": 4
+              },
+              {
+                "type": "final_review",
+                "duration_minutes": 2
+              }
+            ]
+          },
+          "review_and_summary": {
+            "duration_minutes": 2
+          }
+        },
+        "target_phrases": [
+          {
+            "danish": "Det lyder som en god idé",
+            "english": "That sounds like a good idea",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Hvad foretrækker du?",
+            "english": "What do you prefer?",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det kan vi godt",
+            "english": "We can do that",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Det er op til dig",
+            "english": "It's up to you",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Jeg glæder mig til...",
+            "english": "I'm looking forward to...",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          },
+          {
+            "danish": "Vi ses snart",
+            "english": "See you soon",
+            "initial_repetitions": 4,
+            "practice_repetitions": 3
+          }
+        ],
+        "recap_phrases": [
+          {
+            "danish": "Det kommer an på...",
+            "english": "It depends on..."
+          },
+          {
+            "danish": "Lad os...",
+            "english": "Let's..."
+          }
+        ],
+        "practice_dialogues": [
+          {
+            "description": "Complex social planning",
+            "lines": [
+              {
+                "role": "A",
+                "danish": "Skal vi tage på café eller restaurant på lørdag?",
+                "english": "Should we go to a café or restaurant on Saturday?"
+              },
+              {
+                "role": "B",
+                "danish": "Hvad foretrækker du? Det er op til dig",
+                "english": "What do you prefer? It's up to you"
+              },
+              {
+                "role": "A",
+                "danish": "Lad os gå på den nye italienske restaurant",
+                "english": "Let's go to the new Italian restaurant"
+              },
+              {
+                "role": "B",
+                "danish": "Det lyder som en god idé. Jeg glæder mig til det!",
+                "english": "That sounds like a good idea. I'm looking forward to it!"
+              }
+            ]
+          }
+        ],
+        "course_completion_summary": {
+          "total_vocabulary": {
+            "words": 180,
+            "phrases": 120
+          },
+          "grammar_concepts": [
+            "Present tense",
+            "Simple past tense",
+            "Basic future expressions",
+            "Questions and answers",
+            "Basic conjunctions",
+            "Common prepositions"
+          ],
+          "conversation_topics": [
+            "Greetings and introductions",
+            "Numbers and time",
+            "Food and drinks",
+            "Daily activities",
+            "Weather and seasons",
+            "Shopping and directions",
+            "Simple opinions",
+            "Basic work conversations"
+          ]
+        }
+      }
+    ]
+  }
