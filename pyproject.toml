@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ai-danish-class"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pydub = "^0.25.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Add this to specify where your package code lives
+packages = [
+    { include = "lesson_builder" }
+]

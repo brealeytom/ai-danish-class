@@ -27,16 +27,16 @@ def get_available_voices():
             voices = response.json()["voices"]
             print("\nVoices that support Danish:")
             print("-" * 50)
-            for voice in voices: 
-                language = voice.get("labels", {}).get("languages", [])
-                print  
             for voice in voices:
                 # Check if the voice supports Danish (language code 'da')
-                if "de" in [lang.get("language_id") for lang in voice.get("labels", {}).get("languages", [])]:
-                    print(f"Name: {voice['name']}")
-                    print(f"Voice ID: {voice['voice_id']}")
-                    print(f"Description: {voice.get('description', 'No description available')}")
-                    print("-" * 50)
+                accent = voice.get("labels", {}).get("accent", [])
+                model = voice.get("model_id", "No model specified")
+
+                print(f"Name: {voice['name']}")
+                print(f"Voice ID: {voice['voice_id']}")
+                print(f"Description: {voice.get('description', 'No description available')}")
+                print(f"Accents: {accent}")
+                print("-" * 50)
                     
         else:
             print(f"Error: {response.status_code}")
