@@ -1,9 +1,11 @@
-order_id,language,voice_id,text,delay
-1,en,pFZP5JQG7iQjIQuC4Bku,"Welcome to Danish Lesson 3.1: Work and Studies. Today we'll learn how to talk about our jobs and education. Listen to this conversation",0
-2,da,XB0fDUnXU5powFXDhCwa,"Hej! Hvad laver du?",0
-3,da,IKne3meq5aSn9XLyUdCD,"Jeg er forsker. Jeg arbejder i et universitet.",0
-4,da,XB0fDUnXU5powFXDhCwa,"Det lyder interessant! Er du glad for det?",0
-5,da,IKne3meq5aSn9XLyUdCD,"Ja, meget! Hvad med dig?",0
-6,da,XB0fDUnXU5powFXDhCwa,"Jeg er studerende. Jeg læser medicin.",0
-7,da,IKne3meq5aSn9XLyUdCD,"Hvor studerer du henne?",0
-8,da,XB0fDUnXU5powFXDhCwa,"På Københavns Universitet. Jeg har også et job.",0
+order_id,language,voice_id,text,delay,repeat
+1,en,en_f_voice,This is a test of the English female voice.,2000,1
+2,da,da_f_voice,Dette er en test af den danske kvindelige stemme.,2000,2
+3,da,da_m_voice,Dette er en test af den danske mandlige stemme.,2000,2
+4,en,en_f_voice,Now we'll test multiple repeats of a short phrase,1500,1
+5,da,da_f_voice,Hej,2000,3
+6,en,en_f_voice,Let's test a conversation exchange,1500,1
+7,da,da_f_voice,Hvordan har du det?,0,1
+8,da,da_m_voice,Jeg har det godt tak,0,1
+9,da,da_f_voice,Det er godt at høre!,0,1
+10,en,en_f_voice,Testing complete!,0,1
