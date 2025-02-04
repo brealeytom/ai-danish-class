@@ -1,0 +1,50 @@
+{
+    "input": {
+        "lesson_number": 3.3,
+        "title": "Hvad er din e-mailadresse?",
+        "target_phrases": [
+            {
+                "danish": "Hvad er hendes e-mailadresse?",
+                "english": "What is her email address?"
+            },
+            {
+                "danish": "Vil du have min e-mail?",
+                "english": "Would you like my email?"
+            },
+            {
+                "danish": "Jeg skriver den lige i min telefon",
+                "english": "I'll just write it in my phone"
+            },
+            {
+                "danish": "Vil du sende den til mig?",
+                "english": "Will you send it to me?"
+            },
+            {
+                "danish": "Ja, selvfølgelig",
+                "english": "Yes, of course"
+            },
+            {
+                "danish": "Det kan jeg desværre ikke huske",
+                "english": "Unfortunately, I can't remember"
+            },
+            {
+                "danish": "Jeg har den hjemme på min computer",
+                "english": "I have it at home on my computer"
+            },
+            {
+                "danish": "Må jeg også få dit mobilnummer?",
+                "english": "Can I also have your mobile number?"
+            },
+            {
+                "danish": "Jeg skriver til dig i aften",
+                "english": "I'll write to you tonight"
+            },
+            {
+                "danish": "Tak for hjælpen!",
+                "english": "Thanks for the help!"
+            }
+        ]
+    },
+    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,\"Scenario 1 - Business Networking: You're at a conference and want to stay in touch with a potential collaborator. Start by asking for their email.\",4000,1\n2,en,en_f_voice,\"Great, go ahead and ask for their email address\",3000,1\n3,da,da_f_voice,\"Ja, selvfølgelig. Jeg skriver den lige i min telefon.\",2000,1\n4,da,da_f_voice,\"Marie.Hansen@firma.dk\",2000,1\n5,en,en_f_voice,\"Perfect! Now ask if you can have their mobile number too\",3000,1\n6,da,da_f_voice,\"Ja, det er 45 12 34 56\",2000,1\n7,en,en_f_voice,\"Excellent! Tell them you'll write to them tonight\",3000,1\n8,da,da_f_voice,\"Det lyder godt!\",2000,1\n9,en,en_f_voice,\"Scenario 2 - New Workplace: A colleague wants to add you to a project group chat. Listen and respond naturally.\",4000,1\n10,da,da_m_voice,\"Vil du have min e-mail?\",2000,1\n11,en,en_f_voice,\"Nice! Tell them you'll write it in your phone\",3000,1\n12,da,da_m_voice,\"Det er Anders.P@work.dk\",2000,1\n13,da,da_m_voice,\"Må jeg også få dit mobilnummer?\",2000,1\n14,en,en_f_voice,\"Perfect moment to say you'll send it tonight\",3000,1\n15,da,da_m_voice,\"Tak for hjælpen!\",2000,1\n16,en,en_f_voice,\"Scenario 3 - Study Group: You need Eva's email for the presentation next week.\",4000,1\n17,da,da_f_voice,\"Hej! Hvad kan jeg hjælpe med?\",2000,1\n18,en,en_f_voice,\"Good time to ask about Eva's email\",3000,1\n19,da,da_f_voice,\"Det kan jeg desværre ikke huske.\",2000,1\n20,da,da_f_voice,\"Jeg har den hjemme på min computer.\",2000,1\n21,en,en_f_voice,\"Perfect! Ask if they can send it to you\",3000,1\n22,da,da_f_voice,\"Ja, selvfølgelig. Jeg skriver til dig i aften.\",2000,1\n23,en,en_f_voice,\"Wonderful - thank them for their help\",3000,1\n24,da,da_m_voice,\"Det var så lidt!\",2000,1\n25,en,en_f_voice,\"Scenario 4 - Language Exchange: You're finishing up a great Danish practice session.\",4000,1\n26,da,da_f_voice,\"Det har været hyggeligt at tale dansk sammen.\",2000,1\n27,da,da_f_voice,\"Vil du have min e-mail?\",2000,1\n28,en,en_f_voice,\"Great! Say yes and offer to write it in your phone\",3000,1\n29,da,da_f_voice,\"Louise.M@dansk.dk\",2000,1\n30,da,da_f_voice,\"Må jeg også få dit mobilnummer?\",2000,1\n31,en,en_f_voice,\"Fantastic - tell them you'll send it tonight\",3000,1\n32,da,da_f_voice,\"Vi ses næste uge!\",2000,1\n33,en,en_f_voice,\"Scenario 5 - Workshop Planning: You need the instructor's contact details.\",4000,1\n34,da,da_m_voice,\"Hej! Du leder efter Sofie?\",2000,1\n35,en,en_f_voice,\"Yes! Ask politely for her email address\",3000,1\n36,da,da_m_voice,\"Jeg har hendes kontaktinformation.\",2000,1\n37,da,da_m_voice,\"Vil du have den?\",2000,1\n38,en,en_f_voice,\"Perfect timing to ask them to send it to you\",3000,1\n39,da,da_m_voice,\"Jeg skriver til dig i aften med det hele.\",2000,1\n40,en,en_f_voice,\"Excellent - finish by thanking them warmly\",3000,1\n41,da,da_m_voice,\"Det var så lidt!\",2000,1"
+}
+

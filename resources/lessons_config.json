@@ -1,0 +1,64 @@
+{
+    "course_name": "Danish Module 1",
+    "course_version": "1.0",
+    "lessons": [
+      {
+        "lesson_number": 3.3,
+        "title": "Hvad er din e-mailadresse",
+        "prompt_sequence": [
+          {
+            "type": "introduction_section",
+            "description": "Introduce new words",
+            "order": 1
+          },
+          {
+            "type": "role_playing_section",
+            "description": "Learning via role-playing",
+            "order": 2
+          }
+        ],
+        "target_phrases": [
+            {
+                "danish": "Hvad er hendes e-mailadresse?",
+                "english": "What is her email address?"
+            },
+            {
+                "danish": "Vil du have min e-mail?",
+                "english": "Would you like my email?"
+            },
+            {
+                "danish": "Jeg skriver den lige i min telefon",
+                "english": "I'll just write it in my phone"
+            },
+            {
+                "danish": "Vil du sende den til mig?",
+                "english": "Will you send it to me?"
+            },
+            {
+                "danish": "Ja, selvfølgelig",
+                "english": "Yes, of course"
+            },
+            {
+                "danish": "Det kan jeg desværre ikke huske",
+                "english": "Unfortunately, I can't remember"
+            },
+            {
+                "danish": "Jeg har den hjemme på min computer",
+                "english": "I have it at home on my computer"
+            },
+            {
+                "danish": "Må jeg også få dit mobilnummer?",
+                "english": "Can I also have your mobile number?"
+            },
+            {
+                "danish": "Jeg skriver til dig i aften",
+                "english": "I'll write to you tonight"
+            },
+            {
+                "danish": "Tak for hjælpen!",
+                "english": "Thanks for the help!"
+            }
+        ]
+      }
+    ]
+  }

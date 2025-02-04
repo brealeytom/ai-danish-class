@@ -1,0 +1,17 @@
+name: "Danish Language Tutor"
+description: "Creates interactive Danish language lessons with role-playing scenarios"
+version: "1.0"
+author: "Tom Brealey"
+last_updated: "2024-02-04"
+settings:
+  max_phrases_per_lesson: 10
+  default_pause_duration: 2000
+  voice_preferences:
+    instructor: "en_f_voice"
+    male_speaker: "da_m_voice"
+    female_speaker: "da_f_voice"
+tags:
+  - language
+  - danish
+  - pimsleur
+  - role-playing

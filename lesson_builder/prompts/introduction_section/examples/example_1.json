@@ -1,0 +1,50 @@
+{
+    "input": {
+        "lesson_number": 3.3,
+        "title": "Hvad er din e-mailadresse?",
+        "target_phrases": [
+            {
+                "danish": "Hvad er hendes e-mailadresse?",
+                "english": "What is her email address?"
+            },
+            {
+                "danish": "Vil du have min e-mail?",
+                "english": "Would you like my email?"
+            },
+            {
+                "danish": "Jeg skriver den lige i min telefon",
+                "english": "I'll just write it in my phone"
+            },
+            {
+                "danish": "Vil du sende den til mig?",
+                "english": "Will you send it to me?"
+            },
+            {
+                "danish": "Ja, selvfølgelig",
+                "english": "Yes, of course"
+            },
+            {
+                "danish": "Det kan jeg desværre ikke huske",
+                "english": "Unfortunately, I can't remember"
+            },
+            {
+                "danish": "Jeg har den hjemme på min computer",
+                "english": "I have it at home on my computer"
+            },
+            {
+                "danish": "Må jeg også få dit mobilnummer?",
+                "english": "Can I also have your mobile number?"
+            },
+            {
+                "danish": "Jeg skriver til dig i aften",
+                "english": "I'll write to you tonight"
+            },
+            {
+                "danish": "Tak for hjælpen!",
+                "english": "Thanks for the help!"
+            }
+        ]
+    },
+    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,Welcome to Danish Lesson 3.3: Exchanging Contact Information. Let's begin with a conversation between two Danish speakers.,0,1\n2,da,da_f_voice,\"Hej! Vil du have min e-mail?\",2000,1\n3,da,da_m_voice,\"Ja, selvfølgelig. Jeg skriver den lige i min telefon.\",2500,1\n4,da,da_f_voice,\"Må jeg også få dit mobilnummer?\",2000,1\n5,da,da_m_voice,\"Jeg skriver til dig i aften. Tak for hjælpen!\",2000,1\n6,en,en_f_voice,Let's break down these phrases step by step.,0,1\n7,en,en_f_voice,First, let's learn how to ask for someone's email address:,0,1\n8,da,da_f_voice,Hvad er hendes e-mailadresse?,2000,2\n9,en,en_f_voice,This means 'What is her email address?' Listen and repeat:,0,1\n10,da,da_f_voice,Hvad er hendes e-mailadresse?,2500,3\n11,en,en_f_voice,Now, let's learn how to offer your email:,0,1\n12,da,da_f_voice,Vil du have min e-mail?,2000,2\n13,en,en_f_voice,This means 'Would you like my email?' Practice it:,0,1\n14,da,da_f_voice,Vil du have min e-mail?,2500,3\n15,en,en_f_voice,Here's how to say you'll write it in your phone:,0,1\n16,da,da_m_voice,Jeg skriver den lige i min telefon,2000,2\n17,en,en_f_voice,Listen and repeat this useful phrase:,0,1\n18,da,da_m_voice,Jeg skriver den lige i min telefon,2500,3\n19,en,en_f_voice,If you want someone to send you their email, you can say:,0,1\n20,da,da_f_voice,Vil du sende den til mig?,2000,2\n21,en,en_f_voice,Practice this question:,0,1\n22,da,da_f_voice,Vil du sende den til mig?,2500,3\n23,en,en_f_voice,To agree, you can simply say:,0,1\n24,da,da_m_voice,\"Ja, selvfølgelig\",2000,2\n25,en,en_f_voice,This means 'Yes, of course.' Try it:,0,1\n26,da,da_m_voice,\"Ja, selvfølgelig\",2500,3\n27,en,en_f_voice,If you can't remember an email address, you can say:,0,1\n28,da,da_f_voice,Det kan jeg desværre ikke huske,2000,2\n29,en,en_f_voice,This means 'Unfortunately, I can't remember.' Practice:,0,1\n30,da,da_f_voice,Det kan jeg desværre ikke huske,2500,3\n31,en,en_f_voice,Or if the email is at home on your computer:,0,1\n32,da,da_m_voice,Jeg har den hjemme på min computer,2000,2\n33,en,en_f_voice,Listen and repeat:,0,1\n34,da,da_m_voice,Jeg har den hjemme på min computer,2500,3\n35,en,en_f_voice,To ask for a mobile number, say:,0,1\n36,da,da_f_voice,Må jeg også få dit mobilnummer?,2000,2\n37,en,en_f_voice,Practice this important phrase:,0,1\n38,da,da_f_voice,Må jeg også få dit mobilnummer?,2500,3\n39,en,en_f_voice,To say you'll write later:,0,1\n40,da,da_m_voice,Jeg skriver til dig i aften,2000,2\n41,en,en_f_voice,This means 'I'll write to you tonight.' Try it:,0,1\n42,da,da_m_voice,Jeg skriver til dig i aften,2500,3\n43,en,en_f_voice,And finally, to thank someone for their help:,0,1\n44,da,da_f_voice,Tak for hjælpen!,2000,2\n45,en,en_f_voice,One more time:,0,1\n46,da,da_f_voice,Tak for hjælpen!,2500,3\n47,en,en_f_voice,Now let's hear a complete exchange:,0,1\n48,da,da_f_voice,\"Vil du have min e-mail?\",2500,1\n49,da,da_m_voice,\"Ja, selvfølgelig. Jeg skriver den lige i min telefon.\",3000,1\n50,da,da_f_voice,\"Må jeg også få dit mobilnummer?\",2500,1\n51,da,da_m_voice,\"Jeg skriver til dig i aften. Tak for hjælpen!\",2500,1"
+}
+
