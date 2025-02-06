@@ -72,9 +72,9 @@ class PromptManager:
         for i, example in enumerate(config.examples, 1):
             examples_text += f"<example>\n<INPUT_PROMPT>\n"
             examples_text += json.dumps(example.input, indent=2)
-            examples_text += "\n</INPUT_PROMPT>\n<ideal_output>\n"
+            examples_text += "\n</INPUT_PROMPT>\n<IDEAL_OUTPUT>\n"
             examples_text += example.output
-            examples_text += "\n</ideal_output>\n</example>\n\n"
+            examples_text += "\n</IDEAL_OUTPUT>\n</example>\n\n"
         
         return config.system_prompt, examples_text
 

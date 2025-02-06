@@ -237,7 +237,7 @@ if __name__ == "__main__":
     
     # Process CSV file
     process_csv_to_audio(
-        "lesson_builder/lesson_transcripts/test_danish_voice_script.csv", 
-        "lesson_builder/lesson_audio/test_danish_voice_script.mp3", 
+        "lessons/lesson_3_3/02_role_playing_section.csv", 
+        "lessons/lesson_3_3/test_danish_voice_script.mp3", 
         chunk_duration_sec=600
     )

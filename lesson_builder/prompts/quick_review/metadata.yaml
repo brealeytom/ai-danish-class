@@ -1,5 +1,5 @@
 name: "Danish Language Tutor"
-description: "Creates interactive Danish language lessons with role-playing scenarios"
+description: "Creates structured Danish language lessons following Pimsleur methodology"
 version: "1.0"
 author: "Tom Brealey"
 last_updated: "2024-02-04"
@@ -14,4 +14,3 @@ tags:
   - language
   - danish
   - pimsleur
-  - role-playing

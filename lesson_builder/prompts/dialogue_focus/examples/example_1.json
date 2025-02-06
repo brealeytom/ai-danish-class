@@ -1,23 +1,8 @@
 {
-    "course_name": "Danish Module 1",
-    "course_version": "1.0",
-    "lessons": [
-      {
+    "input": {
         "lesson_number": 3.3,
-        "title": "Hvad er din e-mailadresse",
-        "prompt_sequence": [
-          {
-            "type": "introduction_section",
-            "description": "Introduce new words",
-            "order": 1
-          },
-          {
-            "type": "role_playing_section",
-            "description": "Learning via role-playing",
-            "order": 2
-          }
-        ],
-        "target_phrases": [
+        "title": "Hvad er din e-mailadresse?",
+        "recap_phrases": [
             {
                 "danish": "Hvad er hendes e-mailadresse?",
                 "english": "What is her email address?"
@@ -29,7 +14,9 @@
             {
                 "danish": "Jeg skriver den lige i min telefon",
                 "english": "I'll just write it in my phone"
-            },
+            }
+        ],
+        "target_phrases": [
             {
                 "danish": "Vil du sende den til mig?",
                 "english": "Will you send it to me?"
@@ -45,20 +32,9 @@
             {
                 "danish": "Jeg har den hjemme på min computer",
                 "english": "I have it at home on my computer"
-            },
-            {
-                "danish": "Må jeg også få dit mobilnummer?",
-                "english": "Can I also have your mobile number?"
-            },
-            {
-                "danish": "Jeg skriver til dig i aften",
-                "english": "I'll write to you tonight"
-            },
-            {
-                "danish": "Tak for hjælpen!",
-                "english": "Thanks for the help!"
             }
         ]
-      }
-    ]
-  }
+    },
+    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,\"Let's review some phrases about email addresses from our last lesson.\",0,1\n2,en,en_f_voice,\"Listen and repeat: What is her email address?\",0,1\n3,da,da_m_voice,\"Hvad er hendes e-mailadresse?\",2000,2\n4,en,en_f_voice,\"Now listen to how to ask: Would you like my email?\",0,1\n5,da,da_f_voice,\"Vil du have min e-mail?\",2000,2\n6,en,en_f_voice,\"Listen to this longer phrase: I'll just write it in my phone\",0,1\n7,da,da_m_voice,\"Jeg skriver den lige i min telefon\",3000,3\n8,en,en_f_voice,\"Let's practice these phrases together in a short dialogue.\",0,1\n9,da,da_f_voice,\"Vil du have min e-mail?\",3000,1\n10,da,da_m_voice,\"Jeg skriver den lige i min telefon\",3000,1"
+}
+

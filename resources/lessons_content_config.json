@@ -1,0 +1,204 @@
+{
+    "course_name": "Danish Module 1",
+    "course_version": "1.0",
+    "lessons": [
+        {
+            "lesson_number": 1.1,
+            "title": "Hvad hedder du?",
+            "target_phrases": [
+                {
+                    "danish": "Hej, jeg hedder Tom",
+                    "english": "Hi, my name is Tom"
+                },
+                {
+                    "danish": "Hvad hedder du?",
+                    "english": "What is your name?"
+                },
+                {
+                    "danish": "Hvor kommer du fra?",
+                    "english": "Where are you from?"
+                },
+                {
+                    "danish": "Jeg kommer fra New Zealand",
+                    "english": "I come from New Zealand"
+                },
+                {
+                    "danish": "Er du ny her?",
+                    "english": "Are you new here?"
+                },
+                {
+                    "danish": "Ja, det er jeg",
+                    "english": "Yes, I am"
+                },
+                {
+                    "danish": "Tak skal du have",
+                    "english": "Thank you very much"
+                },
+                {
+                    "danish": "Hvordan går det?",
+                    "english": "How are you?"
+                },
+                {
+                    "danish": "Det går fint",
+                    "english": "It's going fine"
+                },
+                {
+                    "danish": "Hvad med dig?",
+                    "english": "What about you?"
+                },
+                {
+                    "danish": "Jeg arbejder her",
+                    "english": "I work here"
+                },
+                {
+                    "danish": "Det er jeg også",
+                    "english": "Me too"
+                },
+                {
+                    "danish": "Vi ses i morgen",
+                    "english": "See you tomorrow"
+                },
+                {
+                    "danish": "God dag",
+                    "english": "Good day"
+                },
+                {
+                    "danish": "Det var hyggeligt",
+                    "english": "That was nice"
+                }
+            ]
+        },
+        {
+            "lesson_number": 1.2,
+            "title": "Kan du tale dansk?",
+            "target_phrases": [
+                {
+                    "danish": "Kan du tale fransk?",
+                    "english": "Can you speak French?"
+                },
+                {
+                    "danish": "Ja, det kan jeg",
+                    "english": "Yes, I can"
+                },
+                {
+                    "danish": "Nej, det kan jeg ikke",
+                    "english": "No, I can't"
+                },
+                {
+                    "danish": "Jeg kan kun tale dansk",
+                    "english": "I can only speak Danish"
+                },
+                {
+                    "danish": "Hvad med engelsk?",
+                    "english": "What about English?"
+                },
+                {
+                    "danish": "Det kan jeg selvfølgelig også",
+                    "english": "Of course I can do that too"
+                },
+                {
+                    "danish": "Jeg kan tale lidt spansk",
+                    "english": "I can speak a little Spanish"
+                },
+                {
+                    "danish": "Min far er franskmand",
+                    "english": "My father is French"
+                },
+                {
+                    "danish": "Vi taler altid fransk",
+                    "english": "We always speak French"
+                },
+                {
+                    "danish": "Jeg kan forstå det",
+                    "english": "I can understand it"
+                },
+                {
+                    "danish": "Når jeg læser det",
+                    "english": "When I read it"
+                },
+                {
+                    "danish": "Det er imponerende!",
+                    "english": "That's impressive!"
+                },
+                {
+                    "danish": "Jeg går nu",
+                    "english": "I'm going now"
+                },
+                {
+                    "danish": "Vi ses i morgen",
+                    "english": "See you tomorrow"
+                },
+                {
+                    "danish": "Hej hej",
+                    "english": "Bye bye"
+                }
+            ]
+        },
+        {
+            "lesson_number": 1.3,
+            "title": "Hvor bor du henne?",
+            "target_phrases": [
+                {
+                    "danish": "Bor du her i Århus?",
+                    "english": "Do you live here in Århus?"
+                },
+                {
+                    "danish": "Jeg bor i København",
+                    "english": "I live in Copenhagen"
+                },
+                {
+                    "danish": "Hvor i København bor du?",
+                    "english": "Where in Copenhagen do you live?"
+                },
+                {
+                    "danish": "Jeg er født i New Zealand",
+                    "english": "I was born in New Zealand"
+                },
+                {
+                    "danish": "Hvordan staver man det?",
+                    "english": "How do you spell that?"
+                },
+                {
+                    "danish": "Min familie bor i New Zealand",
+                    "english": "My family lives in  New Zealand"
+                },
+                {
+                    "danish": "Jeg kommer fra en stor by",
+                    "english": "I come from a large town"
+                },
+                {
+                    "danish": "Der hedder Auckland",
+                    "english": "That is called Auckland"
+                },
+                {
+                    "danish": "Hvornår kommer dit tog?",
+                    "english": "When does your train come?"
+                },
+                {
+                    "danish": "Det kommer klokken to",
+                    "english": "It comes at two"
+                },
+                {
+                    "danish": "Hvad er klokken nu?",
+                    "english": "What time is it now?"
+                },
+                {
+                    "danish": "Den er ti til to",
+                    "english": "It is ten to two"
+                },
+                {
+                    "danish": "Kan jeg se",
+                    "english": "I can see"
+                },
+                {
+                    "danish": "Tak for i dag",
+                    "english": "Thanks for today"
+                },
+                {
+                    "danish": "Kom godt hjem!",
+                    "english": "Get home safe!"
+                }
+            ]
+        }
+    ]
+}

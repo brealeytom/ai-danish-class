@@ -5,21 +5,41 @@ from typing import Dict, Any
 from pathlib import Path
 from prompt_manager import PromptManager
 
-def create_danish_lesson(lesson_data: Dict[str, Any], prompt_type: str, prompt_manager: PromptManager) -> str:
+def create_danish_lesson(lesson_data: Dict[str, Any], prompt_type: str, prompt_manager: PromptManager, test_mode: bool = False) -> str:
     """
     Creates a Danish lesson using Claude API.
     
     Args:
-        lesson_data: Dictionary containing lesson number, title, and target phrases
+        lesson_data: Dictionary containing lesson data including day, title, and phrases
         prompt_type: Type of prompt to use
         prompt_manager: Instance of PromptManager
     """
+    # Filter lesson data to include only necessary fields
+    filtered_data = {
+        "title": lesson_data["title"],
+        "recap_phrases": lesson_data["recap_phrases"],
+        "target_phrases": lesson_data["target_phrases"]
+    }
+    
     client = anthropic.Anthropic(
         api_key=os.getenv("ANTHROPIC_API_KEY"),
     )
     
     # Get formatted prompt and examples
     system_prompt, examples = prompt_manager.format_for_claude(prompt_type)
+    
+    # If in test mode, return debug content
+    if test_mode:
+        print(f"TEST MODE: Skipping API call for {prompt_type}")
+        debug_output = [
+            "=== System Prompt ===",
+            system_prompt,
+            "\n=== Examples ===",
+            examples,
+            "\n=== Input Data ===",
+            json.dumps(filtered_data, ensure_ascii=False, indent=2)
+        ]
+        return "\n".join(debug_output)
     
     # Create the complete message content
     message_content = [
@@ -29,7 +49,7 @@ def create_danish_lesson(lesson_data: Dict[str, Any], prompt_type: str, prompt_m
         },
         {
             "type": "text",
-            "text": json.dumps(lesson_data)
+            "text": json.dumps(filtered_data, ensure_ascii=False, indent=2)
         }
     ]
 
@@ -46,9 +66,7 @@ def create_danish_lesson(lesson_data: Dict[str, Any], prompt_type: str, prompt_m
         ]
     )
     
-    # Handle the response content - get the text from the first content item
     if isinstance(message.content, list) and len(message.content) > 0:
-        # Assuming the first content item contains the CSV data
         first_content = message.content[0]
         if hasattr(first_content, 'text'):
             return first_content.text
@@ -57,57 +75,82 @@ def create_danish_lesson(lesson_data: Dict[str, Any], prompt_type: str, prompt_m
     
     raise ValueError("Unexpected response format from Claude")
 
-def process_lessons_from_config(
-    config_path: str,
-    output_dir: str = "lessons",
-    prompts_dir: str = "lesson_builder/prompts"
+def process_daily_plan(
+    plan_file: Path,
+    prompts_dir: str = "lesson_builder/prompts",
+    test_mode: bool = False
 ) -> None:
     """
-    Reads lessons from config file and generates CSV files in specified order.
+    Process a single daily plan file and generate outputs for each activity type.
+    
+    Args:
+        plan_file: Path to the daily plan JSON file
+        prompts_dir: Directory containing prompt configurations
     """
     prompt_manager = PromptManager(prompts_dir)
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
     
-    with open(config_path, 'r', encoding='utf-8') as f:
-        config = json.load(f)
+    # Load lesson data
+    with open(plan_file, 'r', encoding='utf-8') as f:
+        lesson_data = json.load(f)
     
-    lessons = config["lessons"]
-    print(f"Found {len(lessons)} lessons in config file")
+    # Determine paths based on the plan file location
+    # Example path: danish/part_01/lesson_01/daily_plans/tuesday_02.json
+    lesson_dir = plan_file.parent.parent  # Go up from daily_plans to lesson_01
+    transcripts_dir = lesson_dir / "daily_transcripts"
+    transcripts_dir.mkdir(exist_ok=True)
     
-    for i, lesson in enumerate(lessons, 1):
-        lesson_num = lesson['lesson_number']
-        print(f"\nProcessing lesson {lesson_num} ({i}/{len(lessons)})")
-        
-        lesson_dir = Path(output_dir) / f"lesson_{str(lesson_num).replace('.', '_')}"
-        lesson_dir.mkdir(exist_ok=True)
-        
-        # Sort prompt sequence by order if needed (though JSON array order is preserved)
-        prompt_sequence = sorted(lesson['prompt_sequence'], key=lambda x: x['order'])
-        
-        # Process each prompt type in sequence
-        for prompt_config in prompt_sequence:
-            prompt_type = prompt_config['type']
-            try:
-                print(f"  Generating {prompt_type} version (step {prompt_config['order']})...")
-                print(f"  Description: {prompt_config['description']}")
+    # Get day from filename (e.g., "tuesday" from "tuesday_02.json")
+    day = plan_file.stem.split('_')[0].lower()
+    
+    # Process each activity type in the lesson structure
+    for idx, activity_type in enumerate(lesson_data['lesson_structure'], 1):
+        try:
+            print(f"  Generating {activity_type} version...")
+            
+            csv_content = create_danish_lesson(lesson_data, activity_type, prompt_manager, test_mode=test_mode)
+            
+            # Create filename using the day and activity
+            filename = f"{day}_{idx:02d}_{activity_type}.csv"
+            filepath = transcripts_dir / filename
+            
+            # Remove existing file if it exists
+            if filepath.exists():
+                filepath.unlink()
+            
+            # Write new content
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(csv_content)
                 
-                csv_content = create_danish_lesson(lesson, prompt_type, prompt_manager)
-                
-                # Create numbered filename to maintain order
-                filename = f"{prompt_config['order']:02d}_{prompt_type}.csv"
-                filepath = lesson_dir / filename
-                
-                with open(filepath, "w", encoding="utf-8") as f:
-                    f.write(csv_content)
-                    
-                print(f"  Successfully generated {filename}")
-                
-            except Exception as e:
-                print(f"  Error processing {prompt_type} version: {str(e)}")
-                continue
+            print(f"  Successfully generated {filename}")
+            
+        except Exception as e:
+            print(f"  Error processing {activity_type} version: {str(e)}")
+            continue
+
+def process_lesson_plans(base_dir: str = "danish", test_mode: bool = False) -> None:
+    """
+    Process all daily plan files in the Danish course structure.
+    
+    Args:
+        base_dir: Base directory for the Danish course
+    """
+    base_path = Path(base_dir)
+    
+    # Find all daily plan JSON files
+    plan_files = base_path.glob("**/daily_plans/*.json")
+    
+    for plan_file in sorted(plan_files):
+        print(f"\nProcessing daily plan: {plan_file.relative_to(base_path)}")
+        process_daily_plan(plan_file, test_mode=test_mode)
 
 if __name__ == "__main__":
-    config_path = "resources/lessons_config.json"
+    import argparse
     
-    # Process lessons from config file
-    process_lessons_from_config(config_path)
+    parser = argparse.ArgumentParser(description='Generate Danish lesson transcripts')
+    parser.add_argument('--test', action='store_true', help='Run in test mode (skip API calls)')
+    parser.add_argument('--base-dir', default='danish', help='Base directory for Danish course')
+    
+    args = parser.parse_args()
+    
+    # Process all daily plans
+    process_lesson_plans(base_dir=args.base_dir, test_mode=args.test)
