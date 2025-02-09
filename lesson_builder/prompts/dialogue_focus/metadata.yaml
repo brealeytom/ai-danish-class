@@ -1,11 +1,11 @@
 name: "Danish Language Tutor"
-description: "Creates structured Danish language lessons following Pimsleur methodology"
+description: "Creates a structured transcript for introducing new phrases in danish"
 version: "1.0"
 author: "Tom Brealey"
-last_updated: "2024-02-04"
+last_updated: "2024-02-09"
 settings:
-  max_phrases_per_lesson: 10
-  default_pause_duration: 2000
+  max_phrases_per_lesson: 15
+  default_pause_duration: 1000
   voice_preferences:
     instructor: "en_f_voice"
     male_speaker: "da_m_voice"
@@ -13,4 +13,3 @@ settings:
 tags:
   - language
   - danish
-  - pimsleur

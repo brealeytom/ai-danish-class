@@ -1,40 +1,43 @@
 {
     "input": {
-        "lesson_number": 3.3,
-        "title": "Hvad er din e-mailadresse?",
+        "lesson_number": 1.1,
+        "title": "Hvad hedder du?",
+        "day": "Tuesday",
         "recap_phrases": [
             {
-                "danish": "Hvad er hendes e-mailadresse?",
-                "english": "What is her email address?"
+                "danish": "Hej, jeg hedder Tom",
+                "english": "Hi, my name is Tom"
             },
             {
-                "danish": "Vil du have min e-mail?",
-                "english": "Would you like my email?"
+                "danish": "Hvad hedder du?",
+                "english": "What is your name?"
             },
             {
-                "danish": "Jeg skriver den lige i min telefon",
-                "english": "I'll just write it in my phone"
+                "danish": "Hvor kommer du fra?",
+                "english": "Where are you from?"
             }
         ],
         "target_phrases": [
             {
-                "danish": "Vil du sende den til mig?",
-                "english": "Will you send it to me?"
+                "danish": "Jeg kommer fra New Zealand",
+                "english": "I come from New Zealand"
             },
             {
-                "danish": "Ja, selvfølgelig",
-                "english": "Yes, of course"
+                "danish": "Er du ny her?",
+                "english": "Are you new here?"
             },
             {
-                "danish": "Det kan jeg desværre ikke huske",
-                "english": "Unfortunately, I can't remember"
-            },
-            {
-                "danish": "Jeg har den hjemme på min computer",
-                "english": "I have it at home on my computer"
+                "danish": "Ja, det er jeg",
+                "english": "Yes, I am"
             }
+        ],
+        "lesson_structure": [
+            "quick_review",
+            "dialogue_focus",
+            "word_chain",
+            "problem_solver",
+            "speed_challenge"
         ]
     },
-    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,\"Let's review some phrases about email addresses from our last lesson.\",0,1\n2,en,en_f_voice,\"Listen and repeat: What is her email address?\",0,1\n3,da,da_m_voice,\"Hvad er hendes e-mailadresse?\",2000,2\n4,en,en_f_voice,\"Now listen to how to ask: Would you like my email?\",0,1\n5,da,da_f_voice,\"Vil du have min e-mail?\",2000,2\n6,en,en_f_voice,\"Listen to this longer phrase: I'll just write it in my phone\",0,1\n7,da,da_m_voice,\"Jeg skriver den lige i min telefon\",3000,3\n8,en,en_f_voice,\"Let's practice these phrases together in a short dialogue.\",0,1\n9,da,da_f_voice,\"Vil du have min e-mail?\",3000,1\n10,da,da_m_voice,\"Jeg skriver den lige i min telefon\",3000,1"
+    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,Great practice! Now, let's learn how to respond to these questions.,0,1\n2,en,en_f_voice,When someone asks where you're from, you can say 'I come from New Zealand' like this:,0,1\n3,da,da_f_voice,Jeg kommer fra New Zealand,2000,3\n4,en,en_f_voice,Now, you might hear someone ask 'Are you new here?',0,1\n5,da,da_m_voice,Er du ny her?,2000,3\n6,en,en_f_voice,And you can respond with 'Yes, I am',0,1\n7,da,da_f_voice,Ja, det er jeg,2000,3\n8,en,en_f_voice,Now let's put it all together in a conversation. Listen to how these phrases are used:,0,1\n9,da,da_m_voice,Hej, jeg hedder Tom,3000,2\n10,da,da_f_voice,Hvad hedder du?,3000,2\n11,da,da_m_voice,Er du ny her?,3000,2\n12,da,da_f_voice,Ja, det er jeg,3000,2\n13,da,da_m_voice,Hvor kommer du fra?,3000,2\n14,da,da_f_voice,Jeg kommer fra New Zealand,3000,2\n15,en,en_f_voice,Let's practice saying these new phrases one more time:,0,1\n16,da,da_f_voice,Jeg kommer fra New Zealand,2000,2\n17,da,da_m_voice,Er du ny her?,2000,2\n18,da,da_f_voice,Ja, det er jeg,2000,2"
 }
-
