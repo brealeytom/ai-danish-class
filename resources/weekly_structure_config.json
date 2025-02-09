@@ -31,7 +31,7 @@
                 "quick_review",
                 "dialogue_focus",
                 "scenario_practise",
-                "problem_solver"
+                "pattern_detective"
             ]
         },
         {
@@ -49,7 +49,7 @@
             "lesson_structure": [
                 "quick_review",
                 "dialogue_focus",
-                "problem_solver",
+                "pattern_detective",
                 "speed_challenge"
             ]
         },
@@ -71,7 +71,7 @@
             "lesson_structure": [
                 "quick_review",
                 "dialogue_focus",
-                "problem_solver",
+                "speed_challenge",
                 "scenario_practise"
             ]
         },
