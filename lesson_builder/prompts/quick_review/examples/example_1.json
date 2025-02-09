@@ -1,22 +1,43 @@
 {
     "input": {
         "lesson_number": 1.1,
-        "lesson_title": "Hvad hedder du?",
+        "title": "Hvad hedder du?",
+        "day": "Tuesday",
         "recap_phrases": [
             {
-                "danish": "Hvad er hendes e-mailadresse?",
-                "english": "What is her email address?"
+                "danish": "Hej, jeg hedder Tom",
+                "english": "Hi, my name is Tom"
             },
             {
-                "danish": "Vil du have min e-mail?",
-                "english": "Would you like my email?"
+                "danish": "Hvad hedder du?",
+                "english": "What is your name?"
             },
             {
-                "danish": "Jeg skriver den lige i min telefon",
-                "english": "I'll just write it in my phone"
+                "danish": "Hvor kommer du fra?",
+                "english": "Where are you from?"
             }
+        ],
+        "target_phrases": [
+            {
+                "danish": "Jeg kommer fra New Zealand",
+                "english": "I come from New Zealand"
+            },
+            {
+                "danish": "Er du ny her?",
+                "english": "Are you new here?"
+            },
+            {
+                "danish": "Ja, det er jeg",
+                "english": "Yes, I am"
+            }
+        ],
+        "lesson_structure": [
+            "quick_review",
+            "story_based",  
+            "word_chain",
+            "problem_solver",
+            "speed_challenge"
         ]
     },
-    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,\"Let's review some phrases about email addresses from our last lesson.\",0,1\n2,en,en_f_voice,\"Listen and repeat: What is her email address?\",0,1\n3,da,da_m_voice,\"Hvad er hendes e-mailadresse?\",2000,2\n4,en,en_f_voice,\"Now listen to how to ask: Would you like my email?\",0,1\n5,da,da_f_voice,\"Vil du have min e-mail?\",2000,2\n6,en,en_f_voice,\"Listen to this longer phrase: I'll just write it in my phone\",0,1\n7,da,da_m_voice,\"Jeg skriver den lige i min telefon\",3000,3\n8,en,en_f_voice,\"Let's practice these phrases together in a short dialogue.\",0,1\n9,da,da_f_voice,\"Vil du have min e-mail?\",3000,1\n10,da,da_m_voice,\"Jeg skriver den lige i min telefon\",3000,1"
+    "output": "order_id,language,voice_id,text,delay,repeat\n1,\"en\",\"en_f_voice\",\"Let's quickly review some phrases from our last lesson.\",0,1\n2,\"en\",\"en_f_voice\",\"First, let's remember how to say 'Hi, my name is Tom'\",0,1\n3,\"da\",\"da_m_voice\",\"Hej, jeg hedder Tom\",2000,2\n4,\"en\",\"en_f_voice\",\"Now, 'What is your name?'\",0,1\n5,\"da\",\"da_f_voice\",\"Hvad hedder du?\",2000,2\n6,\"en\",\"en_f_voice\",\"And 'Where are you from?'\",0,1\n7,\"da\",\"da_m_voice\",\"Hvor kommer du fra?\",2000,2\n8,\"en\",\"en_f_voice\",\"Now let's practice these phrases together. Listen and repeat:\",3000,1\n9,\"da\",\"da_m_voice\",\"Hej, jeg hedder Tom\",3000,3\n10,\"da\",\"da_f_voice\",\"Hvad hedder du?\",3000,3\n11,\"da\",\"da_m_voice\",\"Hvor kommer du fra?\",3000,3"
 }
-
