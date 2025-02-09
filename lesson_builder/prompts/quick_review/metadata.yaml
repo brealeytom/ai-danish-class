@@ -1,5 +1,5 @@
-name: "Quick Review Section"
-description: "Creates a structured transcript for reviewing a set of phrases in danish for audio transcription"
+name: "Pattern Detective Section"
+description: "Creates a structured transcript for teaching danish using pattern recognition"
 version: "1.0"
 author: "Tom Brealey"
 last_updated: "2024-02-09"

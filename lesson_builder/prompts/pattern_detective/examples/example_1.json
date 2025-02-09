@@ -1,0 +1,43 @@
+{
+    "input": {
+        "lesson_number": 1.1,
+        "title": "Hvad hedder du?",
+        "day": "Tuesday",
+        "recap_phrases": [
+            {
+                "danish": "Hej, jeg hedder Tom",
+                "english": "Hi, my name is Tom"
+            },
+            {
+                "danish": "Hvad hedder du?",
+                "english": "What is your name?"
+            },
+            {
+                "danish": "Hvor kommer du fra?",
+                "english": "Where are you from?"
+            }
+        ],
+        "target_phrases": [
+            {
+                "danish": "Jeg kommer fra New Zealand",
+                "english": "I come from New Zealand"
+            },
+            {
+                "danish": "Er du ny her?",
+                "english": "Are you new here?"
+            },
+            {
+                "danish": "Ja, det er jeg",
+                "english": "Yes, I am"
+            }
+        ],
+        "lesson_structure": [
+            "quick_review",
+            "dialogue_focus",
+            "word_chain",
+            "problem_solver",
+            "speed_challenge"
+        ]
+    },
+    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,Let's practice some pattern variations with these phrases.,0,1\n2,en,en_f_voice,We'll see how small changes can help you express different ideas.,0,1\n3,en,en_f_voice,\"First, let's learn: I come from New Zealand\",0,1\n4,da,da_m_voice,Jeg kommer fra New Zealand,2000,2\n5,en,en_f_voice,You can replace the location with other places:,0,1\n6,en,en_f_voice,I come from Denmark,0,1\n7,da,da_m_voice,Jeg kommer fra Danmark,2000,2\n8,en,en_f_voice,I come from England,0,1\n9,da,da_m_voice,Jeg kommer fra England,2000,2\n10,en,en_f_voice,I come from China,0,1\n11,da,da_m_voice,Jeg kommer fra Kina,2000,2\n12,en,en_f_voice,Let's try a quick dialogue:,0,1\n13,da,da_f_voice,Jeg kommer fra New Zealand,2000,1\n14,da,da_m_voice,Er du ny her?,3000,1\n15,en,en_f_voice,\"This means, Are you new here?\",0,1\n16,da,da_m_voice,Er du ny her?,2000,2\n17,en,en_f_voice,You can modify this question pattern:,0,1\n18,en,en_f_voice,Are you Danish?,0,1\n19,da,da_m_voice,Er du dansk?,2000,2\n20,en,en_f_voice,Are you a teacher?,0,1\n21,da,da_m_voice,Er du lærer?,2000,2\n22,en,en_f_voice,Let's continue the dialogue:,0,1\n23,da,da_f_voice,Jeg kommer fra New Zealand,2000,1\n24,da,da_f_voice,Er du ny her?,2000,1\n25,da,da_m_voice,\"Ja, det er jeg\",3000,1\n26,en,en_f_voice,\"This means: Yes, I am\",0,1\n27,da,da_m_voice,\"Ja, det er jeg\",2000,2\n28,en,en_f_voice,Practice these response patterns:,0,1\n29,en,en_f_voice,This means: No, I am not,0,1\n30,da,da_m_voice,\"Nej, det er jeg ikke\",2000,2\n31,en,en_f_voice,\"Or, you can respond: Yes, of course\",0,1\n32,da,da_m_voice,\"Ja, selvfølgelig\",2000,2\n33,en,en_f_voice,\"Now, let's practice some of these variations together.\",0,1\n34,da,da_f_voice,Jeg kommer fra Danmark,2000,1\n35,da,da_m_voice,Er du dansk?,2000,1\n36,da,da_f_voice,\"Ja, selvfølgelig\",2000,1\n37,en,en_f_voice,And again,0,1\n38,da,da_f_voice,Jeg kommer fra Kina,2000,1\n39,da,da_m_voice,Er du lærer?,2000,1\n40,da,da_f_voice,\"Nej, det er jeg ikke\",2000,1"
+}
