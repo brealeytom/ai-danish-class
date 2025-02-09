@@ -11,7 +11,7 @@
             "lesson_structure": [
                 "dialogue_focus",
                 "pattern_detective",
-                "memory_master",
+                "story_based",
                 "speed_challenge"
             ]
         },
@@ -29,10 +29,9 @@
             ],
             "lesson_structure": [
                 "quick_review",
+                "dialogue_focus",
                 "story_based",
-                "word_chain",
-                "problem_solver",
-                "speed_challenge"
+                "problem_solver"
             ]
         },
         {
@@ -49,10 +48,9 @@
             ],
             "lesson_structure": [
                 "quick_review",
-                "scenario_practise",
+                "dialogue_focus",
                 "problem_solver",
-                "memory_master",
-                "pattern_detective"
+                "speed_challenge"
             ]
         },
         {
@@ -73,9 +71,8 @@
             "lesson_structure": [
                 "quick_review",
                 "dialogue_focus",
-                "memory_master",
-                "word_chain",
-                "speed_challenge"
+                "problem_solver",
+                "scenario_practise"
             ]
         },
         {
@@ -95,8 +92,7 @@
             ],
             "lesson_structure": [
                 "quick_review",
-                "scenario_practise",
-                "problem_solver",
+                "dialogue_focus",
                 "pattern_detective",
                 "speed_challenge"
             ]
