@@ -82,6 +82,7 @@ def process_daily_plan(
 ) -> None:
     """
     Process a single daily plan file and generate outputs for each activity type.
+    Skip files that already exist instead of overwriting them.
     
     Args:
         plan_file: Path to the daily plan JSON file
@@ -94,7 +95,6 @@ def process_daily_plan(
         lesson_data = json.load(f)
     
     # Determine paths based on the plan file location
-    # Example path: danish/part_01/lesson_01/daily_plans/tuesday_02.json
     lesson_dir = plan_file.parent.parent  # Go up from daily_plans to lesson_01
     transcripts_dir = lesson_dir / "daily_transcripts"
     transcripts_dir.mkdir(exist_ok=True)
@@ -105,17 +105,17 @@ def process_daily_plan(
     # Process each activity type in the lesson structure
     for idx, activity_type in enumerate(lesson_data['lesson_structure'], 1):
         try:
-            print(f"  Generating {activity_type} version...")
-            
-            csv_content = create_danish_lesson(lesson_data, activity_type, prompt_manager, test_mode=test_mode)
-            
             # Create filename using the day and activity
             filename = f"{day}_{idx:02d}_{activity_type}.csv"
             filepath = transcripts_dir / filename
             
-            # Remove existing file if it exists
+            # Skip if file already exists
             if filepath.exists():
-                filepath.unlink()
+                print(f"  Skipping {filename} - file already exists")
+                continue
+                
+            print(f"  Generating {activity_type} version...")
+            csv_content = create_danish_lesson(lesson_data, activity_type, prompt_manager, test_mode=test_mode)
             
             # Write new content
             with open(filepath, "w", encoding="utf-8") as f:
