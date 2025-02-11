@@ -199,6 +199,204 @@
                     "english": "Get home safe!"
                 }
             ]
+        },
+        {
+            "lesson_number": 4.1,
+            "title": "Hvad skal du have?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad skal du have?",
+                    "english": "What would you like to have?"
+                },
+                {
+                    "danish": "Jeg skal have en kaffe",
+                    "english": "I would like a coffee"
+                },
+                {
+                    "danish": "Vil du have noget at spise?",
+                    "english": "Would you like something to eat?"
+                },
+                {
+                    "danish": "Hvad har I i dag?",
+                    "english": "What do you have today?"
+                },
+                {
+                    "danish": "Skal det være stort eller lille?",
+                    "english": "Would you like large or small?"
+                },
+                {
+                    "danish": "Jeg vil gerne betale",
+                    "english": "I would like to pay"
+                },
+                {
+                    "danish": "Har I vegetariske retter?",
+                    "english": "Do you have vegetarian dishes?"
+                },
+                {
+                    "danish": "Det bliver to hundrede kroner",
+                    "english": "That will be two hundred kroner"
+                },
+                {
+                    "danish": "Kan jeg betale med kort?",
+                    "english": "Can I pay by card?"
+                },
+                {
+                    "danish": "Jeg vil gerne have regningen",
+                    "english": "I would like the bill"
+                },
+                {
+                    "danish": "Er der noget andet?",
+                    "english": "Is there anything else?"
+                },
+                {
+                    "danish": "Kan jeg få menuen?",
+                    "english": "Can I have the menu?"
+                },
+                {
+                    "danish": "Det smager godt",
+                    "english": "It tastes good"
+                },
+                {
+                    "danish": "Undskyld, jeg vil gerne bestille",
+                    "english": "Excuse me, I would like to order"
+                },
+                {
+                    "danish": "Tak for mad",
+                    "english": "Thanks for the food"
+                }
+            ]
+        },
+        {
+            "lesson_number": 4.2,
+            "title": "Hvad Koster Sofaen?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad koster den?",
+                    "english": "How much is it?"
+                },
+                {
+                    "danish": "Det er for dyrt",
+                    "english": "That's too expensive"
+                },
+                {
+                    "danish": "Har I noget billigere?",
+                    "english": "Do you have anything cheaper?"
+                },
+                {
+                    "danish": "Hvor mange skal du have?",
+                    "english": "How many do you need?"
+                },
+                {
+                    "danish": "Kan du lide den?",
+                    "english": "Do you like it?"
+                },
+                {
+                    "danish": "Det er billigt",
+                    "english": "That's cheap"
+                },
+                {
+                    "danish": "Mangler du mere?",
+                    "english": "Do you need anything else?"
+                },
+                {
+                    "danish": "Hvor er de henne?",
+                    "english": "Where are they?"
+                },
+                {
+                    "danish": "Det koster fem hundrede kroner",
+                    "english": "It costs five hundred kroner"
+                },
+                {
+                    "danish": "Jeg mangler et bord",
+                    "english": "I need a table"
+                },
+                {
+                    "danish": "De er på side ti",
+                    "english": "They are on page ten"
+                },
+                {
+                    "danish": "Det er perfekt",
+                    "english": "That's perfect"
+                },
+                {
+                    "danish": "Nej, det er fint",
+                    "english": "No, that's fine"
+                },
+                {
+                    "danish": "Jeg er ikke så vild med den",
+                    "english": "I'm not so keen on it"
+                },
+                {
+                    "danish": "De koster stykket",
+                    "english": "They cost each"
+                }
+            ]
+        },
+        {
+            "lesson_number": 4.3,
+            "title": "Har I nogen tomater?",
+            "target_phrases": [
+                {
+                    "danish": "Har I nogen tomater?",
+                    "english": "Do you have any tomatoes?"
+                },
+                {
+                    "danish": "Vi har desværre ikke mere",
+                    "english": "Unfortunately we don't have any more"
+                },
+                {
+                    "danish": "Hvad vil du have i din salat?",
+                    "english": "What would you like in your salad?"
+                },
+                {
+                    "danish": "Jeg vil gerne have noget spinat",
+                    "english": "I would like some spinach"
+                },
+                {
+                    "danish": "Ikke så meget, tak",
+                    "english": "Not too much, please"
+                },
+                {
+                    "danish": "Hvor mange vil du have?",
+                    "english": "How many would you like?"
+                },
+                {
+                    "danish": "Det var det hele",
+                    "english": "That's everything"
+                },
+                {
+                    "danish": "Vil du købe noget mælk?",
+                    "english": "Will you buy some milk?"
+                },
+                {
+                    "danish": "Er det ok?",
+                    "english": "Is that okay?"
+                },
+                {
+                    "danish": "Jeg har to hundrede kroner",
+                    "english": "I have two hundred kroner"
+                },
+                {
+                    "danish": "Her er din byttepenge",
+                    "english": "Here is your change"
+                },
+                {
+                    "danish": "Bare en, tak",
+                    "english": "Just one, please"
+                },
+                {
+                    "danish": "Jeg er sulten",
+                    "english": "I am hungry"
+                },
+                {
+                    "danish": "Vi har ikke noget mælk",
+                    "english": "We don't have any milk"
+                },
+                {
+                    "danish": "Ellers andet?",
+                    "english": "Anything else?"
+                }
+            ]
         }
     ]
 }
