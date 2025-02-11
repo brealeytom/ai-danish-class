@@ -1,20 +1,20 @@
 {
   "en_f_voice": {
-    "id": "pFZP5JQG7iQjIQuC4Bku",
+    "id": "uh5qBlKfjqFl7XXhFnJi",
     "settings": {
       "stability": 0.5,
       "similarity_boost": 0.9
     }
   },
   "da_f_voice": {
-    "id": "XB0fDUnXU5powFXDhCwa",
+    "id": "4RklGmuxoAskAbGXplXN",
     "settings": {
       "stability": 0.7,
       "similarity_boost": 0.8
     }
   },
   "da_m_voice": {
-    "id": "IKne3meq5aSn9XLyUdCD",
+    "id": "V34B5u5UbLdNJVEkcgXp",
     "settings": {
       "stability": 0.7,
       "similarity_boost": 0.8
