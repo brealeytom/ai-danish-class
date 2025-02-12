@@ -1,0 +1,101 @@
+{
+    "lessons": [
+        {
+            "day": "Monday",
+            "recap_phrases": [],
+            "target_phrases": [
+                1,
+                2,
+                3
+            ],
+            "lesson_structure": [
+                "dialogue_focus",
+                "pattern_detective",
+                "scenario_practise",
+                "speed_challenge"
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "recap_phrases": [
+                1,
+                2,
+                3
+            ],
+            "target_phrases": [
+                4,
+                5,
+                6
+            ],
+            "lesson_structure": [
+                "quick_review",
+                "dialogue_focus",
+                "scenario_practise",
+                "pattern_detective"
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "recap_phrases": [
+                4,
+                5,
+                6
+            ],
+            "target_phrases": [
+                7,
+                8,
+                9
+            ],
+            "lesson_structure": [
+                "quick_review",
+                "dialogue_focus",
+                "pattern_detective",
+                "speed_challenge"
+            ]
+        },
+        {
+            "day": "Thursday",
+            "recap_phrases": [
+                1,
+                2,
+                3,
+                7,
+                8,
+                9
+            ],
+            "target_phrases": [
+                10,
+                11,
+                12
+            ],
+            "lesson_structure": [
+                "quick_review",
+                "dialogue_focus",
+                "speed_challenge",
+                "scenario_practise"
+            ]
+        },
+        {
+            "day": "Friday",
+            "recap_phrases": [
+                4,
+                5,
+                6,
+                10,
+                11,
+                12
+            ],
+            "target_phrases": [
+                13,
+                14,
+                15
+            ],
+            "lesson_structure": [
+                "quick_review",
+                "dialogue_focus",
+                "pattern_detective",
+                "speed_challenge"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+# Ignore audio cache directory
+audio_cache/
+lesson_builder/lesson_audio/
+lessons
+output_chucks
+danish

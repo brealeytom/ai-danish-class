@@ -1,0 +1,15 @@
+name: "Speed Challenge"
+description: "A final speed memory recall at the end of the lesson"
+version: "1.0"
+author: "Tom Brealey"
+last_updated: "2024-02-09"
+settings:
+  max_phrases_per_lesson: 15
+  default_pause_duration: 1000
+  voice_preferences:
+    instructor: "en_f_voice"
+    male_speaker: "da_m_voice"
+    female_speaker: "da_f_voice"
+tags:
+  - language
+  - danish
