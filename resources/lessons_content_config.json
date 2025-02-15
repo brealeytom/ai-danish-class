@@ -201,6 +201,402 @@
             ]
         },
         {
+            "lesson_number": 2.1,
+            "title": "Må jeg få din adresse?",
+            "target_phrases": [
+                {
+                    "danish": "Tillykke med din lejlighed!",
+                    "english": "Congratulations on your apartment!"
+                },
+                {
+                    "danish": "Vil du ikke komme og se den?",
+                    "english": "Would you like to come and see it?"
+                },
+                {
+                    "danish": "Hvad er din adresse?",
+                    "english": "What is your address?"
+                },
+                {
+                    "danish": "Hvordan staver man det?",
+                    "english": "How do you spell that?"
+                },
+                {
+                    "danish": "Til højre",
+                    "english": "To the right"
+                },
+                {
+                    "danish": "Til venstre",
+                    "english": "To the left"
+                },
+                {
+                    "danish": "Vil du have mit postnummer?",
+                    "english": "Would you like my postal code?"
+                },
+                {
+                    "danish": "Vi ses på søndag",
+                    "english": "See you on Sunday"
+                },
+                {
+                    "danish": "Hvornår på søndag?",
+                    "english": "What time on Sunday?"
+                },
+                {
+                    "danish": "Hvad med klokken femten?",
+                    "english": "How about three o'clock?"
+                },
+                {
+                    "danish": "Det lyder fint",
+                    "english": "That sounds good"
+                },
+                {
+                    "danish": "Jeg skriver det lige",
+                    "english": "I'll just write that down"
+                },
+                {
+                    "danish": "Øjeblik",
+                    "english": "Just a moment"
+                },
+                {
+                    "danish": "Jeg har et møde nu",
+                    "english": "I have a meeting now"
+                },
+                {
+                    "danish": "Vi ses",
+                    "english": "See you"
+                }
+            ]
+        },
+        {
+            "lesson_number": 2.2,
+            "title": "Hvor mange søskende har du?",
+            "target_phrases": [
+                {
+                    "danish": "Er du gift?",
+                    "english": "Are you married?"
+                },
+                {
+                    "danish": "Ja, det er jeg",
+                    "english": "Yes, I am"
+                },
+                {
+                    "danish": "Det er vores bryllupsrejse",
+                    "english": "It's our honeymoon"
+                },
+                {
+                    "danish": "Jeg har været gift",
+                    "english": "I have been married"
+                },
+                {
+                    "danish": "Er du skilt?",
+                    "english": "Are you divorced?"
+                },
+                {
+                    "danish": "Jeg bor alene",
+                    "english": "I live alone"
+                },
+                {
+                    "danish": "Mine to børn",
+                    "english": "My two children"
+                },
+                {
+                    "danish": "Hvor gamle er de?",
+                    "english": "How old are they?"
+                },
+                {
+                    "danish": "Min søn er femten",
+                    "english": "My son is fifteen"
+                },
+                {
+                    "danish": "Min datter er tretten",
+                    "english": "My daughter is thirteen"
+                },
+                {
+                    "danish": "Har I nogen børn?",
+                    "english": "Do you have any children?"
+                },
+                {
+                    "danish": "Jeg vil gerne have børn",
+                    "english": "I would like to have children"
+                },
+                {
+                    "danish": "Hvor gammel er du?",
+                    "english": "How old are you?"
+                },
+                {
+                    "danish": "Min mand er tredive",
+                    "english": "My husband is thirty"
+                },
+                {
+                    "danish": "I har masser af tid",
+                    "english": "You have plenty of time"
+                }
+            ]
+        },
+        {
+            "lesson_number": 2.3,
+            "title": "Bor du i lejlighed?",
+            "target_phrases": [
+                {
+                    "danish": "Kom ind",
+                    "english": "Come in"
+                },
+                {
+                    "danish": "Det er en stor lejlighed",
+                    "english": "It's a big apartment"
+                },
+                {
+                    "danish": "Hvor mange værelser har du?",
+                    "english": "How many rooms do you have?"
+                },
+                {
+                    "danish": "Jeg har fire værelser",
+                    "english": "I have four rooms"
+                },
+                {
+                    "danish": "Et lille soveværelse",
+                    "english": "A small bedroom"
+                },
+                {
+                    "danish": "Et gæsteværelse",
+                    "english": "A guest room"
+                },
+                {
+                    "danish": "Vil du se lejligheden?",
+                    "english": "Would you like to see the apartment?"
+                },
+                {
+                    "danish": "Er du glad for den?",
+                    "english": "Are you happy with it?"
+                },
+                {
+                    "danish": "Jeg bor i bofællesskab",
+                    "english": "I live in a shared house"
+                },
+                {
+                    "danish": "Hvor mange er I?",
+                    "english": "How many of you are there?"
+                },
+                {
+                    "danish": "Vi er syv i alt",
+                    "english": "We are seven in total"
+                },
+                {
+                    "danish": "Hvor længe har du boet der?",
+                    "english": "How long have you lived there?"
+                },
+                {
+                    "danish": "I tre år",
+                    "english": "For three years"
+                },
+                {
+                    "danish": "Dit eget køkken",
+                    "english": "Your own kitchen"
+                },
+                {
+                    "danish": "Det er billigt",
+                    "english": "It's cheap"
+                }
+            ]
+        },
+        {
+            "lesson_number": 3.1,
+            "title": "Hvor arbejder du henne?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad laver du?",
+                    "english": "What do you do?"
+                },
+                {
+                    "danish": "Jeg er forsker",
+                    "english": "I am a researcher"
+                },
+                {
+                    "danish": "Hvor arbejder du henne?",
+                    "english": "Where do you work?"
+                },
+                {
+                    "danish": "Er du glad for det?",
+                    "english": "Are you happy with it?"
+                },
+                {
+                    "danish": "Jeg er studerende",
+                    "english": "I am a student"
+                },
+                {
+                    "danish": "Jeg læser transport og logistik",
+                    "english": "I study transport and logistics"
+                },
+                {
+                    "danish": "Hvor studerer du henne?",
+                    "english": "Where do you study?"
+                },
+                {
+                    "danish": "Det lyder interessant",
+                    "english": "That sounds interesting"
+                },
+                {
+                    "danish": "Jeg er lidt træt af det",
+                    "english": "I'm a bit tired of it"
+                },
+                {
+                    "danish": "Jeg har også et job",
+                    "english": "I also have a job"
+                },
+                {
+                    "danish": "Jeg arbejder på en restaurant",
+                    "english": "I work at a restaurant"
+                },
+                {
+                    "danish": "I weekenden",
+                    "english": "On the weekend"
+                },
+                {
+                    "danish": "Det er jeg rigtig glad for",
+                    "english": "I'm really happy about that"
+                },
+                {
+                    "danish": "Her i København",
+                    "english": "Here in Copenhagen"
+                },
+                {
+                    "danish": "Hvad med dig?",
+                    "english": "What about you?"
+                }
+            ]
+        },
+        {
+            "lesson_number": 3.2,
+            "title": "Går du stadig på universitetet?",
+            "target_phrases": [
+                {
+                    "danish": "Det er længe siden!",
+                    "english": "It's been a long time!"
+                },
+                {
+                    "danish": "Hvordan går det?",
+                    "english": "How's it going?"
+                },
+                {
+                    "danish": "Det går rigtig godt",
+                    "english": "It's going really well"
+                },
+                {
+                    "danish": "Hvad laver du nu?",
+                    "english": "What are you doing now?"
+                },
+                {
+                    "danish": "Jeg studerer it-pædagogik",
+                    "english": "I study IT education"
+                },
+                {
+                    "danish": "Hvor længe har du studeret?",
+                    "english": "How long have you been studying?"
+                },
+                {
+                    "danish": "I fem måneder",
+                    "english": "For five months"
+                },
+                {
+                    "danish": "Det er rigtig interessant",
+                    "english": "It's really interesting"
+                },
+                {
+                    "danish": "Han har ikke noget arbejde",
+                    "english": "He doesn't have a job"
+                },
+                {
+                    "danish": "Han har søgt job",
+                    "english": "He has been looking for a job"
+                },
+                {
+                    "danish": "Arbejder du stadig i",
+                    "english": "Do you still work at"
+                },
+                {
+                    "danish": "Jeg søger nyt job",
+                    "english": "I'm looking for a new job"
+                },
+                {
+                    "danish": "Held og lykke med det",
+                    "english": "Good luck with that"
+                },
+                {
+                    "danish": "Jeg skal på arbejde",
+                    "english": "I have to go to work"
+                },
+                {
+                    "danish": "Hav det godt",
+                    "english": "Take care"
+                }
+            ]
+        },
+        {
+            "lesson_number": 3.3,
+            "title": "Hvad er din email adresse?",
+            "target_phrases": [
+                {
+                    "danish": "Er du glad for tegnestuen?",
+                    "english": "Are you happy with the architecture firm?"
+                },
+                {
+                    "danish": "De er superprofessionelle",
+                    "english": "They are super professional"
+                },
+                {
+                    "danish": "Jeg har ikke fundet en praktikplads",
+                    "english": "I haven't found an internship"
+                },
+                {
+                    "danish": "Vi har rigtig travlt",
+                    "english": "We are really busy"
+                },
+                {
+                    "danish": "Du kan ringe eller skrive en e-mail",
+                    "english": "You can call or write an email"
+                },
+                {
+                    "danish": "Hvad hedder hun til efternavn?",
+                    "english": "What is her surname?"
+                },
+                {
+                    "danish": "Er det med å?",
+                    "english": "Is it with å?"
+                },
+                {
+                    "danish": "Det kan jeg desværre ikke huske",
+                    "english": "Unfortunately I can't remember"
+                },
+                {
+                    "danish": "Vil du sende den til mig?",
+                    "english": "Will you send it to me?"
+                },
+                {
+                    "danish": "Jeg skriver den lige i min telefon",
+                    "english": "I'll just write it in my phone"
+                },
+                {
+                    "danish": "Må jeg få dit mobilnummer?",
+                    "english": "Can I have your mobile number?"
+                },
+                {
+                    "danish": "Jeg skriver til dig i aften",
+                    "english": "I'll write to you tonight"
+                },
+                {
+                    "danish": "Har de en hjemmeside?",
+                    "english": "Do they have a website?"
+                },
+                {
+                    "danish": "Tak for hjælpen",
+                    "english": "Thanks for the help"
+                },
+                {
+                    "danish": "Det var så lidt",
+                    "english": "You're welcome"
+                }
+            ]
+        },
+        {
             "lesson_number": 4.1,
             "title": "Hvad skal du have?",
             "target_phrases": [
@@ -395,6 +791,402 @@
                 {
                     "danish": "Ellers andet?",
                     "english": "Anything else?"
+                }
+            ]
+        },
+        {
+            "lesson_number": 5.1,
+            "title": "Hvad laver du efter arbejde?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad er klokken?",
+                    "english": "What time is it?"
+                },
+                {
+                    "danish": "Kvart over fire",
+                    "english": "Quarter past four"
+                },
+                {
+                    "danish": "Jeg går til italiensk",
+                    "english": "I take Italian classes"
+                },
+                {
+                    "danish": "Jeg kommer altid for sent",
+                    "english": "I'm always late"
+                },
+                {
+                    "danish": "Det er rigtig sjovt",
+                    "english": "It's really fun"
+                },
+                {
+                    "danish": "Går du til noget?",
+                    "english": "Do you take any classes?"
+                },
+                {
+                    "danish": "Jeg har ikke tid",
+                    "english": "I don't have time"
+                },
+                {
+                    "danish": "Hvad laver du om aftenen?",
+                    "english": "What do you do in the evening?"
+                },
+                {
+                    "danish": "Ikke noget særligt",
+                    "english": "Nothing special"
+                },
+                {
+                    "danish": "Som regel",
+                    "english": "Usually"
+                },
+                {
+                    "danish": "Jeg går i biografen",
+                    "english": "I go to the cinema"
+                },
+                {
+                    "danish": "Jeg spiller computerspil",
+                    "english": "I play computer games"
+                },
+                {
+                    "danish": "I weekenden slapper jeg af",
+                    "english": "On weekends I relax"
+                },
+                {
+                    "danish": "Det lyder hårdt",
+                    "english": "That sounds tough"
+                },
+                {
+                    "danish": "Jeg elsker karate",
+                    "english": "I love karate"
+                }
+            ]
+        },
+        {
+            "lesson_number": 5.2,
+            "title": "Hvad lavede du i går?",
+            "target_phrases": [
+                {
+                    "danish": "Det var hårdt",
+                    "english": "That was hard"
+                },
+                {
+                    "danish": "Jeg er dødtræt",
+                    "english": "I'm exhausted"
+                },
+                {
+                    "danish": "Var du her i mandags?",
+                    "english": "Were you here on Monday?"
+                },
+                {
+                    "danish": "Hvorfor var du ikke til træning?",
+                    "english": "Why weren't you at training?"
+                },
+                {
+                    "danish": "Jeg havde besøg",
+                    "english": "I had visitors"
+                },
+                {
+                    "danish": "Vi spillede volleyball",
+                    "english": "We played volleyball"
+                },
+                {
+                    "danish": "Gik du også til volleyball?",
+                    "english": "Did you also take volleyball?"
+                },
+                {
+                    "danish": "Hvad lavede I?",
+                    "english": "What did you do?"
+                },
+                {
+                    "danish": "Vi så nogle videoinstallationer",
+                    "english": "We saw some video installations"
+                },
+                {
+                    "danish": "Vi spiste på en restaurant",
+                    "english": "We ate at a restaurant"
+                },
+                {
+                    "danish": "Det lyder ikke dårligt",
+                    "english": "That doesn't sound bad"
+                },
+                {
+                    "danish": "Vi var i biografen",
+                    "english": "We were at the cinema"
+                },
+                {
+                    "danish": "Hvad så I?",
+                    "english": "What did you watch?"
+                },
+                {
+                    "danish": "Var den god?",
+                    "english": "Was it good?"
+                },
+                {
+                    "danish": "Jeg smutter",
+                    "english": "I'm leaving"
+                }
+            ]
+        },
+        {
+            "lesson_number": 5.3,
+            "title": "Er du på cykel?",
+            "target_phrases": [
+                {
+                    "danish": "Jeg kommer for sent",
+                    "english": "I'm coming late"
+                },
+                {
+                    "danish": "Det gør ikke noget",
+                    "english": "It doesn't matter"
+                },
+                {
+                    "danish": "Er du på cykel?",
+                    "english": "Are you on bike?"
+                },
+                {
+                    "danish": "Jeg er med bus",
+                    "english": "I'm taking the bus"
+                },
+                {
+                    "danish": "Min cykel punkterede",
+                    "english": "My bike got a flat tire"
+                },
+                {
+                    "danish": "Hvor irriterende",
+                    "english": "How annoying"
+                },
+                {
+                    "danish": "Cykler du altid på arbejde?",
+                    "english": "Do you always bike to work?"
+                },
+                {
+                    "danish": "Det er forskelligt",
+                    "english": "It varies"
+                },
+                {
+                    "danish": "Det kommer an på vejret",
+                    "english": "It depends on the weather"
+                },
+                {
+                    "danish": "Vi kører kun i den",
+                    "english": "We only drive it"
+                },
+                {
+                    "danish": "Vi tager altid toget",
+                    "english": "We always take the train"
+                },
+                {
+                    "danish": "Vi har en båd",
+                    "english": "We have a boat"
+                },
+                {
+                    "danish": "Om sommeren",
+                    "english": "In the summer"
+                },
+                {
+                    "danish": "Vil du med ud og sejle?",
+                    "english": "Do you want to come sailing?"
+                },
+                {
+                    "danish": "Skal du have kaffe?",
+                    "english": "Would you like coffee?"
+                }
+            ]
+        },
+        {
+            "lesson_number": 6.1,
+            "title": "Hvad skal du lave i aften?",
+            "target_phrases": [
+                {
+                    "danish": "Han er kedelig",
+                    "english": "He is boring"
+                },
+                {
+                    "danish": "Det er ikke interessant mere",
+                    "english": "It's not interesting anymore"
+                },
+                {
+                    "danish": "Kommer du til fødselsdagen?",
+                    "english": "Are you coming to the birthday?"
+                },
+                {
+                    "danish": "Jeg skal på arbejde",
+                    "english": "I have to work"
+                },
+                {
+                    "danish": "Jeg har ikke nogen planer",
+                    "english": "I don't have any plans"
+                },
+                {
+                    "danish": "Vil du med hjem til mig?",
+                    "english": "Do you want to come to my place?"
+                },
+                {
+                    "danish": "Vi skal se en film",
+                    "english": "We're going to watch a movie"
+                },
+                {
+                    "danish": "Jeg har lånt en film",
+                    "english": "I borrowed a movie"
+                },
+                {
+                    "danish": "Det kan jeg ikke huske",
+                    "english": "I can't remember"
+                },
+                {
+                    "danish": "Han siger den er god",
+                    "english": "He says it's good"
+                },
+                {
+                    "danish": "Hvornår skal jeg komme?",
+                    "english": "When should I come?"
+                },
+                {
+                    "danish": "Efter timen",
+                    "english": "After class"
+                },
+                {
+                    "danish": "Vi kan spise en pizza",
+                    "english": "We can eat a pizza"
+                },
+                {
+                    "danish": "God idé",
+                    "english": "Good idea"
+                },
+                {
+                    "danish": "Vi ses i aften",
+                    "english": "See you tonight"
+                }
+            ]
+        },
+        {
+            "lesson_number": 6.2,
+            "title": "Har du nogensinde været på Louisiana?",
+            "target_phrases": [
+                {
+                    "danish": "Velbekomme!",
+                    "english": "Enjoy your meal!"
+                },
+                {
+                    "danish": "Hvor har du været henne?",
+                    "english": "Where have you been?"
+                },
+                {
+                    "danish": "Jeg har været hjemme hos",
+                    "english": "I have been at (someone's) home"
+                },
+                {
+                    "danish": "Vi skal aflevere vores projekt",
+                    "english": "We have to submit our project"
+                },
+                {
+                    "danish": "Det lyder hårdt",
+                    "english": "That sounds hard"
+                },
+                {
+                    "danish": "Bliver det godt?",
+                    "english": "Will it be good?"
+                },
+                {
+                    "danish": "Det håber jeg",
+                    "english": "I hope so"
+                },
+                {
+                    "danish": "Værsgo, tag noget mad",
+                    "english": "Please, help yourself to some food"
+                },
+                {
+                    "danish": "Tak for mad",
+                    "english": "Thanks for the food"
+                },
+                {
+                    "danish": "Jeg skal lige i bad",
+                    "english": "I need to take a shower"
+                },
+                {
+                    "danish": "Har du nogensinde været i?",
+                    "english": "Have you ever been to?"
+                },
+                {
+                    "danish": "Det lyder interessant",
+                    "english": "That sounds interesting"
+                },
+                {
+                    "danish": "Vil du ikke med en dag?",
+                    "english": "Would you like to come along one day?"
+                },
+                {
+                    "danish": "Det er en aftale",
+                    "english": "It's a deal"
+                },
+                {
+                    "danish": "Når I har afleveret projektet",
+                    "english": "When you have submitted the project"
+                }
+            ]
+        },
+        {
+            "lesson_number": 6.3,
+            "title": "Hvor i Danmark har du været?",
+            "target_phrases": [
+                {
+                    "danish": "Nu er der kaffe",
+                    "english": "The coffee is ready now"
+                },
+                {
+                    "danish": "Jeg har snart ferie",
+                    "english": "I have vacation soon"
+                },
+                {
+                    "danish": "Hvor skal du hen?",
+                    "english": "Where are you going?"
+                },
+                {
+                    "danish": "Det ved jeg ikke",
+                    "english": "I don't know"
+                },
+                {
+                    "danish": "Et sted i Danmark",
+                    "english": "Somewhere in Denmark"
+                },
+                {
+                    "danish": "Hvor i Danmark har du været?",
+                    "english": "Where in Denmark have you been?"
+                },
+                {
+                    "danish": "Har du nogensinde været i?",
+                    "english": "Have you ever been to?"
+                },
+                {
+                    "danish": "Er det en stor by?",
+                    "english": "Is it a big city?"
+                },
+                {
+                    "danish": "Der bor kun 8000 mennesker",
+                    "english": "Only 8000 people live there"
+                },
+                {
+                    "danish": "Det er en smuk by",
+                    "english": "It's a beautiful city"
+                },
+                {
+                    "danish": "Det er en gammel by",
+                    "english": "It's an old city"
+                },
+                {
+                    "danish": "Det lyder spændende",
+                    "english": "That sounds exciting"
+                },
+                {
+                    "danish": "Min søster bor i",
+                    "english": "My sister lives in"
+                },
+                {
+                    "danish": "Jeg har boet og arbejdet i",
+                    "english": "I have lived and worked in"
+                },
+                {
+                    "danish": "Jeg kan godt lide",
+                    "english": "I like"
                 }
             ]
         }
