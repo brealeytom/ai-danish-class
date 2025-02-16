@@ -33,11 +33,24 @@
         ],
         "lesson_structure": [
             "quick_review",
-            "story_based",  
+            "story_based",
             "word_chain",
             "problem_solver",
             "speed_challenge"
         ]
     },
-    "output": "order_id,language,voice_id,text,delay,repeat\n1,\"en\",\"en_f_voice\",\"Let's quickly review some phrases from our last lesson.\",0,1\n2,\"en\",\"en_f_voice\",\"First, let's remember how to say 'Hi, my name is Tom'\",0,1\n3,\"da\",\"da_m_voice\",\"Hej, jeg hedder Tom\",2000,2\n4,\"en\",\"en_f_voice\",\"Now, 'What is your name?'\",0,1\n5,\"da\",\"da_f_voice\",\"Hvad hedder du?\",2000,2\n6,\"en\",\"en_f_voice\",\"And 'Where are you from?'\",0,1\n7,\"da\",\"da_m_voice\",\"Hvor kommer du fra?\",2000,2\n8,\"en\",\"en_f_voice\",\"Now let's practice these phrases together. Listen and repeat:\",3000,1\n9,\"da\",\"da_m_voice\",\"Hej, jeg hedder Tom\",3000,3\n10,\"da\",\"da_f_voice\",\"Hvad hedder du?\",3000,3\n11,\"da\",\"da_m_voice\",\"Hvor kommer du fra?\",3000,3"
+    "output": [
+        ["order_id", "language", "voice_id", "text", "delay", "repeat"],
+        [1, "en", "en_f_voice", "Let's quickly review some phrases from our last lesson.", 0, 1],
+        [2, "en", "en_f_voice", "First, let's remember how to say 'Hi, my name is Tom'", 0, 1],
+        [3, "da", "da_m_voice", "Hej, jeg hedder Tom", 2000, 2],
+        [4, "en", "en_f_voice", "Now, 'What is your name?'", 0, 1],
+        [5, "da", "da_f_voice", "Hvad hedder du?", 2000, 2],
+        [6, "en", "en_f_voice", "And 'Where are you from?'", 0, 1],
+        [7, "da", "da_m_voice", "Hvor kommer du fra?", 2000, 2],
+        [8, "en", "en_f_voice", "Now let's practice these phrases together. Listen and repeat:", 3000, 1],
+        [9, "da", "da_m_voice", "Hej, jeg hedder Tom", 3000, 3],
+        [10, "da", "da_f_voice", "Hvad hedder du?", 3000, 3],
+        [11, "da", "da_m_voice", "Hvor kommer du fra?", 3000, 3]
+    ]
 }

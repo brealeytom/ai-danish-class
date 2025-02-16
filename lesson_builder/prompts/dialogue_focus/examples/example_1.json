@@ -39,5 +39,26 @@
             "speed_challenge"
         ]
     },
-    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,\"Great practice! Now, let's learn how to respond to these questions.\",0,1\n2,en,en_f_voice,\"When someone asks where you're from, you can say 'I come from New Zealand' like this:\",0,1\n3,da,da_f_voice,\"Jeg kommer fra New Zealand\",2000,3\n4,en,en_f_voice,\"Now, you might hear someone ask 'Are you new here?'\",0,1\n5,da,da_m_voice,\"Er du ny her?\",2000,3\n6,en,en_f_voice,\"And you can respond with 'Yes, I am'\",0,1\n7,da,da_f_voice,\"Ja, det er jeg\",2000,3\n8,en,en_f_voice,\"Now let's practice a conversation. Listen carefully:\",0,1\n9,da,da_m_voice,\"Hej, jeg hedder Tom\",3000,2\n10,da,da_m_voice,\"Hvad hedder du?\",3000,2\n11,da,da_f_voice,\"Jeg hedder Maria\",3000,2\n12,da,da_m_voice,\"Er du ny her?\",3000,2\n13,da,da_f_voice,\"Ja, det er jeg\",3000,2\n14,da,da_m_voice,\"Hvor kommer du fra?\",3000,2\n15,da,da_f_voice,\"Jeg kommer fra New Zealand\",3000,2\n16,en,en_f_voice,\"Great! Let's practice those phrases one more time:\",0,1\n17,da,da_f_voice,\"Jeg kommer fra New Zealand\",2000,2\n18,da,da_m_voice,\"Er du ny her?\",2000,2\n19,da,da_f_voice,\"Ja, det er jeg\",2000,2"
+    "output": [
+        ["order_id", "language", "voice_id", "text", "delay", "repeat"],
+        [1, "en", "en_f_voice", "Great practice! Now, let's learn how to respond to these questions.", 0, 1],
+        [2, "en", "en_f_voice", "When someone asks where you're from, you can say 'I come from New Zealand' like this:", 0, 1],
+        [3, "da", "da_f_voice", "Jeg kommer fra New Zealand", 2000, 3],
+        [4, "en", "en_f_voice", "Now, you might hear someone ask 'Are you new here?'", 0, 1],
+        [5, "da", "da_m_voice", "Er du ny her?", 2000, 3],
+        [6, "en", "en_f_voice", "And you can respond with 'Yes, I am'", 0, 1],
+        [7, "da", "da_f_voice", "Ja, det er jeg", 2000, 3],
+        [8, "en", "en_f_voice", "Now let's practice a conversation. Listen carefully:", 0, 1],
+        [9, "da", "da_m_voice", "Hej, jeg hedder Tom", 3000, 2],
+        [10, "da", "da_m_voice", "Hvad hedder du?", 3000, 2],
+        [11, "da", "da_f_voice", "Jeg hedder Maria", 3000, 2],
+        [12, "da", "da_m_voice", "Er du ny her?", 3000, 2],
+        [13, "da", "da_f_voice", "Ja, det er jeg", 3000, 2],
+        [14, "da", "da_m_voice", "Hvor kommer du fra?", 3000, 2],
+        [15, "da", "da_f_voice", "Jeg kommer fra New Zealand", 3000, 2],
+        [16, "en", "en_f_voice", "Great! Let's practice those phrases one more time:", 0, 1],
+        [17, "da", "da_f_voice", "Jeg kommer fra New Zealand", 2000, 2],
+        [18, "da", "da_m_voice", "Er du ny her?", 2000, 2],
+        [19, "da", "da_f_voice", "Ja, det er jeg", 2000, 2]
+    ]
 }
