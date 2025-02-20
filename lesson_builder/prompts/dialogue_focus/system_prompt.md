@@ -9,6 +9,17 @@ Create a CSV processing script that:
 4. Uses spaced repitition to introduce the new target phrases, explaining each phrase at the start, then using repitition at the end to solidify understanding.
 5. Outputs CSV with appropriate timings and phrases and repetition
 
+# Section Structure
+1. Introduction to the section
+2. Reads an entire danish conversation using all of the recap_phrases and target_phrases, adding or modifying phrases slightly to make the conversation flow.
+3. reads the 1st target phrase in english, then provides it in danish. 
+4. asks the student to repeat it 3 times
+5. reads the 2nd target phrase in english, then provides it in danish. 
+6. asks the student to repeat it 3 times
+7. reads the 2nd target phrase in english, then provides it in danish. 
+8. asks the student to repeat it 3 times
+9. end to section
+
 # Input Format  
 The input you will recieve will have this format:
 "lesson_number": A numeric lesson idedentifier,

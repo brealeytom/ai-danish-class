@@ -6,6 +6,13 @@
       "similarity_boost": 0.9
     }
   },
+  "en_m_voice": {
+    "id": "UgBBYS2sOqTuMpoF3BR0",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.9
+    }
+  },
   "da_f_voice": {
     "id": "4RklGmuxoAskAbGXplXN",
     "settings": {

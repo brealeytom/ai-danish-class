@@ -1,64 +1,98 @@
 {
     "input": {
-        "lesson_number": 1.1,
-        "title": "Hvad hedder du?",
+        "lesson_number": 1.2,
+        "title": "Kan du tale dansk?",
         "day": "Tuesday",
         "recap_phrases": [
             {
-                "danish": "Hej, jeg hedder Tom",
-                "english": "Hi, my name is Tom"
+                "danish": "Kan du tale fransk?",
+                "english": "Can you speak French?"
             },
             {
-                "danish": "Hvad hedder du?",
-                "english": "What is your name?"
+                "danish": "Ja, det kan jeg",
+                "english": "Yes, I can"
             },
             {
-                "danish": "Hvor kommer du fra?",
-                "english": "Where are you from?"
+                "danish": "Nej, det kan jeg ikke",
+                "english": "No, I can't"
             }
         ],
         "target_phrases": [
             {
-                "danish": "Jeg kommer fra New Zealand",
-                "english": "I come from New Zealand"
+                "danish": "Jeg kan kun tale dansk",
+                "english": "I can only speak Danish"
             },
             {
-                "danish": "Er du ny her?",
-                "english": "Are you new here?"
+                "danish": "Hvad med engelsk?",
+                "english": "What about English?"
             },
             {
-                "danish": "Ja, det er jeg",
-                "english": "Yes, I am"
+                "danish": "Det kan jeg selvfølgelig også",
+                "english": "Of course I can do that too"
             }
         ],
         "lesson_structure": [
             "quick_review",
             "dialogue_focus",
-            "word_chain",
-            "problem_solver",
-            "speed_challenge"
+            "scenario_practise",
+            "pattern_detective"
         ]
     },
     "output": [
-        ["order_id", "language", "voice_id", "text", "delay", "repeat"],
-        [1, "en", "en_f_voice", "Great practice! Now, let's learn how to respond to these questions.", 0, 1],
-        [2, "en", "en_f_voice", "When someone asks where you're from, you can say 'I come from New Zealand' like this:", 0, 1],
-        [3, "da", "da_f_voice", "Jeg kommer fra New Zealand", 2000, 3],
-        [4, "en", "en_f_voice", "Now, you might hear someone ask 'Are you new here?'", 0, 1],
-        [5, "da", "da_m_voice", "Er du ny her?", 2000, 3],
-        [6, "en", "en_f_voice", "And you can respond with 'Yes, I am'", 0, 1],
-        [7, "da", "da_f_voice", "Ja, det er jeg", 2000, 3],
-        [8, "en", "en_f_voice", "Now let's practice a conversation. Listen carefully:", 0, 1],
-        [9, "da", "da_m_voice", "Hej, jeg hedder Tom", 3000, 2],
-        [10, "da", "da_m_voice", "Hvad hedder du?", 3000, 2],
-        [11, "da", "da_f_voice", "Jeg hedder Maria", 3000, 2],
-        [12, "da", "da_m_voice", "Er du ny her?", 3000, 2],
-        [13, "da", "da_f_voice", "Ja, det er jeg", 3000, 2],
-        [14, "da", "da_m_voice", "Hvor kommer du fra?", 3000, 2],
-        [15, "da", "da_f_voice", "Jeg kommer fra New Zealand", 3000, 2],
-        [16, "en", "en_f_voice", "Great! Let's practice those phrases one more time:", 0, 1],
-        [17, "da", "da_f_voice", "Jeg kommer fra New Zealand", 2000, 2],
-        [18, "da", "da_m_voice", "Er du ny her?", 2000, 2],
-        [19, "da", "da_f_voice", "Ja, det er jeg", 2000, 2]
+        ["order_id","language","voice_id","text","delay","repeat"],
+        [4,"en","en_f_voice","Listen to this conversation between Maria and Thomas:",0,1],
+        [5,"da","da_f_voice","Kan du tale fransk?",0,1],
+        [7,"da","da_m_voice","Jeg kan kun tale dansk",0,1],
+        [9,"da","da_f_voice","Hvad med engelsk?",0,1],
+        [11,"da","da_m_voice","Det kan jeg selvfølgelig også",0,1],
+        [13,"en","en_f_voice","Now let's learn the first new phrase:",0,1],
+        [14,"en","en_f_voice","I can only speak Danish",500,1],
+        [15,"da","da_m_voice","Jeg kan kun tale dansk",2000,2],
+        [16,"en","en_f_voice","Let's break this down:",0,1],
+        [19,"da","da_m_voice","Jeg kan kun",0,1],
+        [17,"en","en_f_voice","this means 'I can only'. and",0,1],
+        [19,"da","da_m_voice","tale dansk",0,1],
+        [17,"en","en_f_voice","means 'speak Danish'",0,1],
+        [18,"en","en_f_voice","Now repeat after me:",0,1],
+        [19,"da","da_m_voice","Jeg kan kun tale dansk",2000,3],
+        [20,"en","en_f_voice","Again:",0,1],
+        [21,"da","da_m_voice","Jeg kan kun tale dansk",2000,2],
+        [22,"en","en_f_voice","One more time:",0,1],
+        [23,"da","da_m_voice","Jeg kan kun tale dansk",2000,1],
+        [24,"en","en_f_voice","Now let's learn the second new phrase:",0,1],
+        [25,"en","en_f_voice","What about English?",500,1],
+        [26,"da","da_f_voice","Hvad med engelsk?",2000,2],
+        [27,"en","en_f_voice","Let's break this down:",0,1],
+        [26,"da","da_f_voice","Hvad med",0,1],
+        [28,"en","en_f_voice","is how we say 'What about' in Danish",0,1],
+        [29,"en","en_f_voice","Now repeat after me:",0,1],
+        [30,"da","da_f_voice","Hvad med engelsk?",2000,2],
+        [31,"en","en_f_voice","Again:",0,1],
+        [32,"da","da_f_voice","Hvad med engelsk?",2000,2],
+        [33,"en","en_f_voice","One more time:",0,1],
+        [34,"da","da_f_voice","Hvad med engelsk?",2000,1],
+        [35,"en","en_f_voice","Now let's learn the third new phrase:",0,1],
+        [36,"en","en_f_voice","Of course I can do that too",500,1],
+        [37,"da","da_m_voice","Det kan jeg selvfølgelig også",2000,2],
+        [38,"en","en_f_voice","Let's break this down:",0,1],
+        [37,"da","da_m_voice","selvfølgelig",0,1],
+        [39,"en","en_f_voice","means 'of course', and",0,1],
+        [37,"da","da_m_voice","også",0,1],
+        [39,"en","en_f_voice","means 'too' or 'also'",0,1],
+        [40,"en","en_f_voice","Now repeat after me:",500,1],
+        [41,"da","da_m_voice","Det kan jeg selvfølgelig også",2000,2],
+        [42,"en","en_f_voice","Again:",0,1],
+        [43,"da","da_m_voice","Det kan jeg selvfølgelig også",2000,2],
+        [44,"en","en_f_voice","One more time:",0,1],
+        [45,"da","da_m_voice","Det kan jeg selvfølgelig også",2000,1],
+        [46,"en","en_f_voice","Excellent! You've learned three new useful phrases today.",0,1],
+        [47,"en","en_f_voice","Let's review them one final time:",0,1],
+        [48,"da","da_m_voice","Jeg kan kun tale dansk",2000,1],
+        [49,"en","en_f_voice","I can only speak Danish",0,1],
+        [50,"da","da_f_voice","Hvad med engelsk?",2000,1],
+        [51,"en","en_f_voice","What about English?",0,1],
+        [52,"da","da_m_voice","Det kan jeg selvfølgelig også",2000,1],
+        [53,"en","en_f_voice","Of course I can do that too",0,1],
+        [54,"en","en_f_voice","That completes our introduction to the new phrases. Let's continue with the next section.",0,1]
     ]
 }

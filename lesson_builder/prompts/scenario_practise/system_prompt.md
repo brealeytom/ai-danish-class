@@ -8,6 +8,14 @@ Create a CSV processing script that:
 3. the scenario includes both questions for which the student needs to answer and asks the student to ask questions.
 4. Outputs CSV with appropriate timings and phrases and repetition
 
+# Section Structure
+1. Introduction to the section
+2. Reads an entire danish conversation using all of the recap_phrases and target_phrases, adding or modifying phrases slightly to make the conversation flow.
+3. Explains that now you'll be asked to play one part of the conversation and respond as if you we're part of the conversation.
+4. reads out one half of the danish conversation, giving long breaks between for thinking and responses
+5. reads out the entire danish conversation again, and asks if the student got it right
+8. end to section
+
 # Input Format  
 The input you will recieve will have this format:
 "lesson_number": A numeric lesson idedentifier,
@@ -37,8 +45,12 @@ Use repeat parameter instead of duplicate rows
 Maximum 3 repeats for any phrase
 
 ### Voice Selection  
+
+### Voice Selection  
 - Use `en_f_voice` for:  
   - Instructions, English translations, and explanatory content.  
+- Use `en_m_voice` for:  
+  - male english speakers in conversations
 - Use `da_m_voice` for:  
   - male danish speakers in conversations
   - Danish vocabulary, phrases, pronunciation, and dialogues.  
