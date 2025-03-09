@@ -30,13 +30,17 @@
             "lesson_structure": [
                 "quick_review",
                 "dialogue_focus",
-                "scenario_practise",
-                "pattern_detective"
+                "pattern_detective",
+                "scenario_practise"
+                
             ]
         },
         {
             "day": "Wednesday",
             "recap_phrases": [
+                1,
+                2,
+                3,
                 4,
                 5,
                 6
@@ -50,7 +54,7 @@
                 "quick_review",
                 "dialogue_focus",
                 "pattern_detective",
-                "speed_challenge"
+                "scenario_practise"
             ]
         },
         {
@@ -59,6 +63,9 @@
                 1,
                 2,
                 3,
+                4,
+                5,
+                6,
                 7,
                 8,
                 9
@@ -71,16 +78,22 @@
             "lesson_structure": [
                 "quick_review",
                 "dialogue_focus",
-                "speed_challenge",
+                "pattern_detective",
                 "scenario_practise"
             ]
         },
         {
             "day": "Friday",
             "recap_phrases": [
+                1,
+                2,
+                3,
                 4,
                 5,
                 6,
+                7,
+                8,
+                9,
                 10,
                 11,
                 12
@@ -94,7 +107,7 @@
                 "quick_review",
                 "dialogue_focus",
                 "pattern_detective",
-                "speed_challenge"
+                "scenario_practise"
             ]
         }
     ]
