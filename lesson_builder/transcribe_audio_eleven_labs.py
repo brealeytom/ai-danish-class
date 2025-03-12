@@ -473,5 +473,5 @@ if __name__ == "__main__":
     #combine_lesson_audio("danish", "part_01", "lesson_01", test_mode=True)
 
     # Normal mode examples
-    process_directory("danish", "part_05", test_mode=False)
-    combine_lesson_audio("danish", "part_05", "lesson_02")
+    process_directory("danish", "part_06", test_mode=False)
+    combine_lesson_audio("danish", "part_06", "lesson_01")
