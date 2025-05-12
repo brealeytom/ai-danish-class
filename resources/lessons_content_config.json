@@ -201,6 +201,402 @@
             ]
         },
         {
+            "lesson_number": 2.1,
+            "title": "Må jeg få din adresse?",
+            "target_phrases": [
+                {
+                    "danish": "Tillykke med din lejlighed!",
+                    "english": "Congratulations on your apartment!"
+                },
+                {
+                    "danish": "Vil du ikke komme og se den?",
+                    "english": "Would you like to come and see it?"
+                },
+                {
+                    "danish": "Hvad er din adresse?",
+                    "english": "What is your address?"
+                },
+                {
+                    "danish": "Hvordan staver man det?",
+                    "english": "How do you spell that?"
+                },
+                {
+                    "danish": "Til højre",
+                    "english": "To the right"
+                },
+                {
+                    "danish": "Til venstre",
+                    "english": "To the left"
+                },
+                {
+                    "danish": "Vil du have mit postnummer?",
+                    "english": "Would you like my postal code?"
+                },
+                {
+                    "danish": "Vi ses på søndag",
+                    "english": "See you on Sunday"
+                },
+                {
+                    "danish": "Hvornår på søndag?",
+                    "english": "What time on Sunday?"
+                },
+                {
+                    "danish": "Hvad med klokken femten?",
+                    "english": "How about three o'clock?"
+                },
+                {
+                    "danish": "Det lyder fint",
+                    "english": "That sounds good"
+                },
+                {
+                    "danish": "Jeg skriver det lige",
+                    "english": "I'll just write that down"
+                },
+                {
+                    "danish": "Øjeblik",
+                    "english": "Just a moment"
+                },
+                {
+                    "danish": "Jeg har et møde nu",
+                    "english": "I have a meeting now"
+                },
+                {
+                    "danish": "Vi ses",
+                    "english": "See you"
+                }
+            ]
+        },
+        {
+            "lesson_number": 2.2,
+            "title": "Hvor mange søskende har du?",
+            "target_phrases": [
+                {
+                    "danish": "Er du gift?",
+                    "english": "Are you married?"
+                },
+                {
+                    "danish": "Ja, det er jeg",
+                    "english": "Yes, I am"
+                },
+                {
+                    "danish": "Det er vores bryllupsrejse",
+                    "english": "It's our honeymoon"
+                },
+                {
+                    "danish": "Jeg har været gift",
+                    "english": "I have been married"
+                },
+                {
+                    "danish": "Er du skilt?",
+                    "english": "Are you divorced?"
+                },
+                {
+                    "danish": "Jeg bor alene",
+                    "english": "I live alone"
+                },
+                {
+                    "danish": "Mine to børn",
+                    "english": "My two children"
+                },
+                {
+                    "danish": "Hvor gamle er de?",
+                    "english": "How old are they?"
+                },
+                {
+                    "danish": "Min søn er femten",
+                    "english": "My son is fifteen"
+                },
+                {
+                    "danish": "Min datter er tretten",
+                    "english": "My daughter is thirteen"
+                },
+                {
+                    "danish": "Har I nogen børn?",
+                    "english": "Do you have any children?"
+                },
+                {
+                    "danish": "Jeg vil gerne have børn",
+                    "english": "I would like to have children"
+                },
+                {
+                    "danish": "Hvor gammel er du?",
+                    "english": "How old are you?"
+                },
+                {
+                    "danish": "Min mand er tredive",
+                    "english": "My husband is thirty"
+                },
+                {
+                    "danish": "I har masser af tid",
+                    "english": "You have plenty of time"
+                }
+            ]
+        },
+        {
+            "lesson_number": 2.3,
+            "title": "Bor du i lejlighed?",
+            "target_phrases": [
+                {
+                    "danish": "Kom ind",
+                    "english": "Come in"
+                },
+                {
+                    "danish": "Det er en stor lejlighed",
+                    "english": "It's a big apartment"
+                },
+                {
+                    "danish": "Hvor mange værelser har du?",
+                    "english": "How many rooms do you have?"
+                },
+                {
+                    "danish": "Jeg har fire værelser",
+                    "english": "I have four rooms"
+                },
+                {
+                    "danish": "Et lille soveværelse",
+                    "english": "A small bedroom"
+                },
+                {
+                    "danish": "Et gæsteværelse",
+                    "english": "A guest room"
+                },
+                {
+                    "danish": "Vil du se lejligheden?",
+                    "english": "Would you like to see the apartment?"
+                },
+                {
+                    "danish": "Er du glad for den?",
+                    "english": "Are you happy with it?"
+                },
+                {
+                    "danish": "Jeg bor i bofællesskab",
+                    "english": "I live in a shared house"
+                },
+                {
+                    "danish": "Hvor mange er I?",
+                    "english": "How many of you are there?"
+                },
+                {
+                    "danish": "Vi er syv i alt",
+                    "english": "We are seven in total"
+                },
+                {
+                    "danish": "Hvor længe har du boet der?",
+                    "english": "How long have you lived there?"
+                },
+                {
+                    "danish": "I tre år",
+                    "english": "For three years"
+                },
+                {
+                    "danish": "Dit eget køkken",
+                    "english": "Your own kitchen"
+                },
+                {
+                    "danish": "Det er billigt",
+                    "english": "It's cheap"
+                }
+            ]
+        },
+        {
+            "lesson_number": 3.1,
+            "title": "Hvor arbejder du henne?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad laver du?",
+                    "english": "What do you do?"
+                },
+                {
+                    "danish": "Jeg er forsker",
+                    "english": "I am a researcher"
+                },
+                {
+                    "danish": "Hvor arbejder du henne?",
+                    "english": "Where do you work?"
+                },
+                {
+                    "danish": "Er du glad for det?",
+                    "english": "Are you happy with it?"
+                },
+                {
+                    "danish": "Jeg er studerende",
+                    "english": "I am a student"
+                },
+                {
+                    "danish": "Jeg læser transport og logistik",
+                    "english": "I study transport and logistics"
+                },
+                {
+                    "danish": "Hvor studerer du henne?",
+                    "english": "Where do you study?"
+                },
+                {
+                    "danish": "Det lyder interessant",
+                    "english": "That sounds interesting"
+                },
+                {
+                    "danish": "Jeg er lidt træt af det",
+                    "english": "I'm a bit tired of it"
+                },
+                {
+                    "danish": "Jeg har også et job",
+                    "english": "I also have a job"
+                },
+                {
+                    "danish": "Jeg arbejder på en restaurant",
+                    "english": "I work at a restaurant"
+                },
+                {
+                    "danish": "I weekenden",
+                    "english": "On the weekend"
+                },
+                {
+                    "danish": "Det er jeg rigtig glad for",
+                    "english": "I'm really happy about that"
+                },
+                {
+                    "danish": "Her i København",
+                    "english": "Here in Copenhagen"
+                },
+                {
+                    "danish": "Hvad med dig?",
+                    "english": "What about you?"
+                }
+            ]
+        },
+        {
+            "lesson_number": 3.2,
+            "title": "Går du stadig på universitetet?",
+            "target_phrases": [
+                {
+                    "danish": "Det er længe siden!",
+                    "english": "It's been a long time!"
+                },
+                {
+                    "danish": "Hvordan går det?",
+                    "english": "How's it going?"
+                },
+                {
+                    "danish": "Det går rigtig godt",
+                    "english": "It's going really well"
+                },
+                {
+                    "danish": "Hvad laver du nu?",
+                    "english": "What are you doing now?"
+                },
+                {
+                    "danish": "Jeg studerer it-pædagogik",
+                    "english": "I study IT education"
+                },
+                {
+                    "danish": "Hvor længe har du studeret?",
+                    "english": "How long have you been studying?"
+                },
+                {
+                    "danish": "I fem måneder",
+                    "english": "For five months"
+                },
+                {
+                    "danish": "Det er rigtig interessant",
+                    "english": "It's really interesting"
+                },
+                {
+                    "danish": "Han har ikke noget arbejde",
+                    "english": "He doesn't have a job"
+                },
+                {
+                    "danish": "Han har søgt job",
+                    "english": "He has been looking for a job"
+                },
+                {
+                    "danish": "Arbejder du stadig i",
+                    "english": "Do you still work at"
+                },
+                {
+                    "danish": "Jeg søger nyt job",
+                    "english": "I'm looking for a new job"
+                },
+                {
+                    "danish": "Held og lykke med det",
+                    "english": "Good luck with that"
+                },
+                {
+                    "danish": "Jeg skal på arbejde",
+                    "english": "I have to go to work"
+                },
+                {
+                    "danish": "Hav det godt",
+                    "english": "Take care"
+                }
+            ]
+        },
+        {
+            "lesson_number": 3.3,
+            "title": "Hvad er din email adresse?",
+            "target_phrases": [
+                {
+                    "danish": "Er du glad for tegnestuen?",
+                    "english": "Are you happy with the architecture firm?"
+                },
+                {
+                    "danish": "De er superprofessionelle",
+                    "english": "They are super professional"
+                },
+                {
+                    "danish": "Jeg har ikke fundet en praktikplads",
+                    "english": "I haven't found an internship"
+                },
+                {
+                    "danish": "Vi har rigtig travlt",
+                    "english": "We are really busy"
+                },
+                {
+                    "danish": "Du kan ringe eller skrive en e-mail",
+                    "english": "You can call or write an email"
+                },
+                {
+                    "danish": "Hvad hedder hun til efternavn?",
+                    "english": "What is her surname?"
+                },
+                {
+                    "danish": "Er det med å?",
+                    "english": "Is it with å?"
+                },
+                {
+                    "danish": "Det kan jeg desværre ikke huske",
+                    "english": "Unfortunately I can't remember"
+                },
+                {
+                    "danish": "Vil du sende den til mig?",
+                    "english": "Will you send it to me?"
+                },
+                {
+                    "danish": "Jeg skriver den lige i min telefon",
+                    "english": "I'll just write it in my phone"
+                },
+                {
+                    "danish": "Må jeg få dit mobilnummer?",
+                    "english": "Can I have your mobile number?"
+                },
+                {
+                    "danish": "Jeg skriver til dig i aften",
+                    "english": "I'll write to you tonight"
+                },
+                {
+                    "danish": "Har de en hjemmeside?",
+                    "english": "Do they have a website?"
+                },
+                {
+                    "danish": "Tak for hjælpen",
+                    "english": "Thanks for the help"
+                },
+                {
+                    "danish": "Det var så lidt",
+                    "english": "You're welcome"
+                }
+            ]
+        },
+        {
             "lesson_number": 4.1,
             "title": "Hvad skal du have?",
             "target_phrases": [
@@ -395,6 +791,1812 @@
                 {
                     "danish": "Ellers andet?",
                     "english": "Anything else?"
+                }
+            ]
+        },
+        {
+            "lesson_number": 5.1,
+            "title": "Hvad laver du efter arbejde?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad er klokken?",
+                    "english": "What time is it?"
+                },
+                {
+                    "danish": "Kvart over fire",
+                    "english": "Quarter past four"
+                },
+                {
+                    "danish": "Jeg går til italiensk",
+                    "english": "I take Italian classes"
+                },
+                {
+                    "danish": "Jeg kommer altid for sent",
+                    "english": "I'm always late"
+                },
+                {
+                    "danish": "Det er rigtig sjovt",
+                    "english": "It's really fun"
+                },
+                {
+                    "danish": "Går du til noget?",
+                    "english": "Do you take any classes?"
+                },
+                {
+                    "danish": "Jeg har ikke tid",
+                    "english": "I don't have time"
+                },
+                {
+                    "danish": "Hvad laver du om aftenen?",
+                    "english": "What do you do in the evening?"
+                },
+                {
+                    "danish": "Ikke noget særligt",
+                    "english": "Nothing special"
+                },
+                {
+                    "danish": "Som regel",
+                    "english": "Usually"
+                },
+                {
+                    "danish": "Jeg går i biografen",
+                    "english": "I go to the cinema"
+                },
+                {
+                    "danish": "Jeg spiller computerspil",
+                    "english": "I play computer games"
+                },
+                {
+                    "danish": "I weekenden slapper jeg af",
+                    "english": "On weekends I relax"
+                },
+                {
+                    "danish": "Det lyder hårdt",
+                    "english": "That sounds tough"
+                },
+                {
+                    "danish": "Jeg elsker karate",
+                    "english": "I love karate"
+                }
+            ]
+        },
+        {
+            "lesson_number": 5.2,
+            "title": "Hvad lavede du i går?",
+            "target_phrases": [
+                {
+                    "danish": "Det var hårdt",
+                    "english": "That was hard"
+                },
+                {
+                    "danish": "Jeg er dødtræt",
+                    "english": "I'm exhausted"
+                },
+                {
+                    "danish": "Var du her i mandags?",
+                    "english": "Were you here on Monday?"
+                },
+                {
+                    "danish": "Hvorfor var du ikke til træning?",
+                    "english": "Why weren't you at training?"
+                },
+                {
+                    "danish": "Jeg havde besøg",
+                    "english": "I had visitors"
+                },
+                {
+                    "danish": "Vi spillede volleyball",
+                    "english": "We played volleyball"
+                },
+                {
+                    "danish": "Gik du også til volleyball?",
+                    "english": "Did you also take volleyball?"
+                },
+                {
+                    "danish": "Hvad lavede I?",
+                    "english": "What did you do?"
+                },
+                {
+                    "danish": "Vi så nogle videoinstallationer",
+                    "english": "We saw some video installations"
+                },
+                {
+                    "danish": "Vi spiste på en restaurant",
+                    "english": "We ate at a restaurant"
+                },
+                {
+                    "danish": "Det lyder ikke dårligt",
+                    "english": "That doesn't sound bad"
+                },
+                {
+                    "danish": "Vi var i biografen",
+                    "english": "We were at the cinema"
+                },
+                {
+                    "danish": "Hvad så I?",
+                    "english": "What did you watch?"
+                },
+                {
+                    "danish": "Var den god?",
+                    "english": "Was it good?"
+                },
+                {
+                    "danish": "Jeg smutter",
+                    "english": "I'm leaving"
+                }
+            ]
+        },
+        {
+            "lesson_number": 5.3,
+            "title": "Transport og Tid",
+            "target_phrases": [
+                {
+                    "danish": "Jeg tager afsted nu",
+                    "english": "I'm leaving now",
+                    "modifications": [
+                        {
+                            "danish": "Vi tager afsted nu",
+                            "english": "We're leaving now",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Han tager afsted nu",
+                            "english": "He's leaving now",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De tager afsted nu",
+                            "english": "They're leaving now",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeg tager afsted om en time",
+                            "english": "I'm leaving in an hour",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg tager afsted i morgen",
+                            "english": "I'm leaving tomorrow",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg tager afsted hver morgen kl. 8",
+                            "english": "I leave every morning at 8",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg tager afsted med bussen",
+                            "english": "I'm leaving by bus",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg tager afsted i bil",
+                            "english": "I'm leaving by car",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg tager afsted på cykel",
+                            "english": "I'm leaving by bike",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvornår ankommer du?",
+                    "english": "When do you arrive?",
+                    "modifications": [
+                        {
+                            "danish": "Hvornår ankommer I?",
+                            "english": "When do you (plural) arrive?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvornår ankommer hun?",
+                            "english": "When does she arrive?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvornår ankommer de?",
+                            "english": "When do they arrive?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvornår ankommer du i morgen?",
+                            "english": "When do you arrive tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvornår ankommer du normalt?",
+                            "english": "When do you normally arrive?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvornår ankommer du om aftenen?",
+                            "english": "When do you arrive in the evening?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvornår ankommer toget?",
+                            "english": "When does the train arrive?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvornår ankommer bussen?",
+                            "english": "When does the bus arrive?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvornår ankommer flyet?",
+                            "english": "When does the plane arrive?",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Jeg er på vej",
+                    "english": "I'm on my way",
+                    "modifications": [
+                        {
+                            "danish": "Vi er på vej",
+                            "english": "We're on our way",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Han er på vej",
+                            "english": "He's on his way",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De er på vej",
+                            "english": "They're on their way",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeg er på vej om ti minutter",
+                            "english": "I'm on my way in ten minutes",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg er på vej nu",
+                            "english": "I'm on my way now",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg er på vej om en halv time",
+                            "english": "I'm on my way in half an hour",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg er på vej med cyklen",
+                            "english": "I'm on my way by bike",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg er på vej med bussen",
+                            "english": "I'm on my way by bus",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg er på vej i taxa",
+                            "english": "I'm on my way by taxi",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Bussen er forsinket",
+                    "english": "The bus is delayed",
+                    "modifications": [
+                        {
+                            "danish": "Min bus er forsinket",
+                            "english": "My bus is delayed",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vores bus er forsinket",
+                            "english": "Our bus is delayed",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Deres bus er forsinket",
+                            "english": "Their bus is delayed",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Bussen er forsinket igen",
+                            "english": "The bus is delayed again",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Bussen var forsinket i går",
+                            "english": "The bus was delayed yesterday",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Bussen vil være forsinket i morgen",
+                            "english": "The bus will be delayed tomorrow",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Toget er forsinket",
+                            "english": "The train is delayed",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Flyet er forsinket",
+                            "english": "The plane is delayed",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Færgen er forsinket",
+                            "english": "The ferry is delayed",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Jeg cykler til arbejde",
+                    "english": "I bike to work",
+                    "modifications": [
+                        {
+                            "danish": "Hun cykler til arbejde",
+                            "english": "She bikes to work",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vi cykler til arbejde",
+                            "english": "We bike to work",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De cykler til arbejde",
+                            "english": "They bike to work",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeg cykler til arbejde om sommeren",
+                            "english": "I bike to work in the summer",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg cykler til arbejde hver dag",
+                            "english": "I bike to work every day",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg cyklede til arbejde i går",
+                            "english": "I biked to work yesterday",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg kører til arbejde",
+                            "english": "I drive to work",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg tager bussen til arbejde",
+                            "english": "I take the bus to work",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg tager toget til arbejde",
+                            "english": "I take the train to work",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Skal vi mødes ved stationen?",
+                    "english": "Shall we meet at the station?",
+                    "modifications": [
+                        {
+                            "danish": "Skal I mødes ved stationen?",
+                            "english": "Are you (plural) meeting at the station?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Skal du og Peter mødes ved stationen?",
+                            "english": "Are you and Peter meeting at the station?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Skal de mødes ved stationen?",
+                            "english": "Are they meeting at the station?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Skal vi mødes ved stationen i morgen?",
+                            "english": "Shall we meet at the station tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Skal vi mødes ved stationen kl. 15?",
+                            "english": "Shall we meet at the station at 3 PM?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Skal vi mødes ved stationen om en time?",
+                            "english": "Shall we meet at the station in an hour?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Skal vi mødes ved busstoppestedet?",
+                            "english": "Shall we meet at the bus stop?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Skal vi mødes ved lufthavnen?",
+                            "english": "Shall we meet at the airport?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Skal vi mødes ved færgeterminalen?",
+                            "english": "Shall we meet at the ferry terminal?",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Jeg foretrækker at gå",
+                    "english": "I prefer to walk",
+                    "modifications": [
+                        {
+                            "danish": "Han foretrækker at gå",
+                            "english": "He prefers to walk",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vi foretrækker at gå",
+                            "english": "We prefer to walk",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De foretrækker at gå",
+                            "english": "They prefer to walk",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeg foretrækker at gå om morgenen",
+                            "english": "I prefer to walk in the morning",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg foretrækker at gå om aftenen",
+                            "english": "I prefer to walk in the evening",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg foretrækker at gå i weekenden",
+                            "english": "I prefer to walk on the weekend",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg foretrækker at køre",
+                            "english": "I prefer to drive",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg foretrækker at cykle",
+                            "english": "I prefer to bike",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg foretrækker at tage toget",
+                            "english": "I prefer to take the train",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvordan kommer du derhen?",
+                    "english": "How will you get there?",
+                    "modifications": [
+                        {
+                            "danish": "Hvordan kommer hun derhen?",
+                            "english": "How will she get there?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvordan kommer I derhen?",
+                            "english": "How will you (plural) get there?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvordan kommer de derhen?",
+                            "english": "How will they get there?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvordan kommer du derhen i morgen?",
+                            "english": "How will you get there tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvordan kommer du derhen om vinteren?",
+                            "english": "How will you get there in the winter?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvordan kommer du derhen så sent?",
+                            "english": "How will you get there so late?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvordan kommer du til lufthavnen?",
+                            "english": "How will you get to the airport?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvordan kommer du til stranden?",
+                            "english": "How will you get to the beach?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvordan kommer du til koncerten?",
+                            "english": "How will you get to the concert?",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvilken rute tager du?",
+                    "english": "Which route do you take?",
+                    "modifications": [
+                        {
+                            "danish": "Hvilken rute tager han?",
+                            "english": "Which route does he take?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvilken rute tager I?",
+                            "english": "Which route do you (plural) take?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvilken rute tager de?",
+                            "english": "Which route do they take?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvilken rute tager du om morgenen?",
+                            "english": "Which route do you take in the morning?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvilken rute tog du i går?",
+                            "english": "Which route did you take yesterday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvilken rute vil du tage i morgen?",
+                            "english": "Which route will you take tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvilken rute tager bussen?",
+                            "english": "Which route does the bus take?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvilken rute tager toget?",
+                            "english": "Which route does the train take?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvilken rute tager færgen?",
+                            "english": "Which route does the ferry take?",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Jeg kører i bil",
+                    "english": "I drive a car",
+                    "modifications": [
+                        {
+                            "danish": "Hun kører i bil",
+                            "english": "She drives a car",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vi kører i bil",
+                            "english": "We drive a car",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De kører i bil",
+                            "english": "They drive a car",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeg kører i bil hver dag",
+                            "english": "I drive a car every day",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg kører i bil om vinteren",
+                            "english": "I drive a car in the winter",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg kørte i bil i går",
+                            "english": "I drove a car yesterday",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg kører på motorcykel",
+                            "english": "I ride a motorcycle",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg kører i taxa",
+                            "english": "I take a taxi",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg kører i varevogn",
+                            "english": "I drive a van",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Vi tager færgen",
+                    "english": "We take the ferry",
+                    "modifications": [
+                        {
+                            "danish": "Jeg tager færgen",
+                            "english": "I take the ferry",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hun tager færgen",
+                            "english": "She takes the ferry",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De tager færgen",
+                            "english": "They take the ferry",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vi tager færgen i morgen",
+                            "english": "We're taking the ferry tomorrow",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vi tager færgen hver sommer",
+                            "english": "We take the ferry every summer",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vi tog færgen sidste weekend",
+                            "english": "We took the ferry last weekend",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vi tager flyet",
+                            "english": "We take the plane",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Vi tager toget",
+                            "english": "We take the train",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Vi tager bussen",
+                            "english": "We take the bus",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvor lang tid tager det?",
+                    "english": "How long does it take?",
+                    "modifications": [
+                        {
+                            "danish": "Hvor lang tid tager din rejse?",
+                            "english": "How long does your journey take?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvor lang tid tager deres rejse?",
+                            "english": "How long does their journey take?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvor lang tid tager vores rejse?",
+                            "english": "How long does our journey take?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvor lang tid tog det?",
+                            "english": "How long did it take?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvor lang tid vil det tage?",
+                            "english": "How long will it take?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvor lang tid tager det normalt?",
+                            "english": "How long does it normally take?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvor lang tid tager busturen?",
+                            "english": "How long does the bus journey take?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvor lang tid tager togturen?",
+                            "english": "How long does the train journey take?",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Hvor lang tid tager flyrejsen?",
+                            "english": "How long does the flight take?",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Jeg pendler hver dag",
+                    "english": "I commute every day",
+                    "modifications": [
+                        {
+                            "danish": "Han pendler hver dag",
+                            "english": "He commutes every day",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vi pendler hver dag",
+                            "english": "We commute every day",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "De pendler hver dag",
+                            "english": "They commute every day",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeg pendler kun på hverdage",
+                            "english": "I only commute on weekdays",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg pendlede i går",
+                            "english": "I commuted yesterday",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg skal pendle i morgen",
+                            "english": "I have to commute tomorrow",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Jeg pendler med S-toget hver dag",
+                            "english": "I commute by S-train every day",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg pendler på cykel hver dag",
+                            "english": "I commute by bike every day",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Jeg pendler i bil hver dag",
+                            "english": "I commute by car every day",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Rejsen tager to timer",
+                    "english": "The journey takes two hours",
+                    "modifications": [
+                        {
+                            "danish": "Min rejse tager to timer",
+                            "english": "My journey takes two hours",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Jeres rejse tager to timer",
+                            "english": "Your journey takes two hours",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Deres rejse tager to timer",
+                            "english": "Their journey takes two hours",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Rejsen tog to timer",
+                            "english": "The journey took two hours",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Rejsen vil tage to timer i morgen",
+                            "english": "The journey will take two hours tomorrow",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Rejsen tager altid to timer",
+                            "english": "The journey always takes two hours",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Busturen tager to timer",
+                            "english": "The bus journey takes two hours",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Flyrejsen tager to timer",
+                            "english": "The flight takes two hours",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Togturen tager to timer",
+                            "english": "The train journey takes two hours",
+                            "type": "transport"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Min cykel er i stykker",
+                    "english": "My bike is broken",
+                    "modifications": [
+                        {
+                            "danish": "Hans cykel er i stykker",
+                            "english": "His bike is broken",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vores cykel er i stykker",
+                            "english": "Our bike is broken",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hendes cykel er i stykker",
+                            "english": "Her bike is broken",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Min cykel var i stykker i går",
+                            "english": "My bike was broken yesterday",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Min cykel har været i stykker siden i går",
+                            "english": "My bike has been broken since yesterday",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Min cykel vil være i stykker indtil i morgen",
+                            "english": "My bike will be broken until tomorrow",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Min bil er i stykker",
+                            "english": "My car is broken",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Min scooter er i stykker",
+                            "english": "My scooter is broken",
+                            "type": "transport"
+                        },
+                        {
+                            "danish": "Min motorcykel er i stykker",
+                            "english": "My motorcycle is broken",
+                            "type": "transport"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lesson_number": 6.1,
+            "title": "Hvad skal du lave i aften?",
+            "target_phrases": [
+                {
+                    "danish": "Hvad skal du lave i weekenden?",
+                    "english": "What are you doing this weekend?",
+                    "modifications": [
+                        {
+                            "danish": "Hvad skal I lave i weekenden?",
+                            "english": "What are you (plural) doing this weekend?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal han lave i weekenden?",
+                            "english": "What is he doing this weekend?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal de lave i weekenden?",
+                            "english": "What are they doing this weekend?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal du lave næste weekend?",
+                            "english": "What are you doing next weekend?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skulle du lave i sidste weekend?",
+                            "english": "What were you supposed to do last weekend?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du lave i weekenden efter eksamen?",
+                            "english": "What are you doing the weekend after the exam?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du lave i sommerferien?",
+                            "english": "What are you doing during summer vacation?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du lave i juleferien?",
+                            "english": "What are you doing during Christmas vacation?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du lave efter arbejde?",
+                            "english": "What are you doing after work?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvad skal du den 3. juni?",
+                    "english": "What are you doing on June 3rd?",
+                    "modifications": [
+                        {
+                            "danish": "Hvad skal I den 3. juni?",
+                            "english": "What are you (plural) doing on June 3rd?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal hun den 3. juni?",
+                            "english": "What is she doing on June 3rd?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal dine forældre den 3. juni?",
+                            "english": "What are your parents doing on June 3rd?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal du den 3. juni næste år?",
+                            "english": "What are you doing on June 3rd next year?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skulle du den 3. juni sidste år?",
+                            "english": "What were you doing on June 3rd last year?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du den 3. juni klokken 19?",
+                            "english": "What are you doing on June 3rd at 7 PM?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du til jul?",
+                            "english": "What are you doing for Christmas?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du til nytår?",
+                            "english": "What are you doing for New Year's?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du til påske?",
+                            "english": "What are you doing for Easter?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvad med ved 16-tiden?",
+                    "english": "How about around 4 PM?",
+                    "modifications": [
+                        {
+                            "danish": "Hvad med os ved 16-tiden?",
+                            "english": "How about us around 4 PM?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad med dig ved 16-tiden?",
+                            "english": "How about you around 4 PM?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad med ham ved 16-tiden?",
+                            "english": "How about him around 4 PM?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad med ved 16-tiden i morgen?",
+                            "english": "How about around 4 PM tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad med ved 16-tiden på fredag?",
+                            "english": "How about around 4 PM on Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad med ved 16-tiden næste uge?",
+                            "english": "How about around 4 PM next week?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad med ved 18-tiden?",
+                            "english": "How about around 6 PM?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad med ved middagstid?",
+                            "english": "How about around noon?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad med ved spisetid?",
+                            "english": "How about around dinner time?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Vil du med hjem til en af mine venner?",
+                    "english": "Do you want to come to one of my friends' place?",
+                    "modifications": [
+                        {
+                            "danish": "Vil I med hjem til en af mine venner?",
+                            "english": "Do you (plural) want to come to one of my friends' place?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af hans venner?",
+                            "english": "Do you want to come to one of his friends' place?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af deres venner?",
+                            "english": "Do you want to come to one of their friends' place?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af mine venner i aften?",
+                            "english": "Do you want to come to one of my friends' place tonight?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af mine venner i morgen?",
+                            "english": "Do you want to come to one of my friends' place tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af mine venner på lørdag?",
+                            "english": "Do you want to come to one of my friends' place on Saturday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med hen til en af mine venner?",
+                            "english": "Do you want to come over to one of my friends?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du med ud at spise med en af mine venner?",
+                            "english": "Do you want to go out to eat with one of my friends?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du med i biografen med en af mine venner?",
+                            "english": "Do you want to go to the cinema with one of my friends?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Vil du ikke med på café på tirsdag?",
+                    "english": "Won't you come to a café on Tuesday?",
+                    "modifications": [
+                        {
+                            "danish": "Vil I ikke med på café på tirsdag?",
+                            "english": "Won't you (plural) come to a café on Tuesday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil hun ikke med på café på tirsdag?",
+                            "english": "Won't she come to a café on Tuesday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil Peter ikke med på café på tirsdag?",
+                            "english": "Won't Peter come to a café on Tuesday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du ikke med på café på tirsdag aften?",
+                            "english": "Won't you come to a café on Tuesday evening?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du ikke med på café næste tirsdag?",
+                            "english": "Won't you come to a café next Tuesday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Ville du ikke med på café i tirsdags?",
+                            "english": "Didn't you want to come to a café last Tuesday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du ikke med på restaurant på tirsdag?",
+                            "english": "Won't you come to a restaurant on Tuesday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du ikke med i biografen på tirsdag?",
+                            "english": "Won't you come to the cinema on Tuesday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du ikke med til koncert på tirsdag?",
+                            "english": "Won't you come to a concert on Tuesday?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Kommer du til festen på fredag?",
+                    "english": "Are you coming to the party on Friday?",
+                    "modifications": [
+                        {
+                            "danish": "Kommer I til festen på fredag?",
+                            "english": "Are you (plural) coming to the party on Friday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Kommer han til festen på fredag?",
+                            "english": "Is he coming to the party on Friday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Kommer dine venner til festen på fredag?",
+                            "english": "Are your friends coming to the party on Friday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Kommer du til festen på fredag aften?",
+                            "english": "Are you coming to the party on Friday evening?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Kommer du til festen næste fredag?",
+                            "english": "Are you coming to the party next Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Kom du til festen i fredags?",
+                            "english": "Did you come to the party last Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Kommer du til middagen på fredag?",
+                            "english": "Are you coming to the dinner on Friday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Kommer du til koncerten på fredag?",
+                            "english": "Are you coming to the concert on Friday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Kommer du til mødet på fredag?",
+                            "english": "Are you coming to the meeting on Friday?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Vil du med hjem til en af mine veninder?",
+                    "english": "Do you want to come to one of my female friends' place?",
+                    "modifications": [
+                        {
+                            "danish": "Vil I med hjem til en af mine veninder?",
+                            "english": "Do you (plural) want to come to one of my female friends' place?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af hendes veninder?",
+                            "english": "Do you want to come to one of her female friends' place?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af Lises veninder?",
+                            "english": "Do you want to come to one of Lise's female friends' place?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af mine veninder i aften?",
+                            "english": "Do you want to come to one of my female friends' place tonight?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af mine veninder i weekenden?",
+                            "english": "Do you want to come to one of my female friends' place this weekend?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med hjem til en af mine veninder efter arbejde?",
+                            "english": "Do you want to come to one of my female friends' place after work?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med til middag hos en af mine veninder?",
+                            "english": "Do you want to come to dinner at one of my female friends' place?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du med til fest hos en af mine veninder?",
+                            "english": "Do you want to come to a party at one of my female friends' place?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du med til brunch hos en af mine veninder?",
+                            "english": "Do you want to come to brunch at one of my female friends' place?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvad med klokken 16?",
+                    "english": "How about 4 o'clock?",
+                    "modifications": [
+                        {
+                            "danish": "Hvad med os klokken 16?",
+                            "english": "How about us at 4 o'clock?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad med mig klokken 16?",
+                            "english": "How about me at 4 o'clock?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad med dem klokken 16?",
+                            "english": "How about them at 4 o'clock?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad med klokken 16 i morgen?",
+                            "english": "How about 4 o'clock tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad med klokken 16 på mandag?",
+                            "english": "How about 4 o'clock on Monday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad med klokken 16 i stedet for klokken 15?",
+                            "english": "How about 4 o'clock instead of 3 o'clock?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad med klokken 17?",
+                            "english": "How about 5 o'clock?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad med klokken 19?",
+                            "english": "How about 7 o'clock?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad med klokken 20.30?",
+                            "english": "How about 8:30?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Vil du ikke med på café på torsdag?",
+                    "english": "Won't you come to a café on Thursday?",
+                    "modifications": [
+                        {
+                            "danish": "Vil I ikke med på café på torsdag?",
+                            "english": "Won't you (plural) come to a café on Thursday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil hun ikke med på café på torsdag?",
+                            "english": "Won't she come to a café on Thursday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil Søren ikke med på café på torsdag?",
+                            "english": "Won't Søren come to a café on Thursday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du ikke med på café på torsdag formiddag?",
+                            "english": "Won't you come to a café on Thursday morning?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du ikke med på café næste torsdag?",
+                            "english": "Won't you come to a café next Thursday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Ville du ikke med på café i torsdags?",
+                            "english": "Didn't you want to come to a café last Thursday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du ikke med på bar på torsdag?",
+                            "english": "Won't you come to a bar on Thursday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du ikke med på museum på torsdag?",
+                            "english": "Won't you come to a museum on Thursday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du ikke med i parken på torsdag?",
+                            "english": "Won't you come to the park on Thursday?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Kommer du til Julies fest på fredag?",
+                    "english": "Are you coming to Julie's party on Friday?",
+                    "modifications": [
+                        {
+                            "danish": "Kommer I til Julies fest på fredag?",
+                            "english": "Are you (plural) coming to Julie's party on Friday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Kommer han til Julies fest på fredag?",
+                            "english": "Is he coming to Julie's party on Friday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Kommer dine søskende til Julies fest på fredag?",
+                            "english": "Are your siblings coming to Julie's party on Friday?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Kommer du til Julies fest på fredag aften?",
+                            "english": "Are you coming to Julie's party on Friday evening?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Kommer du til Julies fest næste fredag?",
+                            "english": "Are you coming to Julie's party next Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Kom du til Julies fest i fredags?",
+                            "english": "Did you come to Julie's party last Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Kommer du til Julies middag på fredag?",
+                            "english": "Are you coming to Julie's dinner on Friday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Kommer du til Julies bryllup på fredag?",
+                            "english": "Are you coming to Julie's wedding on Friday?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Kommer du til Julies fødselsdag på fredag?",
+                            "english": "Are you coming to Julie's birthday on Friday?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvad skal du lave næste weekend?",
+                    "english": "What are you doing next weekend?",
+                    "modifications": [
+                        {
+                            "danish": "Hvad skal I lave næste weekend?",
+                            "english": "What are you (plural) doing next weekend?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal hun lave næste weekend?",
+                            "english": "What is she doing next weekend?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal Mads lave næste weekend?",
+                            "english": "What is Mads doing next weekend?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal du lave i weekenden om to uger?",
+                            "english": "What are you doing the weekend in two weeks?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du lave lørdag næste weekend?",
+                            "english": "What are you doing Saturday next weekend?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad lavede du sidste weekend?",
+                            "english": "What did you do last weekend?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du lave næste ferie?",
+                            "english": "What are you doing next vacation?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du lave næste måned?",
+                            "english": "What are you doing next month?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du lave næste uge?",
+                            "english": "What are you doing next week?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Hvad skal du lave den 13. juli?",
+                    "english": "What are you doing on July 13th?",
+                    "modifications": [
+                        {
+                            "danish": "Hvad skal I lave den 13. juli?",
+                            "english": "What are you (plural) doing on July 13th?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal hun lave den 13. juli?",
+                            "english": "What is she doing on July 13th?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal Martin lave den 13. juli?",
+                            "english": "What is Martin doing on July 13th?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Hvad skal du lave den 13. juli om aftenen?",
+                            "english": "What are you doing on July 13th in the evening?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du lave den 13. juli næste år?",
+                            "english": "What are you doing on July 13th next year?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad lavede du den 13. juli sidste år?",
+                            "english": "What did you do on July 13th last year?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Hvad skal du lave den 24. december?",
+                            "english": "What are you doing on December 24th?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du lave den 1. januar?",
+                            "english": "What are you doing on January 1st?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Hvad skal du lave den første feriedag?",
+                            "english": "What are you doing on the first day of vacation?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Vil du med i biografen i aften?",
+                    "english": "Do you want to go to the cinema tonight?",
+                    "modifications": [
+                        {
+                            "danish": "Vil I med i biografen i aften?",
+                            "english": "Do you (plural) want to go to the cinema tonight?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil han med i biografen i aften?",
+                            "english": "Does he want to go to the cinema tonight?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil din kæreste med i biografen i aften?",
+                            "english": "Does your partner want to go to the cinema tonight?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Vil du med i biografen i morgen aften?",
+                            "english": "Do you want to go to the cinema tomorrow night?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med i biografen på lørdag?",
+                            "english": "Do you want to go to the cinema on Saturday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Ville du med i biografen i går?",
+                            "english": "Did you want to go to the cinema yesterday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Vil du med på restaurant i aften?",
+                            "english": "Do you want to go to a restaurant tonight?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du med til koncert i aften?",
+                            "english": "Do you want to go to a concert tonight?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Vil du med på bar i aften?",
+                            "english": "Do you want to go to a bar tonight?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Har du tid på fredag eftermiddag?",
+                    "english": "Do you have time on Friday afternoon?",
+                    "modifications": [
+                        {
+                            "danish": "Har I tid på fredag eftermiddag?",
+                            "english": "Do you (plural) have time on Friday afternoon?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Har hun tid på fredag eftermiddag?",
+                            "english": "Does she have time on Friday afternoon?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Har Thomas tid på fredag eftermiddag?",
+                            "english": "Does Thomas have time on Friday afternoon?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Har du tid på fredag morgen?",
+                            "english": "Do you have time on Friday morning?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Havde du tid i fredags?",
+                            "english": "Did you have time last Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Har du tid næste fredag?",
+                            "english": "Do you have time next Friday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Har du tid på mandag eftermiddag?",
+                            "english": "Do you have time on Monday afternoon?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Har du tid i weekenden?",
+                            "english": "Do you have time on the weekend?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Har du tid efter arbejde?",
+                            "english": "Do you have time after work?",
+                            "type": "transport/context"
+                        }
+                    ]
+                },
+                {
+                    "danish": "Skal vi mødes til frokost?",
+                    "english": "Shall we meet for lunch?",
+                    "modifications": [
+                        {
+                            "danish": "Skal de mødes til frokost?",
+                            "english": "Are they meeting for lunch?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Skal du og Sofie mødes til frokost?",
+                            "english": "Are you and Sofie meeting for lunch?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Skal vi to mødes til frokost?",
+                            "english": "Shall the two of us meet for lunch?",
+                            "type": "pronoun"
+                        },
+                        {
+                            "danish": "Skal vi mødes til frokost i morgen?",
+                            "english": "Shall we meet for lunch tomorrow?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Skal vi mødes til frokost på tirsdag?",
+                            "english": "Shall we meet for lunch on Tuesday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Skulle vi mødes til frokost i går?",
+                            "english": "Were we supposed to meet for lunch yesterday?",
+                            "type": "time"
+                        },
+                        {
+                            "danish": "Skal vi mødes til kaffe?",
+                            "english": "Shall we meet for coffee?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Skal vi mødes til middag?",
+                            "english": "Shall we meet for dinner?",
+                            "type": "transport/context"
+                        },
+                        {
+                            "danish": "Skal vi mødes til morgenmad?",
+                            "english": "Shall we meet for breakfast?",
+                            "type": "transport/context"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lesson_number": 6.2,
+            "title": "Har du nogensinde været på Louisiana?",
+            "target_phrases": [
+                {
+                    "danish": "Velbekomme!",
+                    "english": "Enjoy your meal!"
+                },
+                {
+                    "danish": "Hvor har du været henne?",
+                    "english": "Where have you been?"
+                },
+                {
+                    "danish": "Jeg har været hjemme hos",
+                    "english": "I have been at (someone's) home"
+                },
+                {
+                    "danish": "Vi skal aflevere vores projekt",
+                    "english": "We have to submit our project"
+                },
+                {
+                    "danish": "Det lyder hårdt",
+                    "english": "That sounds hard"
+                },
+                {
+                    "danish": "Bliver det godt?",
+                    "english": "Will it be good?"
+                },
+                {
+                    "danish": "Det håber jeg",
+                    "english": "I hope so"
+                },
+                {
+                    "danish": "Værsgo, tag noget mad",
+                    "english": "Please, help yourself to some food"
+                },
+                {
+                    "danish": "Tak for mad",
+                    "english": "Thanks for the food"
+                },
+                {
+                    "danish": "Jeg skal lige i bad",
+                    "english": "I need to take a shower"
+                },
+                {
+                    "danish": "Har du nogensinde været i?",
+                    "english": "Have you ever been to?"
+                },
+                {
+                    "danish": "Det lyder interessant",
+                    "english": "That sounds interesting"
+                },
+                {
+                    "danish": "Vil du ikke med en dag?",
+                    "english": "Would you like to come along one day?"
+                },
+                {
+                    "danish": "Det er en aftale",
+                    "english": "It's a deal"
+                },
+                {
+                    "danish": "Når I har afleveret projektet",
+                    "english": "When you have submitted the project"
+                }
+            ]
+        },
+        {
+            "lesson_number": 6.3,
+            "title": "Hvor i Danmark har du været?",
+            "target_phrases": [
+                {
+                    "danish": "Nu er der kaffe",
+                    "english": "The coffee is ready now"
+                },
+                {
+                    "danish": "Jeg har snart ferie",
+                    "english": "I have vacation soon"
+                },
+                {
+                    "danish": "Hvor skal du hen?",
+                    "english": "Where are you going?"
+                },
+                {
+                    "danish": "Det ved jeg ikke",
+                    "english": "I don't know"
+                },
+                {
+                    "danish": "Et sted i Danmark",
+                    "english": "Somewhere in Denmark"
+                },
+                {
+                    "danish": "Hvor i Danmark har du været?",
+                    "english": "Where in Denmark have you been?"
+                },
+                {
+                    "danish": "Har du nogensinde været i?",
+                    "english": "Have you ever been to?"
+                },
+                {
+                    "danish": "Er det en stor by?",
+                    "english": "Is it a big city?"
+                },
+                {
+                    "danish": "Der bor kun 8000 mennesker",
+                    "english": "Only 8000 people live there"
+                },
+                {
+                    "danish": "Det er en smuk by",
+                    "english": "It's a beautiful city"
+                },
+                {
+                    "danish": "Det er en gammel by",
+                    "english": "It's an old city"
+                },
+                {
+                    "danish": "Det lyder spændende",
+                    "english": "That sounds exciting"
+                },
+                {
+                    "danish": "Min søster bor i",
+                    "english": "My sister lives in"
+                },
+                {
+                    "danish": "Jeg har boet og arbejdet i",
+                    "english": "I have lived and worked in"
+                },
+                {
+                    "danish": "Jeg kan godt lide",
+                    "english": "I like"
                 }
             ]
         }

@@ -1,43 +1,86 @@
 {
     "input": {
-        "lesson_number": 1.1,
-        "title": "Hvad hedder du?",
+        "lesson_number": 1.2,
+        "title": "Kan du tale dansk?",
         "day": "Tuesday",
         "recap_phrases": [
             {
-                "danish": "Hej, jeg hedder Tom",
-                "english": "Hi, my name is Tom"
+                "danish": "Kan du tale fransk?",
+                "english": "Can you speak French?"
             },
             {
-                "danish": "Hvad hedder du?",
-                "english": "What is your name?"
+                "danish": "Ja, det kan jeg",
+                "english": "Yes, I can"
             },
             {
-                "danish": "Hvor kommer du fra?",
-                "english": "Where are you from?"
+                "danish": "Nej, det kan jeg ikke",
+                "english": "No, I can't"
             }
         ],
         "target_phrases": [
             {
-                "danish": "Jeg kommer fra New Zealand",
-                "english": "I come from New Zealand"
+                "danish": "Jeg kan kun tale dansk",
+                "english": "I can only speak Danish"
             },
             {
-                "danish": "Er du ny her?",
-                "english": "Are you new here?"
+                "danish": "Hvad med engelsk?",
+                "english": "What about English?"
             },
             {
-                "danish": "Ja, det er jeg",
-                "english": "Yes, I am"
+                "danish": "Det kan jeg selvfølgelig også",
+                "english": "Of course I can do that too"
             }
         ],
         "lesson_structure": [
             "quick_review",
             "dialogue_focus",
-            "word_chain",
-            "problem_solver",
-            "speed_challenge"
+            "scenario_practise",
+            "pattern_detective"
         ]
     },
-    "output": "order_id,language,voice_id,text,delay,repeat\n1,en,en_f_voice,\"Let's practice some pattern variations with these phrases.\",0,1\n2,en,en_f_voice,\"We'll see how small changes can help you express different ideas.\",0,1\n3,en,en_f_voice,\"First, let's learn this phrase:\",0,1\n4,en,en_f_voice,\"I come from New Zealand\",0,1\n5,da,da_m_voice,\"Jeg kommer fra New Zealand\",2000,2\n6,en,en_f_voice,\"You can replace the location with other places:\",0,1\n7,en,en_f_voice,\"I come from Denmark\",0,1\n8,da,da_m_voice,\"Jeg kommer fra Danmark\",2000,2\n9,en,en_f_voice,\"I come from England\",0,1\n10,da,da_m_voice,\"Jeg kommer fra England\",2000,2\n11,en,en_f_voice,\"I come from China\",0,1\n12,da,da_m_voice,\"Jeg kommer fra Kina\",2000,2\n13,en,en_f_voice,\"Let's try a quick dialogue:\",0,1\n14,da,da_f_voice,\"Jeg kommer fra New Zealand\",2000,1\n15,da,da_m_voice,\"Er du ny her?\",3000,1\n16,en,en_f_voice,\"This means:\",0,1\n17,en,en_f_voice,\"Are you new here?\",0,1\n18,da,da_m_voice,\"Er du ny her?\",2000,2\n19,en,en_f_voice,\"You can modify this question pattern:\",0,1\n20,en,en_f_voice,\"Are you Danish?\",0,1\n21,da,da_m_voice,\"Er du dansk?\",2000,2\n22,en,en_f_voice,\"Are you a teacher?\",0,1\n23,da,da_m_voice,\"Er du lærer?\",2000,2\n24,en,en_f_voice,\"Let's continue the dialogue:\",0,1\n25,da,da_f_voice,\"Jeg kommer fra New Zealand\",2000,1\n26,da,da_f_voice,\"Er du ny her?\",2000,1\n27,da,da_m_voice,\"Ja, det er jeg\",3000,1\n28,en,en_f_voice,\"This means:\",0,1\n29,en,en_f_voice,\"Yes, I am\",0,1\n30,da,da_m_voice,\"Ja, det er jeg\",2000,2\n31,en,en_f_voice,\"Practice these response patterns:\",0,1\n32,en,en_f_voice,\"No, I am not\",0,1\n33,da,da_m_voice,\"Nej, det er jeg ikke\",2000,2\n34,en,en_f_voice,\"Yes, of course\",0,1\n35,da,da_m_voice,\"Ja, selvfølgelig\",2000,2\n36,en,en_f_voice,\"Now, let's practice some of these variations together.\",0,1\n37,da,da_f_voice,\"Jeg kommer fra Danmark\",2000,1\n38,da,da_m_voice,\"Er du dansk?\",2000,1\n39,da,da_f_voice,\"Ja, selvfølgelig\",2000,1\n40,en,en_f_voice,\"And again\",0,1\n41,da,da_f_voice,\"Jeg kommer fra Kina\",2000,1\n42,da,da_m_voice,\"Er du lærer?\",2000,1\n43,da,da_f_voice,\"Nej, det er jeg ikke\",2000,1"
+    "output": [
+        ["order_id","language","voice_id","text","delay","repeat"],
+        [1,"en","en_f_voice","Now we'll move to the Pattern Detective section where we'll explore variations of key phrases.",0,1],
+        [2,"en","en_f_voice","We'll take each phrase and show you how to modify it for different contexts.",0,1],
+        [3,"en","en_f_voice","Let's start with the phrase: I can only speak Danish",0,1],
+        [4,"da","da_m_voice","Jeg kan kun tale dansk",2000,2],
+        [5,"en","en_f_voice","Here are some different ways you can modify this phrase:",0,1],
+        [6,"en","en_f_voice","I can only speak a little Danish",0,1],
+        [7,"da","da_m_voice","Jeg kan kun tale lidt dansk",2000,3],
+        [8,"en","en_f_voice","I can only speak English",0,1],
+        [9,"da","da_m_voice","Jeg kan kun tale engelsk",2000,3],
+        [10,"en","en_f_voice","She can only speak Danish",0,1],
+        [11,"da","da_m_voice","Hun kan kun tale dansk",2000,3],
+        [12,"en","en_f_voice","They can only speak Danish",0,1],
+        [13,"da","da_m_voice","De kan kun tale dansk",2000,3],
+        [14,"en","en_f_voice","We can only speak Danish together",0,1],
+        [15,"da","da_m_voice","Vi kan kun tale dansk sammen",2000,3],
+        [16,"en","en_f_voice","Now let's look at the phrase: What about English?",0,1],
+        [17,"da","da_f_voice","Hvad med engelsk?",2000,2],
+        [18,"en","en_f_voice","Here are a few different ways you can modify this phrase:",0,1],
+        [19,"en","en_f_voice","What about French?",0,1],
+        [20,"da","da_f_voice","Hvad med fransk?",2000,3],
+        [21,"en","en_f_voice","What about Spanish?",0,1],
+        [22,"da","da_f_voice","Hvad med spansk?",2000,3],
+        [23,"en","en_f_voice","What about your brother?",0,1],
+        [24,"da","da_f_voice","Hvad med din bror?",2000,3],
+        [25,"en","en_f_voice","What about tomorrow?",0,1],
+        [26,"da","da_f_voice","Hvad med i morgen?",2000,3],
+        [27,"en","en_f_voice","What about meeting later?",0,1],
+        [28,"da","da_f_voice","Hvad med at mødes senere?",2000,3],
+        [29,"en","en_f_voice","Finally, let's explore the phrase: Of course I can do that too",0,1],
+        [30,"da","da_m_voice","Det kan jeg selvfølgelig også",2000,2],
+        [31,"en","en_f_voice","Here are different ways you can modify this phrase:",0,1],
+        [32,"en","en_f_voice","Of course I will do that too",0,1],
+        [33,"da","da_m_voice","Det vil jeg selvfølgelig også",2000,3],
+        [34,"en","en_f_voice","Of course I should do that too",0,1],
+        [35,"da","da_m_voice","Det skal jeg selvfølgelig også",2000,3],
+        [36,"en","en_f_voice","Of course she can do that too",0,1],
+        [37,"da","da_m_voice","Det kan hun selvfølgelig også",2000,3],
+        [38,"en","en_f_voice","Of course we can do that too",0,1],
+        [39,"da","da_m_voice","Det kan vi selvfølgelig også",2000,3],
+        [40,"en","en_f_voice","Of course I cannot do that",0,1],
+        [41,"da","da_m_voice","Det kan jeg selvfølgelig ikke",2000,3],
+        [42,"en","en_f_voice","That completes our Pattern Detective section. Practice using these variations in your conversations!",0,1]
+    ]
 }

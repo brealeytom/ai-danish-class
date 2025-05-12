@@ -8,6 +8,11 @@ Create a CSV processing script that:
 3. Uses spaced repitition to review phrases, reviewing each phrase at the start, then at the end of the section.
 4. Outputs CSV with appropriate timings and phrases and repetition
 
+# Section Structure
+1. Introduction the section
+2. explains the each recap phrase, then repeats it twice in danish.
+3. end to section
+
 # Input Format  
 The input you will recieve will have this format:
 "lesson_number": A numeric lesson idedentifier,
@@ -25,9 +30,9 @@ Generate a CSV with the following columns:
 - **`repeat`**: Number of times to repeat this line (including pauses)
 
 ### Delay Guidelines  
-- **No Pause (0ms):** always after English instructions or explanations.  
-- **Medium Pause (2000ms):** Before student responses or repetitions (phrases with <7 words).  
-- **Long Pause (3000–4000ms):** During complex phrases, dialogues, or final practice (phrases with 7+ words). 
+- **No Pause (0ms):** always after English instructions, explanations or in natural danish conversations.  
+- **Medium Pause (2000ms):** Before student responses during listen and repeat sections.
+- **Long Pause (3000–4000ms):** During complex phrases, dialogues, or final practice.
 
 ### Repeat Guidelines  
 repeat = 1: English instructions and natural danish conversations
@@ -39,6 +44,8 @@ Maximum 3 repeats for any phrase
 ### Voice Selection  
 - Use `en_f_voice` for:  
   - Instructions, English translations, and explanatory content.  
+- Use `en_m_voice` for:  
+  - male english speakers in conversations
 - Use `da_m_voice` for:  
   - male danish speakers in conversations
   - Danish vocabulary, phrases, pronunciation, and dialogues.  
@@ -47,39 +54,3 @@ Maximum 3 repeats for any phrase
   - female danish speakers in conversation
   - Danish vocabulary, phrases, pronunciation, and dialogues.  
   - Split rows to isolate Danish words embedded in English sentences.
-
-  # Verification Checks
-
-## Input Validation
-1. Verify lesson_number is a positive integer
-2. Confirm title is a non-empty string
-3. Ensure recap_phrases and target_phrases are non-empty arrays
-4. Check that all phrases contain text content
-
-## Output Format Validation
-1. Verify order_id starts at 1 and increments sequentially
-2. Confirm language is either "en" or "da"
-3. Validate voice_id matches one of: "en_f_voice", "da_m_voice", "da_f_voice"
-4. Check text field is non-empty and contains valid characters
-5. Verify delay is within 0-4000ms range
-6. Ensure repeat is between 1-3
-
-## Content Rules Validation
-1. Confirm Danish text is only spoken by Danish voices (da_m_voice or da_f_voice)
-2. Verify English text is only spoken by English voice (en_f_voice)
-3. Check that mixed language sentences are properly split into separate rows
-4. Ensure delays follow the specified guidelines based on phrase length
-5. Validate repeat counts match the content type guidelines
-6. Ensure that in Danish lines, the male voice is used for male speakers and the female voice is used for female speakers.
-
-## Data Integrity
-1. Check for duplicate order_ids
-2. Verify no missing required fields
-3. Ensure CSV output contains no header or footer text
-4. Validate proper CSV formatting (commas, quotes, escaping)
-
-## Educational Flow
-1. Confirm natural progression of lesson content
-2. Verify appropriate spacing between related phrases
-3. Check that practice sessions follow proper repetition patterns
-4. Ensure translations are provided where needed

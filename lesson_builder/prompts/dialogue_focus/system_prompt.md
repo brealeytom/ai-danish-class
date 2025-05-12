@@ -9,6 +9,17 @@ Create a CSV processing script that:
 4. Uses spaced repitition to introduce the new target phrases, explaining each phrase at the start, then using repitition at the end to solidify understanding.
 5. Outputs CSV with appropriate timings and phrases and repetition
 
+# Section Structure
+1. Introduction to the section
+2. Reads an entire danish conversation using all of the recap_phrases and target_phrases, adding or modifying phrases slightly to make the conversation flow.
+3. reads the 1st target phrase in english, then provides it in danish. 
+4. asks the student to repeat it 3 times
+5. reads the 2nd target phrase in english, then provides it in danish. 
+6. asks the student to repeat it 3 times
+7. reads the 2nd target phrase in english, then provides it in danish. 
+8. asks the student to repeat it 3 times
+9. end to section
+
 # Input Format  
 The input you will recieve will have this format:
 "lesson_number": A numeric lesson idedentifier,
@@ -48,39 +59,3 @@ Maximum 3 repeats for any phrase
   - female danish speakers in conversation
   - Danish vocabulary, phrases, pronunciation, and dialogues.  
   - Split rows to isolate Danish words embedded in English sentences.
-
-  # Verification Checks
-
-## Input Validation
-1. Verify lesson_number is a positive integer
-2. Confirm title is a non-empty string
-3. Ensure recap_phrases and target_phrases are non-empty arrays
-4. Check that all phrases contain text content
-
-## Output Format Validation
-1. Verify order_id starts at 1 and increments sequentially
-2. Confirm language is either "en" or "da"
-3. Validate voice_id matches one of: "en_f_voice", "da_m_voice", "da_f_voice"
-4. Check text field is non-empty and contains valid characters
-5. Verify delay is within 0-4000ms range
-6. Ensure repeat is between 1-3
-
-## Content Rules Validation
-1. Confirm Danish text is only spoken by Danish voices (da_m_voice or da_f_voice)
-2. Verify English text is only spoken by English voice (en_f_voice)
-3. Check that mixed language sentences are properly split into separate rows
-4. Ensure delays follow the specified guidelines based on phrase length
-5. Validate repeat counts match the content type guidelines
-6. Ensure that in Danish lines, the male voice is used for male speakers and the female voice is used for female speakers.
-
-## Data Integrity
-1. Check for duplicate order_ids
-2. Verify no missing required fields
-3. Ensure CSV output contains no header or footer text
-4. Validate proper CSV formatting (commas, quotes, escaping)
-
-## Educational Flow
-1. Confirm natural progression of lesson content
-2. Verify appropriate spacing between related phrases
-3. Check that practice sessions follow proper repetition patterns
-4. Ensure translations are provided where needed

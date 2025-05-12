@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Tuple
 
-def load_configs() -> tuple[Dict[str, Any], Dict[str, Any]]:
+def load_configs() -> Tuple[Dict[str, Any], Dict[str, Any]]:
     """Load both configuration files."""
     with open('resources/lessons_content_config.json', 'r', encoding='utf-8') as f:
         content_config = json.load(f)
@@ -12,11 +12,21 @@ def load_configs() -> tuple[Dict[str, Any], Dict[str, Any]]:
     
     return content_config, structure_config
 
-def get_phrases_by_indices(phrases: List[Dict[str, str]], indices: List[int]) -> List[Dict[str, str]]:
-    """Get phrases by their 1-based indices."""
-    return [phrases[i-1] for i in indices]
+def get_phrases_by_indices(phrases: List[Dict[str, Any]], indices: List[int]) -> List[Dict[str, Any]]:
+    """Get phrases by their 1-based indices, including their modifications."""
+    result = []
+    for i in indices:
+        # Get the base phrase (index is 1-based)
+        phrase = phrases[i-1].copy()
+        
+        # If there are modifications, include them
+        if "modifications" in phrase:
+            phrase["modifications"] = phrase["modifications"]
+        
+        result.append(phrase)
+    return result
 
-def parse_lesson_number(lesson_number: float) -> tuple[int, int]:
+def parse_lesson_number(lesson_number: float) -> Tuple[int, int]:
     """Convert lesson number (e.g., 1.1) to part and lesson numbers."""
     part_num, lesson_num = str(lesson_number).split('.')
     return int(part_num), int(lesson_num)
@@ -56,9 +66,20 @@ def generate_daily_lesson_plans(
         for i, daily_lesson in enumerate(structure_config["lessons"], 1):
             day = daily_lesson["day"].lower()
             
-            # Get specific phrases for this day
+            # Get specific phrases for this day with modifications
             target_phrases = get_phrases_by_indices(all_phrases, daily_lesson["target_phrases"])
             recap_phrases = get_phrases_by_indices(all_phrases, daily_lesson["recap_phrases"])
+            
+            # Organize modifications by type if specified in the structure config
+            if "modification_types" in daily_lesson:
+                for phrase in target_phrases:
+                    if "modifications" in phrase:
+                        # Filter modifications based on the specified types
+                        filtered_mods = [
+                            mod for mod in phrase["modifications"] 
+                            if mod["type"] in daily_lesson["modification_types"]
+                        ]
+                        phrase["modifications"] = filtered_mods
             
             # Create the daily lesson plan
             daily_plan = {
@@ -69,6 +90,10 @@ def generate_daily_lesson_plans(
                 "target_phrases": target_phrases,
                 "lesson_structure": daily_lesson["lesson_structure"]
             }
+            
+            # Add modification focus if present in the daily structure
+            if "modification_focus" in daily_lesson:
+                daily_plan["modification_focus"] = daily_lesson["modification_focus"]
             
             # Save to file with new naming convention
             filepath = lesson_dir / f"{i:02d}_{day}.json"

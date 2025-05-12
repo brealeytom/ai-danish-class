@@ -1,43 +1,64 @@
 {
     "input": {
-        "lesson_number": 1.1,
-        "title": "Hvad hedder du?",
+        "lesson_number": 1.2,
+        "title": "Kan du tale dansk?",
         "day": "Tuesday",
         "recap_phrases": [
             {
-                "danish": "Hej, jeg hedder Tom",
-                "english": "Hi, my name is Tom"
+                "danish": "Kan du tale fransk?",
+                "english": "Can you speak French?"
             },
             {
-                "danish": "Hvad hedder du?",
-                "english": "What is your name?"
+                "danish": "Ja, det kan jeg",
+                "english": "Yes, I can"
             },
             {
-                "danish": "Hvor kommer du fra?",
-                "english": "Where are you from?"
+                "danish": "Nej, det kan jeg ikke",
+                "english": "No, I can't"
             }
         ],
         "target_phrases": [
             {
-                "danish": "Jeg kommer fra New Zealand",
-                "english": "I come from New Zealand"
+                "danish": "Jeg kan kun tale dansk",
+                "english": "I can only speak Danish"
             },
             {
-                "danish": "Er du ny her?",
-                "english": "Are you new here?"
+                "danish": "Hvad med engelsk?",
+                "english": "What about English?"
             },
             {
-                "danish": "Ja, det er jeg",
-                "english": "Yes, I am"
+                "danish": "Det kan jeg selvfølgelig også",
+                "english": "Of course I can do that too"
             }
         ],
         "lesson_structure": [
             "quick_review",
-            "story_based",  
-            "word_chain",
-            "problem_solver",
-            "speed_challenge"
+            "dialogue_focus",
+            "scenario_practise",
+            "pattern_detective"
         ]
     },
-    "output": "order_id,language,voice_id,text,delay,repeat\n1,\"en\",\"en_f_voice\",\"Let's quickly review some phrases from our last lesson.\",0,1\n2,\"en\",\"en_f_voice\",\"First, let's remember how to say 'Hi, my name is Tom'\",0,1\n3,\"da\",\"da_m_voice\",\"Hej, jeg hedder Tom\",2000,2\n4,\"en\",\"en_f_voice\",\"Now, 'What is your name?'\",0,1\n5,\"da\",\"da_f_voice\",\"Hvad hedder du?\",2000,2\n6,\"en\",\"en_f_voice\",\"And 'Where are you from?'\",0,1\n7,\"da\",\"da_m_voice\",\"Hvor kommer du fra?\",2000,2\n8,\"en\",\"en_f_voice\",\"Now let's practice these phrases together. Listen and repeat:\",3000,1\n9,\"da\",\"da_m_voice\",\"Hej, jeg hedder Tom\",3000,3\n10,\"da\",\"da_f_voice\",\"Hvad hedder du?\",3000,3\n11,\"da\",\"da_m_voice\",\"Hvor kommer du fra?\",3000,3"
+    "output": [
+        ["order_id", "language", "voice_id", "text", "delay", "repeat"],
+        [1,"en","en_f_voice","Welcome to the quick review section.",0,1],
+        [2,"en","en_f_voice","Let's practice the phrases from our previous lesson.",0,1],
+        [3,"en","en_f_voice","Let's start with our first phrase:",0,1],
+        [4,"en","en_f_voice","The phrase 'Can you speak French?' in Danish is:",0,1],
+        [5,"da","da_f_voice","Kan du tale fransk?",2000,2],
+        [6,"en","en_f_voice","Listen and repeat:",0,1],
+        [7,"da","da_f_voice","Kan du tale fransk?",2000,2],
+        [8,"en","en_f_voice","Now let's review the next phrase:",0,1],
+        [9,"en","en_f_voice","The phrase 'Yes, I can' in Danish is:",0,1],
+        [10,"da","da_m_voice","Ja, det kan jeg",2000,3],
+        [13,"en","en_f_voice","Now let's review the next phrase:",0,1],
+        [14,"da","da_f_voice","Nej, det kan jeg ikke",2000,1],
+        [15,"en","en_f_voice","Listen and repeat:",0,1],
+        [16,"da","da_f_voice","Nej, det kan jeg ikke",2000,2],
+        [17,"en","en_f_voice","This means 'No, I cannot' in Danish.",500,1],
+        [18,"en","en_f_voice","Now, let's do a final review of all phrases.",0,1],
+        [20,"da","da_f_voice","Kan du tale fransk?",2000,2],
+        [22,"da","da_m_voice","Ja, det kan jeg",2000,2],
+        [24,"da","da_f_voice","Nej, det kan jeg ikke",2000,2],
+        [25,"en","en_f_voice","Great job! You've completed the review. Let's move on to today's new phrases.",0,1]
+    ]
 }

@@ -338,10 +338,140 @@ def process_directory(base_path: str, part: str = None, lesson: str = None, chun
     
     return True
 
-# Example usage
-if __name__ == "__main__":
-    # Test mode
-    #process_directory("danish", "part_01", test_mode=True)
+def combine_daily_audio(lesson_dir: Path, day_number: str, test_mode: bool = False) -> bool:
+    """
+    Combine all audio files for a specific day in a lesson into a single file.
+    
+    Args:
+        lesson_dir: Path to the lesson directory
+        day_number: The day number as a two-digit string (e.g., '01', '02')
+        test_mode: If True, creates a text summary instead of combining audio
+    
+    Returns:
+        bool: True if combination was successful, False otherwise
+    """
+    try:
+        audio_dir = lesson_dir / 'audio'
+        if not audio_dir.exists():
+            print(f"Error: Audio directory not found in {lesson_dir}")
+            return False
+            
+        # Find all audio files for the specified day
+        day_pattern = f"{day_number}_[0-9][0-9]_*.mp3"
+        day_files = list(audio_dir.glob(day_pattern))
+        
+        if not day_files:
+            print(f"No audio files found for day {day_number} in {audio_dir}")
+            return False
+            
+        # Sort files by the second number (section number)
+        day_files.sort(key=lambda x: x.stem.split('_')[1])
+        
+        print(f"Found {len(day_files)} audio files for day {day_number}:")
+        for file in day_files:
+            print(f"  - {file.name}")
 
-    # Normal mode
-    process_directory("danish", "part_01", test_mode=False)
+        if test_mode:
+            # Create test output directory
+            test_dir = lesson_dir / 'test_combined_audio'
+            test_dir.mkdir(exist_ok=True)
+            
+            # Create a text summary instead of combining audio
+            output_path = test_dir / f"day_{day_number}_combined_test.txt"
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(f"Test Mode Summary for Day {day_number}\n")
+                f.write("=" * 50 + "\n\n")
+                f.write(f"Files to be combined in order:\n")
+                for audio_file in day_files:
+                    f.write(f"- {audio_file.name}\n")
+            print(f"Test mode: Created summary file at {output_path}")
+            return True
+            
+        else:
+            # Create the combined audio
+            combined = AudioSegment.empty()
+            for audio_file in day_files:
+                print(f"Adding {audio_file.name}")
+                segment = AudioSegment.from_mp3(str(audio_file))
+                combined += segment
+                
+            # Create combined directory if it doesn't exist
+            combined_dir = lesson_dir / 'combined_audio'
+            combined_dir.mkdir(exist_ok=True)
+            
+            # Export combined file
+            output_filename = combined_dir / f"day_{day_number}_combined.mp3"
+            combined.export(str(output_filename), format="mp3")
+            print(f"Created combined audio file: {output_filename}")
+            
+            return True
+        
+    except Exception as e:
+        print(f"Error combining audio files: {str(e)}")
+        return False
+
+def combine_lesson_audio(base_path: str, part: str, lesson: str, test_mode: bool = False) -> bool:
+    """
+    Combine audio files for all days in a specific lesson.
+    
+    Args:
+        base_path: Base path to the language directory (e.g., 'danish')
+        part: Part identifier (e.g., 'part_01')
+        lesson: Lesson identifier (e.g., 'lesson_01')
+        test_mode: If True, creates text summaries instead of combining audio
+    
+    Returns:
+        bool: True if all combinations were successful, False otherwise
+    """
+    try:
+        base_dir = Path(base_path)
+        lesson_dir = base_dir / part / lesson
+        
+        if not lesson_dir.exists():
+            print(f"Error: Lesson directory {lesson_dir} does not exist")
+            return False
+            
+        # Look at the daily_transcripts directory to determine which days exist
+        transcript_dir = lesson_dir / 'daily_transcripts'
+        if not transcript_dir.exists():
+            print(f"Error: daily_transcripts directory not found in {lesson_dir}")
+            return False
+            
+        # Get unique day numbers from CSV files
+        day_numbers = set()
+        for csv_file in transcript_dir.glob("*.csv"):
+            # Extract the day number (first two digits)
+            day_num = csv_file.stem.split('_')[0]
+            if len(day_num) == 2 and day_num.isdigit():
+                day_numbers.add(day_num)
+        
+        if not day_numbers:
+            print(f"No day numbers found in {transcript_dir}")
+            return False
+
+        if test_mode:
+            print(f"Running in test mode - will create text summaries instead of audio files")
+            
+        # Process each day
+        success = True
+        for day_num in sorted(day_numbers):
+            print(f"\nProcessing day {day_num}...")
+            if not combine_daily_audio(lesson_dir, day_num, test_mode):
+                print(f"Failed to combine audio for day {day_num}")
+                success = False
+                
+        return success
+        
+    except Exception as e:
+        print(f"Error in combine_lesson_audio: {str(e)}")
+        return False
+
+# Update your main block to include the new functionality
+if __name__ == "__main__":
+    # Test mode examples
+    #process_directory("danish", "part_01", test_mode=True)
+    #combine_lesson_audio("danish", "part_01", "lesson_01", test_mode=True)
+
+    # Normal mode examples
+    process_directory("danish", "part_06", test_mode=False)
+    combine_lesson_audio("danish", "part_06", "lesson_01")

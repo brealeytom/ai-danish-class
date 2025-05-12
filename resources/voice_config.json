@@ -1,6 +1,13 @@
 {
   "en_f_voice": {
-    "id": "uh5qBlKfjqFl7XXhFnJi",
+    "id": "56AoDkrOh6qfVPDXZ7Pt",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.9
+    }
+  },
+  "en_m_voice": {
+    "id": "UgBBYS2sOqTuMpoF3BR0",
     "settings": {
       "stability": 0.5,
       "similarity_boost": 0.9

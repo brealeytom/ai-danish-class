@@ -1,0 +1,249 @@
+{
+    "input": {
+            "lesson_number": 5.3,
+            "title": "Transport og Tid",
+            "day": "Monday",
+            "recap_phrases": [],
+            "target_phrases": [
+              {
+                "danish": "Jeg tager afsted nu",
+                "english": "I'm leaving now",
+                "modifications": [
+                  {
+                    "danish": "Vi tager afsted nu",
+                    "english": "We're leaving now",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Han tager afsted nu",
+                    "english": "He's leaving now",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "De tager afsted nu",
+                    "english": "They're leaving now",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Jeg tager afsted om en time",
+                    "english": "I'm leaving in an hour",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Jeg tager afsted i morgen",
+                    "english": "I'm leaving tomorrow",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Jeg tager afsted hver morgen kl. 8",
+                    "english": "I leave every morning at 8",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Jeg tager afsted med bussen",
+                    "english": "I'm leaving by bus",
+                    "type": "transport"
+                  },
+                  {
+                    "danish": "Jeg tager afsted i bil",
+                    "english": "I'm leaving by car",
+                    "type": "transport"
+                  },
+                  {
+                    "danish": "Jeg tager afsted på cykel",
+                    "english": "I'm leaving by bike",
+                    "type": "transport"
+                  }
+                ]
+              },
+              {
+                "danish": "Hvornår ankommer du?",
+                "english": "When do you arrive?",
+                "modifications": [
+                  {
+                    "danish": "Hvornår ankommer I?",
+                    "english": "When do you (plural) arrive?",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Hvornår ankommer hun?",
+                    "english": "When does she arrive?",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Hvornår ankommer de?",
+                    "english": "When do they arrive?",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Hvornår ankommer du i morgen?",
+                    "english": "When do you arrive tomorrow?",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Hvornår ankommer du normalt?",
+                    "english": "When do you normally arrive?",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Hvornår ankommer du om aftenen?",
+                    "english": "When do you arrive in the evening?",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Hvornår ankommer toget?",
+                    "english": "When does the train arrive?",
+                    "type": "transport"
+                  },
+                  {
+                    "danish": "Hvornår ankommer bussen?",
+                    "english": "When does the bus arrive?",
+                    "type": "transport"
+                  },
+                  {
+                    "danish": "Hvornår ankommer flyet?",
+                    "english": "When does the plane arrive?",
+                    "type": "transport"
+                  }
+                ]
+              },
+              {
+                "danish": "Jeg er på vej",
+                "english": "I'm on my way",
+                "modifications": [
+                  {
+                    "danish": "Vi er på vej",
+                    "english": "We're on our way",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Han er på vej",
+                    "english": "He's on his way",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "De er på vej",
+                    "english": "They're on their way",
+                    "type": "pronoun"
+                  },
+                  {
+                    "danish": "Jeg er på vej om ti minutter",
+                    "english": "I'm on my way in ten minutes",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Jeg er på vej nu",
+                    "english": "I'm on my way now",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Jeg er på vej om en halv time",
+                    "english": "I'm on my way in half an hour",
+                    "type": "time"
+                  },
+                  {
+                    "danish": "Jeg er på vej med cyklen",
+                    "english": "I'm on my way by bike",
+                    "type": "transport"
+                  },
+                  {
+                    "danish": "Jeg er på vej med bussen",
+                    "english": "I'm on my way by bus",
+                    "type": "transport"
+                  },
+                  {
+                    "danish": "Jeg er på vej i taxa",
+                    "english": "I'm on my way by taxi",
+                    "type": "transport"
+                  }
+                ]
+              }
+            ],
+            "lesson_structure": [
+              "dialogue_focus",
+              "pattern_detective",
+              "scenario_practise",
+              "speed_challenge"
+            ]
+          },
+    "output": [
+        ["order_id","language","voice_id","text","delay","repeat"],
+        [1,"en","en_f_voice","Welcome to the Production Practice section of Lesson 5.3: Transport og Tid. In this section, I'll ask you to produce Danish phrases related to transport and time.",0,1],
+        [2,"en","en_f_voice","I'll give you an English phrase, and you'll try to say it in Danish. After a pause, you'll hear the correct Danish phrase for comparison.",2000,1],
+        [3,"en","en_f_voice","Let's practice our 1st phrase: 'I'm leaving now'.",1000,1],
+        [4,"en","en_f_voice","How would you say 'I'm leaving now' in Danish?",3000,1],
+        [5,"da","da_m_voice","Jeg tager afsted nu",2000,2],
+        [6,"en","en_f_voice","Now let's practice this phrase changing the pronouns.",1000,1],
+        [7,"en","en_f_voice","How would you say 'We're leaving now' in Danish?",4000,1],
+        [8,"da","da_m_voice","Vi tager afsted nu",2000,2],
+        [9,"en","en_f_voice","How would you say 'He's leaving now' in Danish?",4000,1],
+        [10,"da","da_m_voice","Han tager afsted nu",2000,2],
+        [11,"en","en_f_voice","How would you say 'They're leaving now' in Danish?",4000,1],
+        [12,"da","da_m_voice","De tager afsted nu",2000,2],
+        [13,"en","en_f_voice","Now let's practice this phrase adding time expressions.",1000,1],
+        [14,"en","en_f_voice","How would you say 'I'm leaving in an hour' in Danish?",4000,1],
+        [15,"da","da_m_voice","Jeg tager afsted om en time",2000,2],
+        [16,"en","en_f_voice","How would you say 'I'm leaving tomorrow' in Danish?",4000,1],
+        [17,"da","da_m_voice","Jeg tager afsted i morgen",2000,2],
+        [18,"en","en_f_voice","How would you say 'I leave every morning at 8' in Danish?",4000,1],
+        [19,"da","da_m_voice","Jeg tager afsted hver morgen kl. 8",2000,2],
+        [20,"en","en_f_voice","Now let's practice this phrase mentioning different modes of transport.",1000,1],
+        [21,"en","en_f_voice","How would you say 'I'm leaving by bus' in Danish?",4000,1],
+        [22,"da","da_m_voice","Jeg tager afsted med bussen",2000,2],
+        [23,"en","en_f_voice","How would you say 'I'm leaving by car' in Danish?",4000,1],
+        [24,"da","da_m_voice","Jeg tager afsted i bil",2000,2],
+        [25,"en","en_f_voice","How would you say 'I'm leaving by bike' in Danish?",4000,1],
+        [26,"da","da_m_voice","Jeg tager afsted på cykel",2000,2],
+        [27,"en","en_f_voice","Great job! Let's move on to our next phrase.",1000,1],
+        [28,"en","en_f_voice","Let's practice our 2nd phrase: 'When do you arrive?'.",1000,1],
+        [29,"en","en_f_voice","How would you say 'When do you arrive?' in Danish?",3000,1],
+        [30,"da","da_m_voice","Hvornår ankommer du?",2000,2],
+        [31,"en","en_f_voice","Now let's practice this phrase changing the pronouns.",1000,1],
+        [32,"en","en_f_voice","How would you say 'When do you (plural) arrive?' in Danish?",4000,1],
+        [33,"da","da_m_voice","Hvornår ankommer I?",2000,2],
+        [34,"en","en_f_voice","How would you say 'When does she arrive?' in Danish?",4000,1],
+        [35,"da","da_m_voice","Hvornår ankommer hun?",2000,2],
+        [36,"en","en_f_voice","How would you say 'When do they arrive?' in Danish?",4000,1],
+        [37,"da","da_m_voice","Hvornår ankommer de?",2000,2],
+        [38,"en","en_f_voice","Now let's practice this phrase adding time expressions.",1000,1],
+        [39,"en","en_f_voice","How would you say 'When do you arrive tomorrow?' in Danish?",4000,1],
+        [40,"da","da_m_voice","Hvornår ankommer du i morgen?",2000,2],
+        [41,"en","en_f_voice","How would you say 'When do you normally arrive?' in Danish?",4000,1],
+        [42,"da","da_m_voice","Hvornår ankommer du normalt?",2000,2],
+        [43,"en","en_f_voice","How would you say 'When do you arrive in the evening?' in Danish?",4000,1],
+        [44,"da","da_m_voice","Hvornår ankommer du om aftenen?",2000,2],
+        [45,"en","en_f_voice","Now let's practice this phrase mentioning different modes of transport.",1000,1],
+        [46,"en","en_f_voice","How would you say 'When does the train arrive?' in Danish?",4000,1],
+        [47,"da","da_m_voice","Hvornår ankommer toget?",2000,2],
+        [48,"en","en_f_voice","How would you say 'When does the bus arrive?' in Danish?",4000,1],
+        [49,"da","da_m_voice","Hvornår ankommer bussen?",2000,2],
+        [50,"en","en_f_voice","How would you say 'When does the plane arrive?' in Danish?",4000,1],
+        [51,"da","da_m_voice","Hvornår ankommer flyet?",2000,2],
+        [52,"en","en_f_voice","Great job! Let's move on to our next phrase.",1000,1],
+        [53,"en","en_f_voice","Let's practice our 3rd phrase: 'I'm on my way'.",1000,1],
+        [54,"en","en_f_voice","How would you say 'I'm on my way' in Danish?",3000,1],
+        [55,"da","da_m_voice","Jeg er på vej",2000,2],
+        [56,"en","en_f_voice","Now let's practice this phrase changing the pronouns.",1000,1],
+        [57,"en","en_f_voice","How would you say 'We're on our way' in Danish?",4000,1],
+        [58,"da","da_m_voice","Vi er på vej",2000,2],
+        [59,"en","en_f_voice","How would you say 'He's on his way' in Danish?",4000,1],
+        [60,"da","da_m_voice","Han er på vej",2000,2],
+        [61,"en","en_f_voice","How would you say 'They're on their way' in Danish?",4000,1],
+        [62,"da","da_m_voice","De er på vej",2000,2],
+        [63,"en","en_f_voice","Now let's practice this phrase adding time expressions.",1000,1],
+        [64,"en","en_f_voice","How would you say 'I'm on my way in ten minutes' in Danish?",4000,1],
+        [65,"da","da_m_voice","Jeg er på vej om ti minutter",2000,2],
+        [66,"en","en_f_voice","How would you say 'I'm on my way now' in Danish?",4000,1],
+        [67,"da","da_m_voice","Jeg er på vej nu",2000,2],
+        [68,"en","en_f_voice","How would you say 'I'm on my way in half an hour' in Danish?",4000,1],
+        [69,"da","da_m_voice","Jeg er på vej om en halv time",2000,2],
+        [70,"en","en_f_voice","Now let's practice this phrase mentioning different modes of transport.",1000,1],
+        [71,"en","en_f_voice","How would you say 'I'm on my way by bike' in Danish?",4000,1],
+        [72,"da","da_m_voice","Jeg er på vej med cyklen",2000,2],
+        [73,"en","en_f_voice","How would you say 'I'm on my way by bus' in Danish?",4000,1],
+        [74,"da","da_m_voice","Jeg er på vej med bussen",2000,2],
+        [75,"en","en_f_voice","How would you say 'I'm on my way by taxi' in Danish?",4000,1],
+        [76,"da","da_m_voice","Jeg er på vej i taxa",2000,2],
+        [77,"en","en_f_voice","Excellent work! You've now practiced all our transport and time phrases. Keep using these in your daily conversations to become more fluent.",0,1]
+        ]
+}

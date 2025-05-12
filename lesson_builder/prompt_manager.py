@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union
 import json
 from pathlib import Path
 import yaml
@@ -7,7 +7,7 @@ import yaml
 @dataclass
 class Example:
     input: Dict[str, Any]
-    output: str
+    output: Union[List[List[Any]], str]  # Can be either array format or string
 
 @dataclass
 class PromptConfig:
@@ -62,6 +62,18 @@ class PromptManager:
         if prompt_type not in self.prompt_configs:
             raise ValueError(f"Unknown prompt type: {prompt_type}")
         return self.prompt_configs[prompt_type]
+
+    def _array_to_csv(self, array_data: List[List[Any]]) -> str:
+        """Convert array format to CSV string"""
+        return "\n".join([
+            ",".join([
+                str(cell) if not isinstance(cell, str)
+                else f'"{cell}"' if "," in cell or '"' in cell
+                else cell
+                for cell in row
+            ])
+            for row in array_data
+        ])
     
     def format_for_claude(self, prompt_type: str) -> tuple[str, str]:
         """Format the prompt and examples for Claude API."""
@@ -73,7 +85,13 @@ class PromptManager:
             examples_text += f"<example>\n<INPUT_PROMPT>\n"
             examples_text += json.dumps(example.input, indent=2)
             examples_text += "\n</INPUT_PROMPT>\n<IDEAL_OUTPUT>\n"
-            examples_text += example.output
+            
+            # Handle either array or string format
+            if isinstance(example.output, list):
+                examples_text += self._array_to_csv(example.output)
+            else:
+                examples_text += example.output
+                
             examples_text += "\n</IDEAL_OUTPUT>\n</example>\n\n"
         
         return config.system_prompt, examples_text
