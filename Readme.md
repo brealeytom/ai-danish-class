@@ -1,4 +1,3 @@
-```markdown
 # Danish Language Learning Course Builder
 
 A Python-based pipeline for generating structured Danish language lessons with AI-generated content and text-to-speech audio.
@@ -252,12 +251,3 @@ Test mode creates text files instead of making API calls or generating audio, us
 3. **Cache directory** can grow large - periodically clean unused cached audio
 4. **Monitor API usage** - Claude and ElevenLabs calls can add up quickly
 5. **Backup configurations** before making structural changes
-
-## License
-
-[Your License Here]
-
-## Contributing
-
-[Your Contributing Guidelines Here]
-```
